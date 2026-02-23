@@ -116,9 +116,9 @@ def main():
             title = safe_get(metadata, 'title', 'Başlıksız')
             
             # Eğer başlıkta veya içeriğin kendisinde hata mesajı varsa bu sayfayı çöpe at!
-            #if "404" in title or "Hata" in title or "sayfa bulunamadı" in final_content.lower():
-            #    print(f"   🗑️ 404 KIRI/HATALI SAYFA ATLANDI: {url}")
-            #    continue # Listeye eklemeden bir sonraki linke geç
+            if "404" in title or "Hata" in title or "sayfa bulunamadı" in final_content.lower():
+                print(f"   🗑️ 404 KIRI/HATALI SAYFA ATLANDI: {url}")
+                continue # Listeye eklemeden bir sonraki linke geç
 
             # Sayfadaki PDF linklerini biriktir (Daha sonra işlenecek)
             pdf_links = find_pdf_links_in_markdown(raw_content)
