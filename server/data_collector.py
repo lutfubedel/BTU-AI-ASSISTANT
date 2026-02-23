@@ -215,8 +215,13 @@ def main():
         json.dump(tum_veriler, f, ensure_ascii=False, indent=4)
         
     save_visited_urls(visited_urls, VISITED_URLS_FILE)
+    
+    web_page_count = sum(1 for item in tum_veriler if item.get("type") == "web_page")
+    pdf_count = sum(1 for item in tum_veriler if item.get("type") == "pdf_document")
         
     print(f"🎉 İŞLEM TAMAMLANDI!")
+    print(f"📊 Başarıyla eklenen Web Sitesi sayısı: {web_page_count}")
+    print(f"📊 Başarıyla eklenen PDF sayısı: {pdf_count}")
 
 if __name__ == "__main__":
     main()

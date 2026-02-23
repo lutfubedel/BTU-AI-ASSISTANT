@@ -40,6 +40,11 @@ def load_documents_for_bm25(file_path):
         return []
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
+        
+    web_page_count = sum(1 for item in data if item.get("type") == "web_page")
+    pdf_count = sum(1 for item in data if item.get("type") == "pdf_document")
+    print(f"📊 'okul_verisi.json' içerisinden {web_page_count} web sitesi ve {pdf_count} PDF başarıyla yüklendi.")
+    
     documents = []
     for item in data:
         content = item.get('content', '').strip()
