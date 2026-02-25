@@ -10,6 +10,7 @@ import pdfplumber
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+
 # =============================================================================
 # PAYLAŞILAN SABİTLER
 # =============================================================================
@@ -49,7 +50,7 @@ def advanced_clean_text(text):
     """Ham metni temizler."""
     if not text: return ""
     text = re.sub(r'!\[.*?\]\(.*?\)', '', text) 
-    text = re.sub(r'\[.*?\]\(.*?\)', '', text) 
+    text = re.sub(r'\[(.*?)\]\(.*?\)', r'\1', text)
     text = re.sub(r'(\d+\s+-\s+)+\d+', '', text) 
     text = re.sub(r'HIZLI ERİŞİM.*?(?=\n)', '', text, flags=re.IGNORECASE)
     text = re.sub(r'\d{2}/\d{2}/\d{4}.*?tarihinde güncellenmiştir\.?', '', text)

@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import re
 from datetime import datetime
 
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -35,6 +36,18 @@ rag_chain = None
 app = Flask(__name__)
 CORS(app) 
 
+def clean_text(text):
+    if not text:
+        return ""
+    # Linkleri, markdown işaretlerini ve gereksiz boşlukları temizler
+    text = re.sub(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', '', text)
+    text = re.sub(r'www\.[a-zA-Z0-9-]+\.[a-zA-Z]{2,}', '', text)
+    text = re.sub(r'[-\s]{4,}', ' ', text)
+    text = re.sub(r'[\*_]', '', text)
+    text = re.sub(r'\|[\s\|]+\|', '', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
 def load_documents_for_bm25(file_path):
     if not os.path.exists(file_path):
         return []
@@ -47,7 +60,9 @@ def load_documents_for_bm25(file_path):
     
     documents = []
     for item in data:
-        content = item.get('content', '').strip()
+        raw_content = item.get('content', '')
+        content = clean_text(raw_content) # METNİ TEMİZLE
+        
         if content and len(content) >= 10:
             doc = Document(
                 page_content=content, 
@@ -87,23 +102,21 @@ def init_rag_chain():
         return False
         
     try:
-        # 1. Vektör (Anlam) Arayıcı - Kapsam Genişletildi (k=5)
+        # 1. Vektör ve BM25 Arayıcıları Başlat (Genişletilmiş Kapsam k=8)
         embedding_function = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
         vectorstore = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
-        chroma_retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
+        chroma_retriever = vectorstore.as_retriever(search_kwargs={"k": 8})
         
-        # 2. Kelime (BM25) Arayıcı - Kapsam Genişletildi (k=5)
         docs = load_documents_for_bm25(JSON_FILE)
         if docs:
             bm25_retriever = BM25Retriever.from_documents(docs)
-            bm25_retriever.k = 5
+            bm25_retriever.k = 8
             
-            # 3. İkisini Birleştir (Hybrid Search)
             retriever = EnsembleRetriever(
                 retrievers=[bm25_retriever, chroma_retriever],
                 weights=[0.4, 0.6] 
             )
-            print("✅ Hybrid Search başarıyla aktif edildi. (Genişletilmiş Ağ: 10 Belge)")
+            print("✅ Hybrid Search başarıyla aktif edildi.")
         else:
             print("⚠️ Json dosyası okunamadı, sadece Vektör araması ile devam edilecek.")
             retriever = chroma_retriever
@@ -114,25 +127,42 @@ def init_rag_chain():
         print(f"❌ RAG Başlatma Hatası: {e}")
         return False
 
+    # 1. SORU DÜZELTİCİ (Query Rewriter) PROMPT'U
+    rewrite_template = """Sen bir arama motoru optimizasyon asistanısın. Kullanıcının girdiği metni, Bursa Teknik Üniversitesi (BTÜ) veritabanında arama yapmak için en uygun, yazım hatasız ve zenginleştirilmiş bir soru cümlesine dönüştür. 
+    
+    KURALLAR:
+    1. Yazım hatalarını düzelt ve çok kısa soruları tamamla.
+    2. Eğer soru "zaman, tarih, ne zaman başlıyor, ne zaman bitiyor, sınavlar ne zaman, tatil" gibi ifadeler içeriyorsa, arama teriminin sonuna KESİNLİKLE "Akademik Takvim Tarihleri" kelimesini ekle.
+    3. Eğer kullanıcı "yüksek lisans, doktora, enstitü" gibi kelimeler kullanmadıysa, aramanın geneli için "Lisans" kelimesini ekle.
+    4. SADECE ve SADECE düzeltilmiş soruyu döndür.
+    
+    Örnekler:
+    - Kullanıcı: "dersler ne zaman" -> Düzeltilmiş: "Lisans dersleri ne zaman başlıyor Akademik Takvim Tarihleri"
+    - Kullanıcı: "vizeler" -> Düzeltilmiş: "Lisans ara sınavları vizeler ne zaman Akademik Takvim Tarihleri"
+    
+    Kullanıcı Metni: {question}
+    Düzeltilmiş Soru:"""
+
+    rewrite_prompt = ChatPromptTemplate.from_template(rewrite_template)
+    query_rewriter = rewrite_prompt | llm | StrOutputParser()
+
+    # 2. ANA CEVAPLAYICI PROMPT
     template = """Sen Bursa Teknik Üniversitesi (BTÜ) için yardımcı bir yapay zeka asistanısın.
         
         GÖREV KURALLARI:
-        1. Bugünün tarihi: {bugun}. Tarihsel soruları (geçti mi, gelecek mi) buna göre cevapla.
-        2. Sadece sana verilen "Bağlam" bilgisini kullan. Eğer bağlamda net bir cevap yoksa ama dolaylı yoldan çıkarım yapılabiliyorsa, "Elimdeki bilgilere dayanarak şöyle olabilir..." şeklinde belirt.
-        3. Eğer bağlamda HİÇBİR bilgi yoksa, "Üzgünüm, veri tabanımda bu konuda net bir bilgi bulamadım ancak BTÜ web sayfasını ziyaret edebilirsiniz." şeklinde nazikçe cevap ver.
-        4. Cevabını verdikten sonra, kullandığın bilginin kaynağını (URL) mutlaka parantez içinde veya madde sonunda belirt.
-        
-        Örnek Cevap Formatı:
-        "...başvurular 15 Eylül'de bitiyor. (Kaynak: https://btu.edu.tr/duyuru-15 )"
+        1. Bugünün tarihi: {bugun}. Tarihsel soruları buna göre cevapla.
+        2. Sadece sana verilen "Bağlam" bilgisini kullan. 
+        3. ÖNEMLİ: Tarih, ders başlangıcı, sınav veya tatil zamanları soruluyorsa, "Bağlam" içinde "AKADEMİK TAKVİM" geçen belgelere her zaman ÖNCELİK VER. Geçmiş dönemlere ait duyuruları veya Yüksek Lisans (Enstitü) duyurularını, kullanıcı özellikle sormadığı sürece ana cevap olarak KULLANMA. Doğrudan "BAHAR YARIYILI DERSLERİN BAŞLANGICI" veya "GÜZ YARIYILI DERSLERİN BAŞLANGICI" gibi net verileri ara.
+        4. Eğer bağlamda HİÇBİR bilgi yoksa, uydurma.
+        5. Cevabının sonuna mutlaka kaynağı (URL) ekle.
 
-        Bağlam (Veritabanından gelen bilgi):
+        Bağlam:
         {context}
 
         Kullanıcı Sorusu: {question}
     """
     prompt = ChatPromptTemplate.from_template(template)
 
-    # 🚨 EKRANDA NELER BULDUĞUNU GÖRMEK İÇİN DEBUG FONKSİYONU
     def format_docs(docs):
         print(f"\n🔍 [DEBUG] Veritabanından LLM'e {len(docs)} adet belge gönderiliyor...")
         formatted = ""
@@ -144,17 +174,36 @@ def init_rag_chain():
             formatted += f"\n--- KAYNAK {i+1}: {title} (URL: {source}) ---\n{content}\n"
         return formatted
 
-    rag_chain = (
-        {
-            "context": retriever | format_docs, 
-            "question": RunnablePassthrough(), 
-            "bugun": lambda x: datetime.now().strftime("%d %B %Y")
+    # 3. ZİNCİR İŞLEYİŞİ FONKSİYONU (HATA BURADA DÜZELTİLDİ)
+    def process_and_retrieve(raw_question):
+        # Eğer bir şekilde dict gelirse diye güvenlik önlemi:
+        if isinstance(raw_question, dict):
+            raw_question = raw_question.get("question", str(raw_question))
+            
+        # A) Önce soruyu LLM'e gönderip düzelttiriyoruz
+        refined_question = query_rewriter.invoke({"question": raw_question})
+        print(f"\n🪄 [DEBUG] Orijinal Soru: '{raw_question}'")
+        print(f"🪄 [DEBUG] Düzeltilen Soru: '{refined_question}'")
+        
+        # B) Düzeltilmiş tertemiz soru ile veritabanında arama yapıyoruz
+        docs = retriever.invoke(refined_question)
+        
+        # C) Tüm verileri ana modele (Prompt'a) paslıyoruz
+        return {
+            "context": format_docs(docs),
+            "question": refined_question, # Ana modele de düzgün soruyu veriyoruz
+            "bugun": datetime.now().strftime("%d %B %Y")
         }
+
+    # 4. GÜNCELLENMİŞ RAG ZİNCİRİ
+    rag_chain = (
+        RunnablePassthrough() 
+        | process_and_retrieve
         | prompt
         | llm
         | StrOutputParser()
     )
-    print("✅ RAG Zinciri başarıyla oluşturuldu.")
+    print("✅ RAG Zinciri (Soru Düzeltme Özellikli) başarıyla oluşturuldu.")
     return True
 
 @app.route('/chat', methods=['POST'])
@@ -171,7 +220,7 @@ def chat():
     print(f"\n📩 Yeni Kullanıcı Mesajı: {message}")
 
     try:
-        cevap = rag_chain.invoke(message)
+        cevap = rag_chain.invoke(message) # Doğrudan string gönderiyoruz
         print(f"\n🤖 ÜRETİLEN CEVAP:\n{cevap}\n{'-'*50}")
         return jsonify({"status": "success", "reply": cevap})
     except Exception as e:

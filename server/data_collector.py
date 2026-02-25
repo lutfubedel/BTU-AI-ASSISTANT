@@ -1,11 +1,14 @@
 import json
 import os
 import time
-import random
+import sys
+import requests
+import re
+from urllib.parse import urljoin, urldefrag, unquote
 from dotenv import load_dotenv
 from firecrawl import Firecrawl
 
-# Yardımcı fonksiyonları ve sabitleri utils modülünden içe aktarıyoruz
+# utils.py modülündeki fonksiyonlar
 from utils import (
     YASAKLI_KELIMELER, 
     safe_get, 
@@ -14,27 +17,26 @@ from utils import (
     should_keep_content, 
     find_pdf_links_in_markdown, 
     is_architectural_plan, 
-    discover_subdomains, 
     extract_text_from_pdf, 
     clean_complex_content_with_llm, 
-    is_directive_or_regulation, 
+    is_directive_or_regulation,
     save_visited_urls
 )
 
-# .env dosyasındaki API anahtarlarını yükle
 load_dotenv()
 
 # =============================================================================
 # AYARLAR VE SABİTLER
 # =============================================================================
 FIRECRAWL_API_KEY = os.getenv("FIRECRAWL_KEY")
-TARGET_URL = 'https://www.btu.edu.tr/' # Başlangıç noktası
-OUTPUT_FILE = "okul_verisi.json"       # Sonuçların kaydedileceği dosya
-VISITED_URLS_FILE = "visited_urls.json" # Tekrar taramayı önlemek için log dosyası
 
-HEDEF_YIL = 2026
-LIMIT = 900           # Toplam çekilecek maksimum içerik sayısı
-MAX_HABER_SAYISI = 10  # (Opsiyonel kullanım için tanımlanmış limit)
+if not FIRECRAWL_API_KEY:
+    print("❌ HATA: .env dosyasında FIRECRAWL_KEY bulunamadı!")
+    sys.exit(1)
+
+OUTPUT_FILE = "okul_verisi.json"       
+VISITED_URLS_FILE = "visited_urls.json" 
+TARGET_URL = 'https://www.btu.edu.tr/' 
 
 # Otomatik taramada bulunamasa bile mutlaka işlenmesi istenen önemli PDF'ler
 MANUEL_PDF_LISTESI = [
@@ -43,91 +45,155 @@ MANUEL_PDF_LISTESI = [
     "https://depo.btu.edu.tr/img/sayfa//1750935863_96a88481aec053f922dd.pdf"
 ]
 
-# =============================================================================
-# ANA PROGRAM (MAIN LOOP)
-# =============================================================================
+def normalize_url(url):
+    if not url: return ""
+    url = url.strip()
+    url, _ = urldefrag(url) 
+    url = unquote(url) 
+    if url.startswith("http://"):
+        url = url.replace("http://", "https://")
+    return url.rstrip("/")
 
+def hizli_html_link_bul(url):
+    """Firecrawl kredisi harcamadan sayfa içindeki linkleri hızlıca bulur."""
+    try:
+        res = requests.get(url, timeout=5) 
+        if res.status_code != 200: return []
+        html = res.text
+        
+        hrefs = re.findall(r'href=[\'"]?(https?://[^\'" >]+)', html)
+        rel_hrefs = re.findall(r'href=[\'"]?(/[^\'" >]+)', html)
+        
+        valid_links = []
+        base_domain = "btu.edu.tr"
+        
+        for link in hrefs:
+            if base_domain in link: valid_links.append(normalize_url(link))
+                
+        for rel in rel_hrefs:
+            full_url = urljoin(url, rel)
+            if base_domain in full_url: valid_links.append(normalize_url(full_url))
+                
+        return list(set(valid_links))
+    except:
+        return []
+
+def load_existing_data():
+    """Mevcut json dosyalarını okuyarak listeleri hafızaya alır."""
+    tum_veriler = []
+    visited_urls = set()
+
+    if os.path.exists(OUTPUT_FILE):
+        with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+            try: tum_veriler = json.load(f)
+            except: pass
+
+    if os.path.exists(VISITED_URLS_FILE):
+        with open(VISITED_URLS_FILE, 'r', encoding='utf-8') as f:
+            try:
+                urls = json.load(f)
+                visited_urls = set(urls)
+            except: pass
+
+    return tum_veriler, visited_urls
+
+# =============================================================================
+# ANA TARAMA DÖNGÜSÜ
+# =============================================================================
 def main():
-    # Firecrawl başlatma
+    print("⚙️ Veritabanı ve Geçmiş Hafıza Yükleniyor...")
+    tum_veriler, visited_urls = load_existing_data()
+    baslangic_veri_sayisi = len(tum_veriler)
+    
+    print(f"📦 Mevcut Veri: {baslangic_veri_sayisi} | 🌐 Bilinen URL: {len(visited_urls)}")
+    
     firecrawl = Firecrawl(api_key=FIRECRAWL_API_KEY)
     
-    tum_veriler = []
-    bulunan_pdfler = set(MANUEL_PDF_LISTESI) # Başlangıçta manuel listeyi ekle
-    visited_urls = set()
+    # Manuel PDF'leri kuyruğa al (Eğer taranmadılarsa)
+    bulunan_yeni_pdfler = set()
+    for m_pdf in MANUEL_PDF_LISTESI:
+        if m_pdf not in visited_urls:
+            bulunan_yeni_pdfler.add(m_pdf)
     
-    # 1. Adım: Ana sayfa üzerinden alt domainleri (fakülteleri vb.) keşfet
-    target_urls = discover_subdomains(firecrawl, TARGET_URL)
-    
-    print(f"🌐 Tarama Kuyruğu Hazır: {len(target_urls)} adet başlangıç noktası.")
-    print(f"🚀 İşlem Başlıyor... (Limit: {LIMIT})")
-
-    index = 0
-    # 2. Adım: URL Listesi üzerinde dön (BFS benzeri tarama)
-    while index < len(target_urls):
-        if len(tum_veriler) >= LIMIT:
-            print(f"⚠️ Maksimum içerik limitine ({LIMIT}) ulaşıldı.")
-            break
+    # Hedef URL listesini oluştur
+    target_urls = list(visited_urls)
+    if TARGET_URL not in target_urls:
+        target_urls.insert(0, TARGET_URL)
         
-        url = target_urls[index]
-        index += 1
+    kuyruk_index = 0
+    yeni_kayit_sayisi = 0
 
-        if url in visited_urls: continue
-        visited_urls.add(url)
+    print("\n🚀 EKSİK TARAYICI BAŞLATILDI! Her adım raporlanacak...\n" + "="*50)
 
-        print(f"Scraping ({index}/{len(target_urls)}): {url}")
-        
+    while kuyruk_index < len(target_urls):
+        url = target_urls[kuyruk_index]
+        kuyruk_index += 1
+
+        if "/en/" in url or url.endswith("/en"): continue
+        if any(bad in url.lower() for bad in YASAKLI_KELIMELER): continue
+
+        # DURUM 1: SAYFA ZATEN TARANMIŞ (Sadece Linkleri Kontrol Et)
+        if url in visited_urls:
+            print(f"⏩ [ATLANDI] İçerik zaten var: {url}")
+            print(f"   🔍 İçindeki eksik linkler hızlıca taranıyor...")
+            
+            hizli_linkler = hizli_html_link_bul(url)
+            yeni_bulunanlar = 0
+            
+            for link in hizli_linkler:
+                if link not in visited_urls and link not in target_urls:
+                    target_urls.append(link)
+                    yeni_bulunanlar += 1
+            
+            if yeni_bulunanlar > 0:
+                print(f"   🎯 [BAŞARI] {yeni_bulunanlar} YENİ LİNK kuyruğa eklendi!")
+            continue
+
+        # DURUM 2: YEPYENİ BİR SAYFA (Firecrawl ile Kazı)
+        print(f"\n✨ [YENİ SAYFA BULUNDU] Firecrawl ile taranıyor: {url}")
+        visited_urls.add(url) 
+
         try:
-            # Dil ve yasaklı kelime kontrolü
-            if "/en/" in url or url.endswith("/en"): continue
-            if any(bad in url.lower() for bad in YASAKLI_KELIMELER): continue
-
-            # Sayfayı 'markdown' formatında çek
             scrape_result = firecrawl.scrape(url, formats=['markdown'])
             raw_content = safe_get(scrape_result, 'markdown', '')
-            if not raw_content: continue
             
-            # Sayfa içindeki yeni linkleri topla
-            page_links = extract_links_from_content(raw_content, url)
-            
-            # Yeni linkleri kuyruğa ekle (Kuyruk çok şişmesin diye limit kontrolü var)
-            if len(target_urls) < LIMIT * 3:
-                temp_new_links = []
-                for new_link in page_links:
-                    if new_link not in visited_urls and new_link not in target_urls:
-                        temp_new_links.append(new_link)
-                random.shuffle(temp_new_links)
-                target_urls.extend(temp_new_links)
-
-            # Temizlik ve Filtreleme
-            final_content = advanced_clean_text(raw_content)
-            content_len = len(final_content)
-            link_count = len(page_links)
-
-            # Çok kısa ve linksiz sayfalar genellikle bozuktur, atla
-            if content_len < 200 and link_count < 5:
-                print(f"   🗑️ İÇERİK YETERSİZ: {url}")
+            if not raw_content:
+                print(f"   ❌ [BOŞ] Sayfadan metin alınamadı.")
                 continue
+
+            page_links = extract_links_from_content(raw_content, url)
+            for new_link in page_links:
+                if new_link not in visited_urls and new_link not in target_urls:
+                    target_urls.append(new_link)
+
+            final_content = advanced_clean_text(raw_content)
             
-            # Tarih kontrolü (Eski haber mi?)
+            is_vip_page = "/sayfa/" in url.lower() or "/detay/" in url.lower()
+            min_length = 30 if is_vip_page else 200
+
+            if len(final_content) < min_length:
+                print(f"   🗑️ [ÇÖPE ATILDI] İçerik çok kısa.")
+                continue
+                
             if not should_keep_content(url, raw_content):
+                print(f"   🗑️ [ÇÖPE ATILDI] Kalıcı (Evergreen) içerik kriterlerine uymuyor.")
                 continue
             
             metadata = safe_get(scrape_result, 'metadata', {})
             title = safe_get(metadata, 'title', 'Başlıksız')
             
-            # Eğer başlıkta veya içeriğin kendisinde hata mesajı varsa bu sayfayı çöpe at!
             if "404" in title or "Hata" in title or "sayfa bulunamadı" in final_content.lower():
-                print(f"   🗑️ 404 KIRI/HATALI SAYFA ATLANDI: {url}")
-                continue # Listeye eklemeden bir sonraki linke geç
+                print(f"   🚫 [REDDEDİLDİ] Sayfa 404 Kırık Link hatası veriyor.")
+                continue
 
-            # Sayfadaki PDF linklerini biriktir (Daha sonra işlenecek)
+            if is_architectural_plan(raw_content): 
+                print(f"   📐 [ATLANDI] Mimari plan tespit edildi.")
+                continue
+
             pdf_links = find_pdf_links_in_markdown(raw_content)
-            for pdf in pdf_links: bulunan_pdfler.add(pdf)
+            for pdf in pdf_links: 
+                if pdf not in visited_urls: bulunan_yeni_pdfler.add(pdf)
 
-            # Mimari plan kontrolü (Tekrar)
-            if is_architectural_plan(raw_content): continue
-
-            # Kategori (Metadata) Zenginleştirmesi
             category = "Genel"
             url_lower = url.lower()
             if "duyuru" in url_lower or "haber" in url_lower: category = "Duyuru/Haber"
@@ -135,7 +201,6 @@ def main():
             elif "bolum" in url_lower or "fakulte" in url_lower: category = "Akademik Birim"
             elif ".pdf" in url_lower: category = "Belge"
 
-            # Veriyi listeye ekle
             tum_veriler.append({
                 "source": url,
                 "title": title,
@@ -143,85 +208,103 @@ def main():
                 "category": category,
                 "content": final_content
             })
+            yeni_kayit_sayisi += 1
+            print(f"   💾 [KAYDEDİLDİ] İçerik hafızaya alındı. (Yeni Veri: {yeni_kayit_sayisi})")
             
-            time.sleep(1) # Nezaket beklemesi
+            time.sleep(1)
 
         except Exception as e:
-            print(f"   ❌ Hata: {url} {e}")
+            error_msg = str(e).lower()
+            if "429" in error_msg or "credit" in error_msg or "quota" in error_msg or "401" in error_msg:
+                print("\n⛔ [KOTA DOLDU] Firecrawl kredisi bitti! Yeni PDF'lerin işlenmesine geçiliyor...")
+                break 
+            else:
+                print(f"   ⚠️ [HATA] {e}")
 
     # =============================================================================
-    # 3. Adım: PDF İŞLEME AŞAMASI
+    # PDF İŞLEME AŞAMASI
     # =============================================================================
-    print("-" * 50)
-    print(f"🔍 {len(bulunan_pdfler)} PDF adayı işleniyor...")
-    
-    eski_yillar = [str(y) for y in range(2010, 2024)]
-    guncel_yillar = ["2025", "2026"]
+    if bulunan_yeni_pdfler:
+        print("\n" + "-" * 50)
+        print(f"🔍 {len(bulunan_yeni_pdfler)} YENİ PDF adayı işleniyor...")
+        
+        eski_yillar = [str(y) for y in range(2010, 2024)]
+        guncel_yillar = ["2025", "2026"]
 
-    for i, pdf_url in enumerate(bulunan_pdfler):
-        is_manual = pdf_url in MANUEL_PDF_LISTESI
-        if not is_manual and any(bad in pdf_url.lower() for bad in YASAKLI_KELIMELER): 
-            continue
-
-        if i > 0 and i % 2 == 0: time.sleep(5) 
-        if "plan" in pdf_url.lower() or "kroki" in pdf_url.lower(): continue 
-
-        # Manuel
-        if pdf_url in MANUEL_PDF_LISTESI:
-                print(f"   ✅ MANUEL TAKVİM İŞLENİYOR: {pdf_url}")
-                pdf_text = extract_text_from_pdf(pdf_url, is_manual=True)
-                if pdf_text and len(pdf_text) > 50:
-                    print("   ✨ AI ile düzenleniyor...")
-                    pdf_text = clean_complex_content_with_llm(pdf_text, pdf_url)
-                    tum_veriler.append({
-                        "source": pdf_url,
-                        "title": f"PDF Belgesi: {pdf_url.split('/')[-1]}",
-                        "type": "pdf_document",
-                        "category": "Belge",
-                        "content": pdf_text
-                    })
+        for i, pdf_url in enumerate(bulunan_yeni_pdfler):
+            visited_urls.add(pdf_url)
+            
+            is_manual = pdf_url in MANUEL_PDF_LISTESI
+            if not is_manual and any(bad in pdf_url.lower() for bad in YASAKLI_KELIMELER): 
                 continue
 
-        pdf_text = extract_text_from_pdf(pdf_url)
+            if i > 0 and i % 2 == 0: time.sleep(5) 
+            if "plan" in pdf_url.lower() or "kroki" in pdf_url.lower(): 
+                print(f"   📐 [ATLANDI] Plan/Kroki PDF'i: {pdf_url}")
+                continue 
+
+            print(f"   📄 PDF İnceleniyor: {pdf_url}")
+            # is_manual parametresi varsa utils'e gönder (önceki dosyadan taşındı)
+            pdf_text = extract_text_from_pdf(pdf_url, is_manual=is_manual) if is_manual else extract_text_from_pdf(pdf_url)
             
-        if pdf_text and len(pdf_text) > 50:
-            pdf_text_upper = pdf_text.upper()
-            keyword_found = "AKADEMİK TAKVİM" in pdf_text_upper or "AKADEMIK TAKVIM" in pdf_text_upper
-            has_old_years = any(y in pdf_text for y in eski_yillar)
-            has_new_years = any(y in pdf_text for y in guncel_yillar)
+            if pdf_text and len(pdf_text) > 50:
+                pdf_text_upper = pdf_text.upper()
+                keyword_found = "AKADEMİK TAKVİM" in pdf_text_upper or "AKADEMIK TAKVIM" in pdf_text_upper
+                has_old_years = any(y in pdf_text for y in eski_yillar)
+                has_new_years = any(y in pdf_text for y in guncel_yillar)
 
-            if keyword_found:
-                if is_directive_or_regulation(pdf_text): pass 
-                elif has_old_years and not has_new_years:
-                    print(f"   🚫 ESKİ TAKVİM: {pdf_url}")
-                    continue
+                if keyword_found:
+                    if is_directive_or_regulation(pdf_text): pass 
+                    elif has_old_years and not has_new_years:
+                        print(f"   🚫 [ESKİ TAKVİM] Yılı geçmiş takvim atlandı.")
+                        continue
                 
-            if keyword_found or "TABLO" in pdf_text_upper or "ÜCRET" in pdf_text_upper:
-                print("   ✨ AI ile düzenleniyor...")
-                pdf_text = clean_complex_content_with_llm(pdf_text, pdf_url)
+                if keyword_found or "TABLO" in pdf_text_upper or "ÜCRET" in pdf_text_upper:
+                    print("   ✨ AI ile karmaşık PDF içeriği düzenleniyor...")
+                    pdf_text = clean_complex_content_with_llm(pdf_text, pdf_url)
 
-            tum_veriler.append({
-                "source": pdf_url,
-                "title": f"PDF Belgesi: {pdf_url.split('/')[-1]}",
-                "type": "pdf_document",
-                "category": "Belge",
-                "content": pdf_text
-            })
+                pdf_category = "Akademik Takvim" if is_manual else "Belge"
+                tum_veriler.append({
+                    "source": pdf_url,
+                    "title": f"PDF Belgesi: {pdf_url.split('/')[-1]}",
+                    "type": "pdf_document",
+                    "category": pdf_category,
+                    "content": pdf_text
+                })
+                yeni_kayit_sayisi += 1
+                print(f"   💾 [KAYDEDİLDİ] PDF hafızaya alındı.")
 
-    print("-" * 50)
-    print("💾 Veriler Kaydediliyor...")
-        
+    # =============================================================================
+    # DOSYALARA YAZMA AŞAMASI VE SON TEMİZLİK (GÜRÜLTÜ/LİNK TEMİZLİĞİ)
+    # =============================================================================
+    print("\n" + "="*50)
+    print("🧹 İçeriklerdeki gereksiz linkler ve gürültüler temizleniyor...")
+    
+    for item in tum_veriler:
+        content = item.get("content", "")
+        if content:
+            # 1. URL'leri temizle (http/https ve www ile başlayanlar)
+            content = re.sub(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', '', content)
+            content = re.sub(r'www\.[a-zA-Z0-9-]+\.[a-zA-Z]{2,}', '', content)
+            # 2. Fazladan boşlukları ve gürültüleri yok et
+            content = re.sub(r'[-\s]{4,}', ' ', content)
+            content = re.sub(r'\s+', ' ', content).strip()
+            item["content"] = content
+
+    print("💾 SONUÇLAR JSON DOSYALARINA YAZILIYOR...")
+    
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(tum_veriler, f, ensure_ascii=False, indent=4)
-        
+    
     save_visited_urls(visited_urls, VISITED_URLS_FILE)
     
     web_page_count = sum(1 for item in tum_veriler if item.get("type") == "web_page")
     pdf_count = sum(1 for item in tum_veriler if item.get("type") == "pdf_document")
-        
-    print(f"🎉 İŞLEM TAMAMLANDI!")
-    print(f"📊 Başarıyla eklenen Web Sitesi sayısı: {web_page_count}")
-    print(f"📊 Başarıyla eklenen PDF sayısı: {pdf_count}")
+    
+    print(f"\n🎉 İŞLEM TAMAMLANDI!")
+    print(f"📊 Özet: Toplam {yeni_kayit_sayisi} yepyeni içerik bulundu ve eklendi.")
+    print(f"📊 Veritabanındaki Toplam Web Sitesi: {web_page_count}")
+    print(f"📊 Veritabanındaki Toplam PDF Sayısı: {pdf_count}")
 
 if __name__ == "__main__":
     main()
