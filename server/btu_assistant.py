@@ -128,17 +128,10 @@ def init_rag_chain():
         return False
 
     # 1. SORU DÜZELTİCİ (Query Rewriter) PROMPT'U
-    rewrite_template = """Sen bir arama motoru optimizasyon asistanısın. Kullanıcının girdiği metni, Bursa Teknik Üniversitesi (BTÜ) veritabanında arama yapmak için en uygun, yazım hatasız ve zenginleştirilmiş bir soru cümlesine dönüştür. 
-    
-    KURALLAR:
-    1. Yazım hatalarını düzelt ve çok kısa soruları tamamla.
-    2. Eğer soru "zaman, tarih, ne zaman başlıyor, ne zaman bitiyor, sınavlar ne zaman, tatil" gibi ifadeler içeriyorsa, arama teriminin sonuna KESİNLİKLE "Akademik Takvim Tarihleri" kelimesini ekle.
-    3. Eğer kullanıcı "yüksek lisans, doktora, enstitü" gibi kelimeler kullanmadıysa, aramanın geneli için "Lisans" kelimesini ekle.
-    4. SADECE ve SADECE düzeltilmiş soruyu döndür.
-    
-    Örnekler:
-    - Kullanıcı: "dersler ne zaman" -> Düzeltilmiş: "Lisans dersleri ne zaman başlıyor Akademik Takvim Tarihleri"
-    - Kullanıcı: "vizeler" -> Düzeltilmiş: "Lisans ara sınavları vizeler ne zaman Akademik Takvim Tarihleri"
+    rewrite_template = """Sen bir arama motoru optimizasyon asistanısın. Kullanıcının girdiği metni, Bursa Teknik Üniversitesi (BTÜ) veritabanında arama yapmak için en uygun, yazım hatasız ve net bir soru cümlesine dönüştür. 
+    - Yazım hatalarını düzelt (örn: 'topam' -> 'toplam').
+    - Çok kısa kelimeleri anlamlı bir soruya tamamla (örn: 'bölümler' -> 'BTÜ bölümleri nelerdir?').
+    - SADECE ve SADECE düzeltilmiş soruyu döndür, başka hiçbir ek kelime veya açıklama yazma.
     
     Kullanıcı Metni: {question}
     Düzeltilmiş Soru:"""
@@ -150,13 +143,15 @@ def init_rag_chain():
     template = """Sen Bursa Teknik Üniversitesi (BTÜ) için yardımcı bir yapay zeka asistanısın.
         
         GÖREV KURALLARI:
-        1. Bugünün tarihi: {bugun}. Tarihsel soruları buna göre cevapla.
-        2. Sadece sana verilen "Bağlam" bilgisini kullan. 
-        3. ÖNEMLİ: Tarih, ders başlangıcı, sınav veya tatil zamanları soruluyorsa, "Bağlam" içinde "AKADEMİK TAKVİM" geçen belgelere her zaman ÖNCELİK VER. Geçmiş dönemlere ait duyuruları veya Yüksek Lisans (Enstitü) duyurularını, kullanıcı özellikle sormadığı sürece ana cevap olarak KULLANMA. Doğrudan "BAHAR YARIYILI DERSLERİN BAŞLANGICI" veya "GÜZ YARIYILI DERSLERİN BAŞLANGICI" gibi net verileri ara.
-        4. Eğer bağlamda HİÇBİR bilgi yoksa, uydurma.
-        5. Cevabının sonuna mutlaka kaynağı (URL) ekle.
+        1. Bugünün tarihi: {bugun}. Tarihsel soruları (geçti mi, gelecek mi) buna göre cevapla.
+        2. Sadece sana verilen "Bağlam" bilgisini kullan. Eğer bağlamda net bir cevap yoksa ama dolaylı yoldan çıkarım yapılabiliyorsa, "Elimdeki bilgilere dayanarak şöyle olabilir..." şeklinde belirt.
+        3. Eğer bağlamda HİÇBİR bilgi yoksa, "Üzgünüm, veri tabanımda bu konuda net bir bilgi bulamadım ancak BTÜ web sayfasını ziyaret edebilirsiniz." şeklinde nazikçe cevap ver.
+        4. Cevabını verdikten sonra, kullandığın bilginin kaynağını (URL) mutlaka parantez içinde veya madde sonunda belirt.
+        
+        Örnek Cevap Formatı:
+        "...başvurular 15 Eylül'de bitiyor. (Kaynak: https://btu.edu.tr/duyuru-15 )"
 
-        Bağlam:
+        Bağlam (Veritabanından gelen bilgi):
         {context}
 
         Kullanıcı Sorusu: {question}
@@ -174,18 +169,18 @@ def init_rag_chain():
             formatted += f"\n--- KAYNAK {i+1}: {title} (URL: {source}) ---\n{content}\n"
         return formatted
 
-    # 3. ZİNCİR İŞLEYİŞİ FONKSİYONU (HATA BURADA DÜZELTİLDİ)
+    # 3. ZİNCİR İŞLEYİŞİ FONKSİYONU 
     def process_and_retrieve(raw_question):
         # Eğer bir şekilde dict gelirse diye güvenlik önlemi:
         if isinstance(raw_question, dict):
             raw_question = raw_question.get("question", str(raw_question))
             
-        # A) Önce soruyu LLM'e gönderip düzelttiriyoruz
+        # Önce soruyu LLM'e gönderip düzelttiriyoruz
         refined_question = query_rewriter.invoke({"question": raw_question})
         print(f"\n🪄 [DEBUG] Orijinal Soru: '{raw_question}'")
         print(f"🪄 [DEBUG] Düzeltilen Soru: '{refined_question}'")
         
-        # B) Düzeltilmiş tertemiz soru ile veritabanında arama yapıyoruz
+        # Düzeltilmiş tertemiz soru ile veritabanında arama yapıyoruz
         docs = retriever.invoke(refined_question)
         
         # C) Tüm verileri ana modele (Prompt'a) paslıyoruz
