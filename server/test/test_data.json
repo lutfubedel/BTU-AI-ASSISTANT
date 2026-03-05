@@ -1,0 +1,88 @@
+[
+    {
+        "id":1,
+        "soru": "Okuldaki toplam öğrenci sayısı kaçtır?",
+        "beklenen_kelimeler": [
+            "12.558"
+        ],
+        "kaynak": "Sayılarla_9bc77f99.md"
+    },
+    {
+        "id":2,
+        "soru": "Okuldaki toplam öğrenci topluluğu sayısı kaçtır?",
+        "beklenen_kelimeler": [
+            "91"
+        ],
+        "kaynak": "Sayılarla_9bc77f99.md"
+    },
+    {
+        "id":3,
+        "soru": "Okuldaki toplam akademik personel ve idari personel sayısı güncel olarak nedir?",
+        "beklenen_kelimeler": [
+            "592",
+            "352"
+        ],
+        "kaynak": "Bursa_Teknik_Üniversitesi_dc8bf770.md"
+    },
+    {
+        "id":4,
+        "soru": "Okulda yürütülen proje sayısı kaçtır?",
+        "beklenen_kelimeler": [
+            "785"
+        ],
+        "kaynak": "Bursa_Teknik_Üniversitesi_dc8bf770.md"
+    },
+    {
+        "id":5,
+        "soru": "Yıldırım Bayezid yerleşkesinde spor yapmak istersem hangi salonlar aktif?",
+        "beklenen_kelimeler": [
+            "Kapalı Spor Salonu",
+            "Halı Saha"
+        ],
+        "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+    },
+    {
+        "id":6,
+        "soru": "Rektör kimdir",
+        "beklenen_kelimeler": [
+            "Naci ÇAĞLAR"
+        ],
+        "kaynak": "Sayılarla_9bc77f99.md"
+    },
+    {
+        "id":7,
+        "soru": "Psikolojik destek almak istesem PDR birimi nerede ve bir görüşme ne kadar sürüyor?",
+        "beklenen_kelimeler": [
+            "Mimar Sinan",
+            "40",
+            "50"
+        ],
+        "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+    },
+    {
+        "id":8,
+        "soru": "Yemekhanede öğle yemeği servisi tam olarak saat kaçla kaç arası yapılıyor?",
+        "beklenen_kelimeler": [
+            "12:00",
+            "13:00"
+        ],
+        "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+    },
+   {
+        "id":9,
+        "soru": "Üniversitenin doğrudan sağladığı bir burs imkânı bulunuyor mu?",
+        "beklenen_kelimeler": [
+            "herhangi bir burs imkânı bulunmamaktadır"
+        ],
+        "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+    },
+    {
+        "id":10,
+        "soru": "Çok duyuyorum bu İMEP nedir, açılımı ne tam olarak?",
+        "beklenen_kelimeler": [
+            "İşletmede Mesleki Eğitim",
+            "Programı"
+        ],
+        "kaynak": "Bursa_Teknik_Üniversitesi_İşletmede_Mesleki_Eğitim_Programı_15f6bce8.md"
+    }
+]

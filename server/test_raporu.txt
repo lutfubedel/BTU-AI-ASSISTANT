@@ -1,0 +1,97 @@
+=================================================
+ BTÜ ON-PREMISE RAG ASİSTANI - GÜNCEL PERFORMANS RAPORU 
+=================================================
+
+Soru 1: Okuldaki toplam öğrenci sayısı kaçtır?
+Yanıt Süresi: 18.40 saniye
+Cevap: Sayılarla BTÜ'de lisansüstü dahil toplam öğrenci sayısı:
+
+*   Orman Fakültesi: 524
+*   İnsan ve Toplum Bilimleri Fakültesi: 2302
+*   Denizcilik Fakültesi: 283
+*   Mühendislik ve Doğa Bilimleri Fakültesi: 5402
+*   Mimarlık ve Tasarım Fakültesi: 1113
+*   Lisansüstü Eğitim Enstitüsü: 2934
+
+Kaynak : [https://btu.edu.tr/tr/sayfa/sayilarla](https://btu.edu.tr/tr/sayfa/sayilarla)
+Durum: OLASI HALÜSİNASYON / EKSİK BİLGİ
+--------------------------------------------------
+Soru 2: Okuldaki toplam öğrenci topluluğu sayısı kaçtır?
+Yanıt Süresi: 8.70 saniye
+Cevap: BTÜ'de 91 öğrenci topluluğu bulunmaktadır. Kaynak : https://www.btu.edu.tr/
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 3: Okuldaki toplam akademik personel ve idari personel sayısı güncel olarak nedir?
+Yanıt Süresi: 12.21 saniye
+Cevap: Sayılarla BTÜ'ye göre personel bilgileri aşağıdaki gibidir:
+
+*   **Toplam Personel:** 944
+*   **Akademik Personel:** 592
+*   **İdari Personel:** 352
+
+Kaynak : [https://personel.btu.edu.tr](https://personel.btu.edu.tr)
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 4: Okulda yürütülen proje sayısı kaçtır?
+Yanıt Süresi: 10.72 saniye
+Cevap: PDO'ya göre tamamlanan proje sayısı 785'tir. Bunlardan 455'i iç kaynaklı, 112'si ise dış kaynaklı tamamlanmıştır. Kaynak : https://pdo.btu.edu.tr
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 5: Yıldırım Bayezid yerleşkesinde spor yapmak istersem hangi salonlar aktif?
+Yanıt Süresi: 12.63 saniye
+Cevap: Yıldırım Bayezid Yerleşkesinde 3.645m² alana sahip kapalı spor salonu öğrencilerimiz ve personelimiz hizmetindedir. Ayrıca kampüs içerisinde halı sahamız bulunmaktadır.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4437/spor-hi̇zmetleri̇
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 6: Rektör kimdir
+Yanıt Süresi: 10.90 saniye
+Cevap: BTÜ Rektörü Prof. Dr. Naci Çağlar'dır. Kaynak : https://tercih.btu.edu.tr/tr/haber/detay/7584/lisansüstünde-mezuniyet-gururu
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 7: Psikolojik destek almak istesem PDR birimi nerede ve bir görüşme ne kadar sürüyor?
+Yanıt Süresi: 22.08 saniye
+Cevap: Psikolojik destek PDR birimi ile ilgili bilgiler ve sayılar aşağıdaki gibidir:
+
+*   **2021:** 270 bireysel psikolojik görüşme
+*   **2019:** 270 bireysel psikolojik görüşme
+*   **2022:** 32 bireysel psikolojik görüşme
+*   **Görüşme Süresi:** 40-50 dakika
+*   **Telefon:** 808 11 86
+*   **E-Posta:** nesrin.turker@btu.edu.tr
+*   **Adres:** Mimar Sinan Yerleşkesi B Blok (Öğrenci Merkezi) zemin katta Z 19 no'lu ofis
+*   **Çalışma Saatleri:** 08.00-12.00 ile 13.00-17.00
+
+2026 yılına ait doğrudan bir bilgi bulunmamaktadır.
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 8: Yemekhanede öğle yemeği servisi tam olarak saat kaçla kaç arası yapılıyor?
+Yanıt Süresi: 17.85 saniye
+Cevap: Mimar Sinan Yerleşkesi personel yemekhanesinde öğle yemeği 12.00-13.00 saatleri arasında, öğrenci yemekhanesinde ise 11.05-14.00 saatleri arasında servis edilmektedir. 2026 yılı için yemek ücretleri güncellenmiş olup, ayrıntılı bilgi için ilgili birimlerle iletişime geçebilirsiniz.
+
+Kaynak: [https://sks.btu.edu.tr/tr/sayfa/detay/4398/beslenme](https://sks.btu.edu.tr/tr/sayfa/detay/4398/beslenme)
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 9: Üniversitenin doğrudan sağladığı bir burs imkânı bulunuyor mu?
+Yanıt Süresi: 13.63 saniye
+Cevap: Üniversitemizin sağladığı herhangi bir burs imkânı bulunmamaktadır. Ancak Kamu kurum-kuruluşları, Sivil Toplum Kuruluşları, Gerçek ve Tüzel kişiler ile Dernek ve Vakıflar tarafından verilen karşılıksız bursları hakkında öğrencilerimize güncel duyuru yapılmaktadır.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 10: Çok duyuyorum bu İMEP nedir, açılımı ne tam olarak?
+Yanıt Süresi: 9.80 saniye
+Cevap: İMEP açılımı İşletmede Mesleki Eğitim Programı'dır. Kaynak : https://imep.btu.edu.tr/tr/duyuru/birim/10063
+Durum: BAŞARILI
+--------------------------------------------------
+
+==================================================
+ 📊 GENEL PERFORMANS METRİKLERİ (GÜNCELLENMİŞ)
+==================================================
+Toplam Test Edilen Soru : 10
+Başarılı API Yanıtı     : 10
+Ortalama Yanıt Süresi   : 13.69 saniye
+Kaynak Gösterme Oranı   : %90.0 (Hedef: > %90)
+Doğruluk Oranı          : %90.0 (Hedef: > %85)
+Olası Halüsinasyon Oranı: %10.0 (Hedef: < %15)
+==================================================
