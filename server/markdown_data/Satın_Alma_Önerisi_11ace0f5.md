@@ -13,52 +13,10 @@ Satın Alma Önerisi
 
 BTÜ Kütüphane Satın Alma Önerisi Nasıl Gönderilir? - YouTube
 
-Photo image of BTÜ Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-BTÜ Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-75 subscribers
-
-BTÜ Kütüphane Satın Alma Önerisi Nasıl Gönderilir?
-
-Search
-
-Watch later
-
-Share
-
-Copy link
-
-Info
-
-Shopping
-
 Tap to unmute
 
-If playback doesn't begin shortly, try restarting your device.
+BTÜ Kütüphane Satın Alma Önerisi Nasıl Gönderilir? BTÜ Kütüphane ve Dokümantasyon Daire Başkanlığı
 
-Full screen is unavailable. Learn More
-
-More videos
-
-## More videos
-
-You're signed out
-
-Videos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.
-
-CancelConfirm
-
-Include playlist
-
-An error occurred while retrieving sharing information. Please try again later.
+BTÜ Kütüphane ve Dokümantasyon Daire Başkanlığı75 subscribers
 
 Watch on
-
-0:00
-
-0:00 / 1:31
-
-•Live
-
-•

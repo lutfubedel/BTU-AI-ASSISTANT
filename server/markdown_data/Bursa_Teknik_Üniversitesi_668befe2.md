@@ -12,33 +12,33 @@ category: Genel
 - Sanal Tur
 - E-Posta
 - e-Kampüs
-- Kütüphane Anasayfa Sayılarla BTÜ **_12558_** Toplam Öğrenci
+- Kütüphane Anasayfa Sayılarla BTÜ **_12467_** Toplam Öğrenci
 - **_91_** Öğrenci Topluluğu
-- **_1690_** Uluslararası Öğrenci
-- **_785_** Projeler
-- **_592_** Akademik Personel
-- **_352_** İdari Personel
+- **_1683_** Uluslararası Öğrenci
+- **_786_** Projeler
+- **_593_** Akademik Personel
+- **_354_** İdari Personel
 
 BTÜ Haber HABERLER
 - EĞİTİM
 - AR-GE
 - TOPLUMSAL KATKI
 
-17.02.2026 **Endüstriyel Arızaları Gerçekleşmeden Bildiren Yapay Zekâ Geliştiriliyor**
+06.03.2026 **SUSHEAS Projesinin Açılış Toplantısı Gerçekleşti**
 
-16.02.2026 **Öğrencilerden Tekstil Sektörüne Sürdürülebilir Çözüm**
-
-13.02.2026 **Personele Vefa Ödülü**
-
-13.02.2026 **Geleceğin Uçuş Teknolojileri İçin Termal Koruma**
+05.03.2026 **BTÜ Şehirlerdeki Karbondioksit Gazını Azaltacak**
 
 03.03.2026 **“Tercihten Önce Üniversiteni Yaşa” Projesi Özel Okul Başvuruları Başladı**
 
 26.02.2026 **Diş Tedavilerinde Kontrollü İyileşme Sağlayan Yerli Ürün Geliştiriyor**
 
-21.02.2026 **Tercihten Önce Üniversiteni Yaşa Projesi Tescillendi**
+13.03.2026 **BTÜ’den Bursa’ya “Dirençli Mahalle” Modeli**
 
-20.02.2026 **Öğrenciler Atık Nişastadan Ambalaj Film Üretti**
+12.03.2026 **Alper Gezeravcı Uzay Yolculuğunu Anlattı: Bu Bir Başlangıç Hikâyeyi Siz Yazacaksınız**
+
+11.03.2026 **IBAN Kiralama ve Siber Dolandırıcılık Semineri Düzenlendi**
+
+07.03.2026 **BTÜ’de 8 Mart Dünya Kadınlar Günü Etkinliği Düzenlendi**
 
 19.09.2025 **BTÜ-SEM Aile Danışmanlığı Sertifika Programı Başladı**
 
@@ -56,30 +56,36 @@ BTÜ Haber HABERLER
 
 20.09.2025 **“Tercihten Önce Üniversiteni Yaşa” Projesinin Başvuruları Başlıyor**
 
+16.02.2026 **Öğrencilerden Tekstil Sektörüne Sürdürülebilir Çözüm**
+
+13.02.2026 **Geleceğin Uçuş Teknolojileri İçin Termal Koruma**
+
 11.02.2026 **BTÜ’nün Asansör Buluşuna Avrupa Patenti**
 
 10.02.2026 **Dönen Sistemlerin Verimliliği Artırılacak**
 
-30.01.2026 **BTÜ-Kore İş Birliğinde Uzay ile Savunma Sanayine Yüksek Isıya Dayanıklı Malzeme Geliştiriliyor**
+20.02.2026 **Öğrenciler Atık Nişastadan Ambalaj Film Üretti**
 
-19.01.2026 **BTÜ'lü Gençler Uçuş Kontrol Sistemlerini İyileştirecek**
+17.02.2026 **Endüstriyel Arızaları Gerçekleşmeden Bildiren Yapay Zekâ Geliştiriliyor**
+
+05.02.2026 **Bursa’nın Depremselliği Konuşuldu**
+
+04.02.2026 **BTÜ Konut ve Zeminin Deprem Riskini Önceden Gösteren Sistem Geliştirdi**
 
 05.12.2025 **“Tercihten Önce Üniversiteni Yaşa” Projesi 11. Sınıf Öğrencilerini Ağırlıyor**
 
 03.11.2025 **Aftlara Hızlı ve Doğal Çözüm: Yeni Jel Geliştirilecek**
 
-30.10.2025 **Karadeniz Limanlarının Sürdürülebilirliği Ele Alınacak**
-
-27.10.2025 **BTÜ ve Gürsu Belediyesinden İstihdam İçin Güç Birliği**
-
-05.02.2026 **Bursa’nın Depremselliği Konuşuldu**
-
-04.02.2026 **BTÜ Konut ve Zeminin Deprem Riskini Önceden Gösteren Sistem Geliştirdi** Sempozyum
+21.02.2026 **Tercihten Önce Üniversiteni Yaşa Projesi Tescillendi** Sempozyum
 - Dergi
+
+23.10.2026 **1\. Uluslararası Ahi Hasan Ahilik, Girişimcilik ve Perakendecilik Beşeri Bilimler Sempozyumu**
+
+8 Mayıs 2026 **ULUSLARARASI TİCARET VE LOJİSTİK SEMPOZYUMU**
 
 8-9 Mayıs 2026 **2\. ULUSLARARASI YILDIRIM BAYEZİD BİLİMSEL ARAŞTIRMALAR VE İNOVASYON SEMPOZYUMU**
 
-8 Mayıs 2026 **ULUSLARARASI TİCARET VE LOJİSTİK SEMPOZYUMU**
+12.10.2026 **International Symposium on Characterization ISC’26**
 
 2020 **Ağaç ve Orman**
 
@@ -88,15 +94,14 @@ BTÜ Haber HABERLER
 2018 **Academic Review of Humanities and Social Sciences** Duyurular
 - Öğrenci
 - Personel
-- İlan/Kadro 26.02.2026 **2\. Bursa Uluslararası Spor Festivali**
-- 23.02.2026 **Teknofest-2026 Yarışma Başvuruları Son Tarih 28 Şubat 2026**
-- 20.02.2026 **2025-2026 Bahar Yarıyılı Ders Kayıt İşlemleri**
-- 19.02.2026 **2025-2026 Güz Yarıyılı Ek Sınav 2 Başvuruları**
-- 13.02.2026 **29.12.2025 Tarihli Öğretim Üyesi Alım İlanı Sonucu**
-- 09.02.2026 **IBAN Kullandırılması** 09.02.2026 **2025-2026 Güz Yarıyılı Ek Sınav 1 Başvuruları** 09.02.2026 **9 Şubat Sigarayı Bırakma Günü Etkinliği**
+- İlan/Kadro 13.03.2026 **BTÜ Spor Turnuvalarında Başvuru Süresi Uzatıldı ve Yeni Branş Eklendi**
+- 12.03.2026 **12 Mart Dünya Böbrek Günü : Kronik Böbrek Hastalığından Korunabilirsiniz**
+- 10.03.2026 **Pulmoner Rehabilitasyonla Her Adımda Daha Rahat Bir Nefes Al**
+- 09.03.2026 **Müstesna Şair Mehmet Akif Ersoy: Anma Konferansı**
+- 06.03.2026 **IBAN Kiralama, Yasal Riskler ve Güvenli İnternet Kullanımı: Bilgilendirme Semineri**
+- 03.03.2026 **BTÜ 12. Rektörlük ve Gençlik Kupası Spor Turnuvaları Başlıyor** 13.02.2026 **29.12.2025 Tarihli Öğretim Üyesi Alım İlanı Sonucu**
 - 30.01.2026 **29.12..01.2026 Tarihli Öğretim Görevlisi ve Araştırma Görevlisi Alım İlanının Giriş Sınavı Sonucu ile Atanmaya Hak Kazananların Teslim Edecekleri Evraka İlişkin Duyuru**
-- 30.01.2026 **29 Aralık 2025 Tarihli Sözleşmeli Personel Alım İlanına Başvuran Yedek Adaylara 3. Duyuru**
-- 28.01.2026 **29 Aralık 2025 Tarihli Sözleşmeli Personel Alım İlanına Başvuran Yedek Adaylara 2. Duyuru** 27.01.2026 **Doktor Öğretim Üyesi İlan İptal Duyurusu**
+- 27.01.2026 **Doktor Öğretim Üyesi İlan İptal Duyurusu**
 - 19.01.2026 **29.12.2025-13.01.2026 Tarihli Araştırma Görevlisi ve Öğretim Görevlisi Alım İlanının Ön Değerlendirme Sonucu ile Giriş Sınavı Yeri ve Saatine İlişkin Duyuru**
 - 09.01.2026 **13/10/2025 Tarihli Öğretim Üyesi Alım İlanı A25-04/01 Sıra Numaralı Bilgisayar Mühendisliği Bölümü Sonucu**
 - 30.12.2025 **Öğretim Üyesi Alım İlanı**
@@ -106,85 +111,38 @@ BTÜ Haber HABERLER
 Mart2026
 
 #### Yaklaşan Etkinlikler Etkinlik
-- Akademik Takvim [_03 Mart / 09::00_ **Denizcilik Fakültesi Açılış Dersi**\\
+- Akademik Takvim [_13 Mart / 10::00_ **Makine Mühendisliği Bölümü Açılış Dersi**\\
+Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
+- [_13 Mart / 17::00_ **Tiyatro Topluluğu Provası**\\
 Mimar Sinan Yerleşkesi Yeşil Salon (A Blok 2. Kat)](
-- [_03 Mart / 10::00_ **Halk Oyunları Seçmeli Dersi (10.00-12.00)**\\
+- [_16 Mart / 10::00_ **Halk Oyunları Seçmeli Dersi (10.00-12.00)**\\
 Yıldırım Bayezid Yerleşkesi Kapalı Spor Salonu](
-- [_03 Mart / 14::30_ **Kimya Bölümü Açılış Dersi**\\
-Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
-- [_03 Mart / 16::00_ **Tiyatro Topluluğu Provası**\\
-Mimar Sinan Yerleşkesi Yeşil Salon (A Blok 2. Kat)](
-- [_04 Mart / 10::00_ **Aday Öğrenci Tanıtım Programı**\\
+- [_16 Mart / 12::30_ **YDYO Etkinlik**\\
+Yıldırım Bayezid Yerleşkesi Kırmızı Salon (A Blok Zemin Kat)](
+- [_16 Mart / 12::00_ **Kadir Gecesi Anma Programı "Kuran'ı Kerim'in Hayatımıza Etkisi" Konferansı**\\
 Mimar Sinan Yerleşkesi Erguvan Salon (A Blok Zemin Kat)](
-- [_04 Mart / 11::45_ **Endüstri Mühendisliği Bölümü Kariyer Planlama Dersi**\\
-Mimar Sinan Yerleşkesi Yeşil Salon (A Blok 2. Kat)](
-- [_04 Mart / 13::00_ **Mimari İfade Teknikleri Dersi**\\
-Yıldırım Bayezid Yerleşkesi Kırmızı Salon (A Blok Zemin Kat)](
-- [_04 Mart / 13::00_ **Kimya Mühendisliği Bölümü Açılış Dersi**\\
+- [_16 Mart / 13::00_ **Kort Tenisi Seçmeli Dersi (13.00-17.00)**\\
+Yıldırım Bayezid Yerleşkesi Kapalı Spor Salonu](
+- [_16 Mart / 13::30_ **MDBF KONFERANS**\\
 Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
-- [_04 Mart / 14::00_ **BTÜ Konuşmaları**\\
-Mimar Sinan Yerleşkesi Turkuaz Salon (B Blok 1. Kat)](
-- [_04 Mart / 15::00_ **Bosch Akademi eğitimi**\\
-Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
-- [_05 Mart / 10::00_ **Aday Öğrenci Tanıtım Programı**\\
+- [_17 Mart / 10::00_ **Halk Oyunları Seçmeli Dersi (10.00-12.00)**\\
+Yıldırım Bayezid Yerleşkesi Kapalı Spor Salonu](
+- [_18 Mart / 10::00_ **Aday Öğrenci Tanıtım Programı**\\
 Mimar Sinan Yerleşkesi Erguvan Salon (A Blok Zemin Kat)](
-- [_05 Mart / 11::00_ **İnşaat Mühendisliği Açılış Dersi**\\
-Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
-- [_05 Mart / 13::30_ **Orman Endüstri Mühendisliği Bölümü Açılış Dersi**\\
+- [_18 Mart / 11::45_ **Endüstri Mühendisliği Bölümü Kariyer Planlama Dersi**\\
 Mimar Sinan Yerleşkesi Yeşil Salon (A Blok 2. Kat)](
-- [_05 Mart / 14::00_ **Ortak Dersler Bölümü/Veri Bilimi ve Analitiği Bölümü Açılış Dersi**\\
-Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
-- [_05 Mart / 14::00_ **Açılış Dersi- Psikoloji Bölümü**\\
+- [_18 Mart / 13::00_ **Mimarlıkta İşlev Biçim Seminerleri**\\
 Yıldırım Bayezid Yerleşkesi Kırmızı Salon (A Blok Zemin Kat)](
-- [_05 Mart / 14::00_ **Mekatronik Mühendisliği Bahar Dönemi Açılış Dersi**\\
+- [_18 Mart / 13::30_ **Bosch Akademi eğitimi**\\
+Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
+- [_18 Mart / 13::30_ **Staj Bilgilendirme Toplantısı**\\
 Mimar Sinan Yerleşkesi Yeşil Salon (A Blok 2. Kat)](
-- [_06 Mart / 10::00_ **Çevre Mühendisliği Açılış Dersi**\\
-Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
-- [_06 Mart / 10::00_ **Uluslararası Ticaret ve Lojistik Bölümü Açılış Dersi**\\
-Yıldırım Bayezid Yerleşkesi Kırmızı Salon (A Blok Zemin Kat)](
-- [_06 Mart / 10::00_ **Diploma Projesi Bilgilendirme Toplantısı**\\
-Yıldırım Bayezid Yerleşkesi Beyaz Salon (A Blok Zemin Kat)](
-- [_06 Mart / 14::00_ **Matematik Bölümü Açılış Dersi**\\
-Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
-- [_06 Mart / 14::00_ **8 Mart Dünya Kadınlar Günü Etkinliği**\\
+- [_18 Mart / 14::00_ **BTÜ Konuşmaları**\\
 Mimar Sinan Yerleşkesi Turkuaz Salon (B Blok 1. Kat)](
-- _09 Mart_ **Lisans Ders Ekle/Sil**
+- _19 Mart_ **Ramazan Bayramı**
 Lisans
-- _09 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- [_09 Mart / 10::00_ **Halk Oyunları Seçmeli Dersi (10.00-12.00)**\\
-Yıldırım Bayezid Yerleşkesi Kapalı Spor Salonu](
-- [_09 Mart / 11::00_ **Metalurji ve Malzeme Mühendisliği bölümü açılış dersi**\\
-Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
-- [_09 Mart / 13::00_ **Kort Tenisi Seçmeli Dersi (13.00-17.00)**\\
-Yıldırım Bayezid Yerleşkesi Kapalı Spor Salonu](
-- _10 Mart_ **Lisans Ders Ekle/Sil**
-- _10 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- [_10 Mart / 10::00_ **Halk Oyunları Seçmeli Dersi (10.00-12.00)**\\
-Yıldırım Bayezid Yerleşkesi Kapalı Spor Salonu](
-- [_10 Mart / 10::00_ **Elektrik Elektronik Mühendisliği Bölümü Dönem açılış dersi**\\
-Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
-- [_10 Mart / 13::30_ **Öğrencilere banka hesaplarını kullandırma dolandırıcılığı ile ilgili seminer**\\
+- [_19 Mart / 10::00_ **Aday Öğrenci Tanıtım Programı**\\
 Mimar Sinan Yerleşkesi Erguvan Salon (A Blok Zemin Kat)](
-- [_10 Mart / 13::30_ **Orman Mühendisliği Bölümü Açılış Dersi**\\
-Mimar Sinan Yerleşkesi Yeşil Salon (A Blok 2. Kat)](
-- _11 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- [_11 Mart / 10::00_ **Aday Öğrenci Tanıtım Programı**\\
-Mimar Sinan Yerleşkesi Erguvan Salon (A Blok Zemin Kat)](
-- [_11 Mart / 10::00_ **Biyomühendislik Bölümü Açılış Dersi**\\
-Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
-- [_11 Mart / 11::45_ **Endüstri Mühendisliği Bölümü Kariyer Planlama Dersi**\\
-Mimar Sinan Yerleşkesi Yeşil Salon (A Blok 2. Kat)](
-- [_11 Mart / 13::00_ **Mimari İfade Teknikleri Dersi**\\
-Yıldırım Bayezid Yerleşkesi Kırmızı Salon (A Blok Zemin Kat)](
-- [_11 Mart / 13::30_ **Bosch Akademi eğitimi**\\
-Mimar Sinan Yerleşkesi Ali Sürmen Salon (G Blok Zemin Kat)](
-- [_11 Mart / 13::00_ **Düzlemsel Eğriler ve Dönel Yüzey Modelleri**\\
-Mimar Sinan Yerleşkesi Yeşil Salon (A Blok 2. Kat)](
-- [_11 Mart / 14::00_ **BTÜ Konuşmaları**\\
-Mimar Sinan Yerleşkesi Turkuaz Salon (B Blok 1. Kat)](
-- [_12 Mart / 09::00_ **Üniversite Danışma Kurulu Toplantısı**\\
-Mimar Sinan Yerleşkesi Turkuaz Salon (B Blok 1. Kat)](
-- [_12 Mart / 10::30_ **İşletme Bölümü Açılış Dersi**\\
-Yıldırım Bayezid Yerleşkesi Kırmızı Salon (A Blok Zemin Kat)](
-- [_12 Mart / 14::30_ **İslam Milletinin İstiklal Marşı ve Müstesna Şair Mehmet Akif Ersoy'u Anma Konferansı**\\
-Mimar Sinan Yerleşkesi Erguvan Salon (A Blok Zemin Kat)](
+- _20 Mart_ **Ramazan Bayramı**
+- _21 Mart_ **Ramazan Bayramı**
+- _22 Mart_ **Ramazan Bayramı**

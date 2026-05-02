@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "soru": "Akademik personel kütüphaneden bir seferde en fazla kaç kitap ve kaç günlüğüne ödünç alabilir?",
+    "beklenen_kelimeler": [
+      "10"
+    ],
+    "kaynak": "Ödünç_f1449080.md"
+  },
+  {
+    "id": 2,
+    "soru": "Kütüphanede kaç kez geciktirme yapan öğrenci o dönem boyunca ödünç hizmetinden yararlanamaz?",
+    "beklenen_kelimeler": [
+      "dönem"
+    ],
+    "kaynak": "Ödünç_f1449080.md"
+  },
+  {
+    "id": 3,
+    "soru": "Birinci öğretim programlarında Türkiye Cumhuriyeti uyruklu öğrenciler katkı payı ödemek zorunda mı?",
+    "beklenen_kelimeler": [
+      "muaftır"
+    ],
+    "kaynak": "Öğrenim_ÜcretiKatkı_Payı_Bilgilendirme_d4237d01.md"
+  },
+  {
+    "id": 4,
+    "soru": "BTÜ'de toplam kaç yüksek lisans programı bulunmaktadır?",
+    "beklenen_kelimeler": [
+      "46"
+    ],
+    "kaynak": "Yüksek_Lisans_Programları_9506698f.md"
+  },
+  {
+    "id": 5,
+    "soru": "BTU da oryantasyon programı var mı?",
+    "beklenen_kelimeler": [
+      "oryantasyon programı düzenlenmektedir"
+    ],
+    "kaynak": "ORYANTASYON_b73a4b29.md"
+  },
+  {
+    "id": 6,
+    "soru": "Kütüphanede ödünç süresi uzatılabilen materyaller için öğrenciler kaç kez uzatma hakkına sahiptir?",
+    "beklenen_kelimeler": [
+      "3",
+      "15"
+    ],
+    "kaynak": "Ödünç_f1449080.md"
+  },
+  {
+    "id": 7,
+    "soru": "BTÜ'de lisansüstü öğrenci sayısı toplam öğrenci sayısının yüzde kaçını oluşturmaktadır?",
+    "beklenen_kelimeler": [
+      "23"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Lisansüstü_Eğitim_Enstitüsü_5f11dc71.md"
+  },
+  {
+    "id": 8,
+    "soru": "Engelli öğrenciler katkı payı konusunda nasıl bir muafiyetten yararlanmaktadır?",
+    "beklenen_kelimeler": [
+      "katkı payı alınmaz"
+    ],
+    "kaynak": "Öğrenim_ÜcretiKatkı_Payı_Bilgilendirme_d4237d01.md"
+  },
+  {
+    "id": 9,
+    "soru": "Yabancı uyruklu öğrencilerden not ortalaması 3,50 ve üzeri olanlara öğrenim ücretinde ne kadar indirim uygulanmaktadır?",
+    "beklenen_kelimeler": [
+      "%50"
+    ],
+    "kaynak": "Öğrenim_ÜcretiKatkı_Payı_Bilgilendirme_d4237d01.md"
+  },
+  {
+    "id": 10,
+    "soru": "Kütüphanede sözlük, ansiklopedi ve indeks gibi müracaat eserleri ödünç alınabilir mi?",
+    "beklenen_kelimeler": [
+      "Ödünç Verilemeyecek"
+    ],
+    "kaynak": "Ödünç_f1449080.md"
+  }
+]

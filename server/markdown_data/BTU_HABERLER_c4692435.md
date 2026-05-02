@@ -16,4 +16,4 @@ HABERLER _09 Ocak 2026_**Erasmus+ Tecrübe Paylaşımı Etkinliği**
 - _16 Ekim 2025_**Erasmus+ KA171 2024 Personel Ders Verme Hareketliliği kapsamında Gagavuz Özerk Bölgesinden Komrat Devlet Üniversitesi Rektörü Prof.Dr.Serghei ZAHARIA Üniversitemiz Ziyareti**
 - _16 Eylül 2025_**Geleceğin Mühendislerine Avrupa Destekli Dijital Staj Takip Sistemi**
 - _10 Eylül 2025_**Bursa Teknik Üniversitesi Uluslararası EAIE Göteborg 2025 Yükseköğretim Fuarı’nda**
-- _18 Temmuz 2025_**Mezuniyet Sevinci ve 15. Yıl Gururu Bir Arada**
+- _15 Ağustos 2025_**BTÜ'den Erasmus+ Yükseköğretim Hareketlilik Projelerinde Büyük Başarı**

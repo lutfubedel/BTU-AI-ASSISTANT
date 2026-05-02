@@ -15,11 +15,11 @@ Peyzaj Mimarlığı Bölümü Mimarlık Bölümü
 - Peyzaj Mimarlığı Bölümü
 - Şehir ve Bölge Planlama Bölümü
 
-BÖLÜMDEN HABERLER **Lisansüstü’nde Mezuniyet Gururu**
+BÖLÜMDEN HABERLER **BTÜ’den Bursa’ya “Dirençli Mahalle” Modeli**
+- **Lisansüstü’nde Mezuniyet Gururu**
 - **BTÜ İznik’in Tarihî Mirasını Depreme Karşı Koruyacak**
 - **BTÜ’den 8 Akademisyen Dünyanın En İyileri Arasında**
 - **Kâğıt atıkları doğada çözünebilir saksıya dönüşecek**
-- **BTÜ Tercih Günleri Başlıyor**
 
 İngilizce Hazırlık Sınıfı Başarılar TTO - Girişimcilik Eğitimi Laboratuvarlar Yurtdışı Olanaklar ÇAP / Yandal / Yatay Geçiş
 

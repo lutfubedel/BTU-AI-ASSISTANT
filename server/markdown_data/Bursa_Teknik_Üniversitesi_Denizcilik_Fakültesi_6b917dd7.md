@@ -7,8 +7,11 @@ category: Genel
 
 # Bursa Teknik Üniversitesi | Denizcilik Fakültesi
 
-Yenilikçi Devlet Üniversitesi [2026 Yılı Ulusal Staj Programı Başvuruları \\
+Yenilikçi Devlet Üniversitesi [Bahar Yarıyılı Açılış Dersi \\
 \\
+**25 Şubat**](
+
+[2026 Yılı Ulusal Staj Programı Başvuruları \\
 **19 Şubat**](
 
 [TÜBİTAK MAM’den Denizcilik Fakültesi’ne Ziyaret \\
@@ -17,11 +20,8 @@ Yenilikçi Devlet Üniversitesi [2026 Yılı Ulusal Staj Programı Başvuruları
 [Denizcilik Fakültesi’nden Mudanya Belediyesi’ne Ziyaret \\
 **28 Ocak**](
 
-[Denizcilik Fakültesi’nden İMEAK Deniz Ticaret Odası’na Ziyaret \\
-**23 Ocak**](
-
-[Bahar Yarıyılı Açılış Dersi \\
-**25 Şubat**](
+[Bahar Yarıyılı Açılış Dersi Gerçekleştirildi \\
+**03 Mart**](
 
 .png)**Bölümler**
 
@@ -44,25 +44,20 @@ Sayılarla Fakülte Sayılara lisansüstü dahil edilmiştir.
 
 Sayılarla BTÜ Sayılara lisansüstü dahil edilmiştir. 
 
-**_283_** Öğrenci
+**_278_** Öğrenci
 
 **_20_** Akademik Personel
 
 **_2_** Program
 
-**_19_** Mezun
+**_24_** Mezun
 
 #### Etkinlikler ve Akademik Takvim
 
 Mart2026
 
 #### Yaklaşan Etkinlikler Etkinlik
-- Akademik Takvim _09 Mart_ **Lisans Ders Ekle/Sil**
-- _09 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _10 Mart_ **Lisans Ders Ekle/Sil**
-- _10 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _11 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _19 Mart_ **Ramazan Bayramı**
+- Akademik Takvim _19 Mart_ **Ramazan Bayramı**
 - _20 Mart_ **Ramazan Bayramı**
 - _21 Mart_ **Ramazan Bayramı**
 - _22 Mart_ **Ramazan Bayramı**

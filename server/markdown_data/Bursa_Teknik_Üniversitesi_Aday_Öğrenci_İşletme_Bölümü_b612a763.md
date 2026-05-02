@@ -22,7 +22,7 @@ BÖLÜMDEN HABERLER **Lisansüstü’nde Mezuniyet Gururu**
 - **BTÜ’den 8 Akademisyen Dünyanın En İyileri Arasında**
 - **İşletmelerde Oyun Değiştirici: Dijitalleşme**
 - **BTÜ Tercih Günleri Başlıyor**
-- **Bursa Teknik Üniversitesine YÖKAK’tan 5 Yıllık Tam Akreditasyon**
+- **İnsan ve Toplum Bilimleri Fakültesi'nde “Mezunlar Buluşması”nın İlki Gerçekleştirildi.**
 
 İngilizce Hazırlık Sınıfı Başarılar TTO - Girişimcilik Eğitimi Laboratuvarlar Yurtdışı Olanaklar ÇAP / Yandal / Yatay Geçiş
 

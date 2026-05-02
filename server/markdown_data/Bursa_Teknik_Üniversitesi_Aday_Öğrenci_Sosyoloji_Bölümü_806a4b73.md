@@ -18,11 +18,11 @@ Sosyoloji Bölümü İngilizce Mütercim ve Tercümanlık Bölümü
 - Uluslararası İlişkiler Bölümü
 - Uluslararası Ticaret ve Lojistik Bölümü
 
-BÖLÜMDEN HABERLER **Öfke Kontrolü Semineri**
+BÖLÜMDEN HABERLER **"Topluma Hizmet Projeleri" Açılış Dersi**
+- **Öfke Kontrolü Semineri**
 - **Lisansüstü’nde Mezuniyet Gururu**
 - **Dezavantajlı Kesimlere Hizmet Sunan Personele Yönelik Eğitim Semineri**
 - **Engelsiz İletişim Üzerine Farkındalık Semineri**
-- **BTÜ’den 8 Akademisyen Dünyanın En İyileri Arasında**
 
 İngilizce Hazırlık Sınıfı Başarılar TTO - Girişimcilik Eğitimi Laboratuvarlar Yurtdışı Olanaklar ÇAP / Yandal / Yatay Geçiş
 

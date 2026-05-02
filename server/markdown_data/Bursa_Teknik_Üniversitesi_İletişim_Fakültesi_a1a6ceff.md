@@ -25,12 +25,7 @@ Sayılarla BTÜ Sayılara lisansüstü dahil edilmiştir.
 Mart2026
 
 #### Yaklaşan Etkinlikler Etkinlik
-- Akademik Takvim _09 Mart_ **Lisans Ders Ekle/Sil**
-- _09 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _10 Mart_ **Lisans Ders Ekle/Sil**
-- _10 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _11 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _19 Mart_ **Ramazan Bayramı**
+- Akademik Takvim _19 Mart_ **Ramazan Bayramı**
 - _20 Mart_ **Ramazan Bayramı**
 - _21 Mart_ **Ramazan Bayramı**
 - _22 Mart_ **Ramazan Bayramı**

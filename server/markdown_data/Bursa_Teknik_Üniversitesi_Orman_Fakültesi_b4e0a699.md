@@ -35,34 +35,29 @@ category: Genel
 
 **Öğrenci Bilgi Sistemi**
 
-HABERLER 29.01.2026 **Orman Endüstri Mühendisliği Bölümü Mühendislik Tasarımı Sergisi Gerçekleştirildi**
+HABERLER 05.03.2026 **Orman Endüstri Mühendisliği Bölümünde Açılış Dersi Gerçekleştirildi**
+- 03.03.2026 **İMEP programına katılan öğrenciler için Hizmet İçi Eğitim Programı Gerçekleştirildi**
+- 29.01.2026 **Orman Endüstri Mühendisliği Bölümü Mühendislik Tasarımı Sergisi Gerçekleştirildi**
 - 18.12.2025 **2025-2026 Orman Endüstri Mühendisliği Bölümü Teknik Gezileri**
-- 16.12.2025 **2025-2026 Orman Endüstri Mühendisliği Bölümü Teknik Gezileri**
-- 24.11.2025 **Lisansüstü’nde Mezuniyet Gururu**
 
 Sayılarla Fakülte Sayılara lisansüstü dahil edilmiştir. 
 
 Sayılarla BTÜ Sayılara lisansüstü dahil edilmiştir. 
 
-**_524_** Öğrenci
+**_523_** Öğrenci
 
 **_42_** Akademik Personel
 
 **_3_** Program
 
-**_438_** Mezun
+**_439_** Mezun
 
 #### Etkinlikler ve Akademik Takvim
 
 Mart2026
 
 #### Yaklaşan Etkinlikler Etkinlik
-- Akademik Takvim _09 Mart_ **Lisans Ders Ekle/Sil**
-- _09 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _10 Mart_ **Lisans Ders Ekle/Sil**
-- _10 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _11 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _19 Mart_ **Ramazan Bayramı**
+- Akademik Takvim _19 Mart_ **Ramazan Bayramı**
 - _20 Mart_ **Ramazan Bayramı**
 - _21 Mart_ **Ramazan Bayramı**
 - _22 Mart_ **Ramazan Bayramı**

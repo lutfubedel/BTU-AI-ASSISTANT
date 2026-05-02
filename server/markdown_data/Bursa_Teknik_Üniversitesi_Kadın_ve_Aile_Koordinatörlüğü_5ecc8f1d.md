@@ -9,8 +9,11 @@ category: Genel
 
 - 1
 
-[Üniversitemiz Kadın İdari Personeli ile Kahvaltı Etkinliği \\
+[Uluslararası 21. Yüzyılda Kadın Kongresi \\
 \\
+**09 Şubat**](
+
+[Üniversitemiz Kadın İdari Personeli ile Kahvaltı Etkinliği \\
 **09 Şubat**](
 
 [''Aile İçinde Şiddetsiz İletişim'' Webinarı \\
@@ -19,8 +22,5 @@ category: Genel
 [Kadına Şiddete Karşı Mesaj: Güven Toplumu İnşa Edilmeli! \\
 **25 Kasım**](
 
-[''Güven Toplumunun İnşası Şiddetin Anatomisi ve Çözüm Yolları'' Konferansı \\
-**13 Kasım**](
-
-[Uluslararası 21. Yüzyılda Kadın Kongresi \\
-**09 Şubat**]( .png)**KADES**
+[BTÜ’de 8 Mart Dünya Kadınlar Günü Etkinliği Düzenlendi \\
+**09 Mart**]( .png)**KADES**

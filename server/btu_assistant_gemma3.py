@@ -12,8 +12,16 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_classic.retrievers import EnsembleRetriever
 from langchain_community.retrievers import BM25Retriever
 
-# Lokal LLM Entegrasyonu
-from langchain_community.chat_models import ChatOllama
+# Reranker modülleri
+from langchain_classic.retrievers.document_compressors import CrossEncoderReranker
+from langchain_community.cross_encoders import HuggingFaceCrossEncoder
+from langchain_classic.retrievers import ContextualCompressionRetriever
+
+# Lokal LLM Entegrasyonu (Gelişmiş paket kullanımı)
+try:
+    from langchain_ollama import ChatOllama
+except ImportError:
+    from langchain_community.chat_models import ChatOllama
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -21,11 +29,13 @@ from flask_cors import CORS
 # --- AYARLAR VE SABİTLER ---
 CHROMA_PATH = "./chroma_db"
 EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+RERANKER_MODEL = "BAAI/bge-reranker-v2-m3" # Çok dilli, son teknoloji reranker modeli
 MODEL_NAME = "gemma3:12b"  # Ollama üzerindeki yerel modelin
 
 # Global değişkenler
 rag_chain = None
 app = Flask(__name__)
+# CORS ayarı: f:\Github Repo\BTU-AI-ASSISTANT\server\btu_assistant_gemma3.py
 CORS(app)
 
 def clean_text(text):
@@ -38,9 +48,9 @@ def clean_text(text):
     return text
 
 def setup_rag():
-    """RAG mimarisini, arama motorunu ve LLM zincirlerini başlatır."""
+    """Reranker destekli RAG mimarisini başlatır."""
     global rag_chain
-    print(f"\n🚀 Sistem Başlatılıyor... Model: {MODEL_NAME}")
+    print(f"\n🚀 Sistem Başlatılıyor (Hızlı Reranker Modu)... Model: {MODEL_NAME}")
 
     # 1. LOKAL DİL MODELİNİ YÜKLE
     try:
@@ -49,7 +59,7 @@ def setup_rag():
         llm.invoke("Test")
         print("✅ Yerel Dil Modeli (Ollama) bağlandı.")
     except Exception as e:
-        print(f"❌ HATA: Ollama veya '{MODEL_NAME}' modeli çalışmıyor! Terminalde 'ollama run gemma3:4b' yazdığınızdan emin olun.")
+        print(f"❌ HATA: Ollama veya '{MODEL_NAME}' modeli çalışmıyor! Terminalde 'ollama run gemma3:12b' yazdığınızdan emin olun.")
         sys.exit(1)
 
     # 2. VEKTÖR VERİTABANINI YÜKLE
@@ -62,7 +72,7 @@ def setup_rag():
     vector_db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
     print("✅ Vektör veritabanı başarıyla yüklendi.")
 
-    # 3. GELİŞMİŞ ARAMA MOTORU (Ensemble Retriever: Vektör + Kelime Bazlı)
+    # 3. GELİŞMİŞ ARAMA MOTORU (K=12: Hız ve doğruluk dengesi için optimize edildi)
     docs = vector_db.get()
     all_documents = []
     if docs and 'documents' in docs and len(docs['documents']) > 0:
@@ -73,44 +83,44 @@ def setup_rag():
             ))
             
     bm25_retriever = BM25Retriever.from_documents(all_documents)
-    bm25_retriever.k = 6
-    vector_retriever = vector_db.as_retriever(search_kwargs={"k": 6})
+    bm25_retriever.k = 12 # Süreyi kısaltmak için 20'den 12'ye düşürüldü
+    vector_retriever = vector_db.as_retriever(search_kwargs={"k": 12})
     
     ensemble_retriever = EnsembleRetriever(
         retrievers=[bm25_retriever, vector_retriever],
         weights=[0.5, 0.5]
     )
 
-# 4. SORU DÜZELTME MOTORU (Query Rewriting)
-    rewrite_prompt = ChatPromptTemplate.from_template(
-        "Sen bir veri tabanı arama optimizasyon uzmanısın. Kullanıcının uzun sorusunu, sistemde en iyi eşleşmeyi bulacak kısa anahtar kelimelere çevir.\n"
-        "KURALLAR:\n"
-        "1. Gereksiz fiilleri ve ekleri (okuldaki, yürütülen, kaçtır, nedir) tamamen SİL.\n"
-        "2. Kullanıcı 'toplam öğrenci', 'öğrenci topluluğu', 'proje sayısı', 'personel' gibi genel istatistikleri soruyorsa, arama sorgusunun başına mutlaka 'Sayılarla BTÜ' ekle.\n"
-        "3. Eğer 'öğrenci topluluğu' soruluyorsa arama sorgun sadece 'Sayılarla BTÜ Öğrenci Topluluğu' olsun (içinde 'sayısı' kelimesi bile geçmesin ki kafası karışmasın).\n"
-        "4. Zaman soruluyorsa '2026' ekle.\n"
-        "SADECE anahtar kelimeleri yaz, başka hiçbir şey yazma.\n\n"
-        "Orijinal Soru: {question}\n"
-        "Arama Sorgusu:"
+    # 4. RERANKER (BAĞLAM FİLTRELEME) SİSTEMİNİ KUR
+    print(f"🎯 Reranker modeli yükleniyor... ({RERANKER_MODEL})")
+    cross_encoder_model = HuggingFaceCrossEncoder(model_name=RERANKER_MODEL)
+    # 12 belgeden en iyi 5 tanesini seçecek
+    compressor = CrossEncoderReranker(model=cross_encoder_model, top_n=7) 
+    
+    compression_retriever = ContextualCompressionRetriever(
+        base_compressor=compressor, 
+        base_retriever=ensemble_retriever
     )
-    query_rewriter = rewrite_prompt | llm | StrOutputParser()
+    print("✅ Reranker motoru aktif edildi.")
 
-    # 5. ASIL CEVAPLAMA PROMPTU (Nihai Prompt)
+    # --- SORU DÜZELTME (QUERY REWRITING) ADIMI HIZ İÇİN KALDIRILDI ---
+
+    # 5. ASIL CEVAPLAMA PROMPTU
     template = """Sen Bursa Teknik Üniversitesi (BTÜ) öğrencilerine ve personeline yardım etmek için tasarlanmış profesyonel bir yapay zeka asistanısın.
     
     Aşağıdaki "Bağlam" bölümünde üniversitenin veri tabanından çekilmiş bilgiler bulunmaktadır.
 
     GÖREV KURALLARI:
-    1. KENDİ HAFIZANI KAPAT (ÇOK KRİTİK): Bağlamda (context) yer almayan HİÇBİR BİLGİYİ, kendi ön bilgini (pre-trained knowledge) veya internetteki genel geçer doğruları KESİNLİKLE KULLANMA. Turnitin limitleri, öğrenci sayıları gibi konularda bağlamda net bir sayı yoksa asla tahmin etme, sadece "Üzgünüm, net bir bilgi bulamadım" de.
-    2. ZAMAN VE İSTATİSTİK ALGISI: Sınav ve takvim sorularında en güncel tarihleri kullan. 
-    3. GENEL İSTATİSTİKLER: Soruda yıl belirtilse (Örn: 2026) bile, bağlamda (özellikle Sayılarla BTÜ kısmında) bulunan rakamları doğrudan ver. Yıl eşleşmiyor diye 'Bağlamda 2026 yılına ait bilgi yok' YAZMA. Direkt sayıları söyle.
-    4. DİKKATLİ OKUMA: Bağlamdaki sayıları başlıklarıyla doğru eşleştir.
-    5. KAYNAK GÖSTERİMİ: Cevabının en sonuna mutlaka "Kaynak : <URL>" ekle.
-    6. TEMİZ YAZIM: "**_91_**" gibi işaretli sayıları Markdown'dan temizleyerek (Örn: 91) ver, sayıları sakın silme.
+    1. BAĞLAMA SADIK KAL: Sadece sana verilen "Bağlam" (Context) bölümündeki bilgileri kullanarak cevap ver. Kendi ön bilgini (pre-trained knowledge) veya dış kaynakları kesinlikle kullanma.
+    2. HALÜSİNASYON YAPMA: Bağlamda sorunun net ve doğrudan bir cevabı yoksa, kesinlikle tahmin etme veya mantık yürütme. Doğrudan "Üzgünüm, sağlanan belgelerde bu konu hakkında net bir bilgi bulamadım." şeklinde cevap ver.
+    3. NETLİK, İSTATİSTİKLER VE SAYMA (COUNTING): Sayısal verilerde öncelikle bağlamda açıkça belirtilen istatistikleri kullan. ANCAK, kullanıcı "kaç adet", "toplam kaç" gibi bir miktar soruyorsa ve metinde doğrudan net bir rakam geçmiyorsa; sana sağlanan bağlamdaki listede yer alan maddeleri/satırları TEK TEK SAYARAK sonucu sen hesapla ve cevabı ver.
+    4. KAYNAK GÖSTERİMİ: Cevabının en sonuna mutlaka bağlamdan aldığın "Kaynak : <URL>" bilgisini ekle. Eğer bağlamda birden fazla kaynak varsa hepsini listele.
+    5. TEMİZ YAZIM: Gerekirse maddelendirme (bullet points) kullanarak Markdown formatında okunabilir, temiz bir yanıt oluştur. İşaretli sayıları (**_91_** gibi) temizleyerek (Örn: 91) ver.
+
     Bağlam:
     {context}
 
-    Kullanıcı Sorusu: {corrected_question}
+    Kullanıcı Sorusu: {question}
 
     Cevap:"""
     qa_prompt = ChatPromptTemplate.from_template(template)
@@ -129,16 +139,16 @@ def setup_rag():
         now = datetime.now()
         return f"{now.day} {aylar[now.month]} {now.year} {gunler[now.weekday()]}"
 
+    # Doğrudan kullanıcının sorusu retriever'a gidiyor, LLM sadece 1 kez çalışıyor.
     rag_chain = (
-        RunnablePassthrough.assign(corrected_question=query_rewriter)
-        | RunnablePassthrough.assign(context=lambda x: format_docs(ensemble_retriever.invoke(x["corrected_question"])))
+        RunnablePassthrough.assign(context=lambda x: format_docs(compression_retriever.invoke(x["question"])))
         | RunnablePassthrough.assign(bugun=get_today_date)
         | qa_prompt
         | llm
         | StrOutputParser()
     )
     
-    print("✅ RAG Zinciri (Otomatik Soru Düzeltme Özellikli) başarıyla oluşturuldu.")
+    print("✅ Reranker destekli RAG Zinciri başarıyla oluşturuldu (Hızlı Mod).")
     return True
 
 # --- API UÇ NOKTASI (ENDPOINT) ---
@@ -153,7 +163,7 @@ def chat():
     if not original_message:
         return jsonify({"status": "error", "message": "Boş mesaj gönderilemez."}), 400
 
-    print(f"\n📩 Gelen Orijinal Soru: {original_message}")
+    print(f"\n📩 Gelen Soru: {original_message}")
 
     try:
         cevap = rag_chain.invoke({"question": original_message}) 
@@ -170,7 +180,7 @@ def chat():
 
 if __name__ == '__main__':
     print("\n" + "="*50)
-    print("🎓 BTÜ Yapay Zeka Asistanı Başlatılıyor... (Gemma3)")
+    print("🎓 BTÜ Reranker Destekli Asistan Başlatılıyor... (Gemma3)")
     print("="*50)
     if setup_rag():
         app.run(host='0.0.0.0', port=5000, debug=False, use_reloader=False)

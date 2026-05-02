@@ -1,0 +1,90 @@
+=================================================
+ BTÜ ON-PREMISE RAG ASİSTANI - GÜNCEL PERFORMANS RAPORU 
+=================================================
+
+Soru 1: Üniversite kantinlerinde hangi ürünlerin fiyatı idare tarafından belirlenmektedir?
+Yanıt Süresi: 26.08 saniye
+Cevap: Üniversite kantinlerinde Çay, Su, Poğaça ve Simit ürünlerinin fiyatları idare tarafından belirlenir. Diğer ürünlerde ise piyasa fiyatlarında satış yapılır ve piyasa fiyatının üzerinde satış yapıldığı tespit edildiğinde İDARE müdahale eder.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4516/kanti̇n-kafeterya
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 2: Turnitin sistemine yüklenecek bir dosya en fazla kaç sayfa olabilir?
+Yanıt Süresi: 30.25 saniye
+Cevap: Turnitin'e yükleyeceğiniz dosyanın maksimum sınırı 400 sayfa ve 40MB'dir. Dosyanız bu sınırları aşıyorsa, JPEG içeriklerini çıkararak yükleme yapabilirsiniz.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3796/benzerlik-tespit-programlari, https://kutuphane.btu.edu.tr/tr/sayfa/detay/3862/tum-veritabanlari-a-z
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 3: iThenticate sisteminde kota hesaplanırken kaç kelime 1 doküman sayılmaktadır?
+Yanıt Süresi: 33.34 saniye
+Cevap: iThenticate veri havuzunda 17 milyardan fazla web sayfası bulunmaktadır. Her 25.000 kelime 1 doküman sayılmaktadır.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3796/benzerlik-tespit-programlari
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 4: Bilgisayar Mühendisliği bölümünün aday öğrenci sayfasındaki güncel kontenjanı kaçtır?
+Yanıt Süresi: 24.99 saniye
+Cevap: Bilgisayar Mühendisliği bölümü kontenjanı 90'dır.
+
+Kaynak : https://tercih.btu.edu.tr/tr/sayfa/detay/bolum/193/bilgisayar-mühendisliği-bölümü
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 5: Proje Destek Ofisi (PDO) verilerine göre sistemde kayıtlı toplam proje sayısı kaçtır?
+Yanıt Süresi: 18.57 saniye
+Cevap: Proje Destek Ofisi'nin (PDO) toplamda 786 proje bulunmaktadır. Bu projelerden 455'i iç kaynaklardan, 112'si ise dış kaynaklardan tamamlanmıştır.
+
+Kaynak : https://pdo.btu.edu.tr
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 6: 12. Rektörlük ve Gençlik Kupası spor turnuvalarında düzenlenen tüm branşlar nelerdir?
+Yanıt Süresi: 30.40 saniye
+Cevap: BTÜ 12. Rektörlük ve Gençlik Kupası Spor Turnuvaları aşağıdaki branşlarda düzenlenmektedir:
+
+*   Futbol
+*   Basketbol
+*   Voleybol
+*   Masa Tenisi
+*   Satranç
+
+Kaynak : [https://btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor](https://btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor), [https://personel.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor](https://personel.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor), [https://ogrenci.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor](https://ogrenci.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor)
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 7: Yabancı Diller Yüksekokulu akademik takvimine göre 4. Çeyrek dönem başlangıç tarihi nedir?
+Yanıt Süresi: 21.96 saniye
+Cevap: Yabancı Diller Yüksekokulu 4. Çeyrek dönem başlangıç tarihi 13 Nisan 2026 Pazartesi'dir.
+
+Kaynak : https://depo.btu.edu.tr/img/sayfa//1750935863_96a88481aec053f922dd.pdf
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 8: Turnitin sistemine kayıt olmak ve şifre talebinde bulunmak için hangi e-posta adresine başvurulmalıdır?
+Yanıt Süresi: 21.79 saniye
+Cevap: Turnitin kaydı ve şifre talebi için ekaynaklar@btu.edu.tr adresine "Ad-Soyad ve kurumsal e-posta" bilgileriyle başvurarak şifre talebinde bulunmanız gerekmektedir. (Dahili: 3265)
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3862/tum-veritabanlari-a-z
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 9: Rektörlük ve Gençlik Kupası spor turnuvalarında voleybol branşı için karma (mix) takım başvurusu yapılabilir mi?
+Yanıt Süresi: 23.26 saniye
+Cevap: Rektörlük ve Gençlik Kupası'nda voleybol branşında karma (mix) takım başvurusu yapılabilir. Başvuru için Sağlık Beyanı Formu, Öğrenci/Personel Kartı veya Öğrenci Belgesi gereklidir.
+
+Kaynak : https://ogrenci.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor, https://btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor, https://personel.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 10: Bilgisayar Mühendisliği bölümünün taban başarı sıralaması kaçtır?
+Yanıt Süresi: 27.99 saniye
+Cevap: Bilgisayar Mühendisliği için 2023 yılı Taban Puanı 43641, 2024 yılı Taban Puanı 56003 ve 2025 yılı Taban Puanı 62441'dir. Tavan puanı ise 36746'dır.
+
+Kaynak : https://tercih.btu.edu.tr/tr/sayfa/siralamalar, https://tercih.btu.edu.tr/tr/sayfa/detay/bolum/193/bilgisayar-mühendisliği-bölümü
+Durum: BAŞARILI
+--------------------------------------------------
+
+==================================================
+ 📊 GENEL PERFORMANS METRİKLERİ (GÜNCELLENMİŞ)
+==================================================
+Toplam Test Edilen Soru : 10
+Başarılı API Yanıtı     : 10
+Ortalama Yanıt Süresi   : 25.86 saniye
+Kaynak Gösterme Oranı   : %100.0 (Hedef: > %90)
+Doğruluk Oranı          : %100.0 (Hedef: > %85)
+Olası Halüsinasyon Oranı: %0.0 (Hedef: < %15)
+==================================================

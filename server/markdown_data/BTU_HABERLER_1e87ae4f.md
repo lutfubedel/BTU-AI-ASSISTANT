@@ -7,7 +7,8 @@ category: Duyuru/Haber
 
 # BTU | HABERLER
 
-HABERLER _20 Şubat 2026_**Öğrenciler Atık Nişastadan Ambalaj Film Üretti**
+HABERLER _06 Mart 2026_**SUSHEAS Projesinin Açılış Toplantısı Gerçekleşti**
+- _20 Şubat 2026_**Öğrenciler Atık Nişastadan Ambalaj Film Üretti**
 - _17 Şubat 2026_**Endüstriyel Arızaları Gerçekleşmeden Bildiren Yapay Zekâ Geliştiriliyor**
 - _16 Şubat 2026_**SESAME ve Araştırma Olanakları Eğitimi**
 - _13 Şubat 2026_**Geleceğin Uçuş Teknolojileri İçin Termal Koruma**
@@ -16,4 +17,3 @@ HABERLER _20 Şubat 2026_**Öğrenciler Atık Nişastadan Ambalaj Film Üretti**
 - _09 Şubat 2026_**Öğrenciler Sürdürülebilirlik Hackathonu’ndan Dereceyle Döndü**
 - _05 Şubat 2026_**Bursa’nın Depremselliği Konuşuldu**
 - _04 Şubat 2026_**BTÜ Konut ve Zeminin Deprem Riskini Önceden Gösteren Sistem Geliştirdi**
-- _30 Ocak 2026_**BTÜ-Kore İş Birliğinde Uzay ile Savunma Sanayine Yüksek Isıya Dayanıklı Malzeme Geliştiriliyor**

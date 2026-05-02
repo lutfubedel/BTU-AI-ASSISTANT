@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "soru": "BTÜ web sitesinde hangi işletim sistemleri için Eduroam kurulum ayarları rehberi bulunmaktadır?",
+    "beklenen_kelimeler": [
+      "Windows",
+      "Ubuntu",
+      "Mac OS X",
+      "Iphone",
+      "Nokia Symbian"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Eduroam_03f1bd5d.md"
+  },
+  {
+    "id": 2,
+    "soru": "Üniversitenin Psikolojik Danışma ve Rehberlik Biriminde görev yapan uzman psikolog kimdir?",
+    "beklenen_kelimeler": [
+      "Nesrin TÜRKER"
+    ],
+    "kaynak": "PSİKOLOJİK_DANIŞMA_ve_REHBERLİK_cff379e8.md"
+  },
+  {
+    "id": 3,
+    "soru": "BTÜ bünyesinde hizmet veren uzman diyetisyenin ismi nedir ve kendisiyle hangi dahili numaradan iletişime geçilebilir?",
+    "beklenen_kelimeler": [
+      "Meryem YAKUPOĞLU",
+      "300 32 57"
+    ],
+    "kaynak": "BESLENME_VE_DİYETETİK_5aba7061.md"
+  },
+  {
+    "id": 4,
+    "soru": "Bursa Teknik Üniversitesi'nin indirim sözleşmesi yaptığı anlaşmalı sağlık kurumlarından 3 tanesini belirtiniz.",
+    "beklenen_kelimeler": [
+      "Doruk Sağlık Grubu",
+      "Özel Hayat Hastanesi",
+      "Medicana"
+    ],
+    "kaynak": "ANLAŞMALI_SAĞLIK_KURUMLARI_c37ee51d.md"
+  },
+  {
+    "id": 5,
+    "soru": "Merkezi Araştırma Laboratuvarı'na (MERLAB) test ve analiz başvuruları için hangi e-posta adresi üzerinden ulaşılmaktadır?",
+    "beklenen_kelimeler": [
+      "merlab@btu.edu.tr"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Merkezi_Araştırma_Laboratuvarı_Müdürlüğü_270eafc8.md"
+  },
+  {
+    "id": 6,
+    "soru": "2026 yılı verilerine göre Bursa Teknik Üniversitesi'nde toplam kaç akademik personel görev yapmaktadır?",
+    "beklenen_kelimeler": [
+      "593"
+    ],
+    "kaynak": "Sayılarla_9bc77f99.md"
+  },
+  {
+    "id": 7,
+    "soru": "Üniversitenin 2026 yılındaki toplam mevcut öğrenci sayısı kaçtır?",
+    "beklenen_kelimeler": [
+      "12467"
+    ],
+    "kaynak": "Sayılarla_9bc77f99.md"
+  },
+  {
+    "id": 8,
+    "soru": "Erasmus+ öğrenim ve staj hareketliliği başvuruları hangi web sitesi üzerinden gerçekleştirilmektedir?",
+    "beklenen_kelimeler": [
+      "erasmus.btu.edu.tr"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Erasmus_Ofisi_1598dda2.md"
+  },
+  {
+    "id": 9,
+    "soru": "Değişim programları için yapılacak olan yabancı dil sınavının tarihi nedir?",
+    "beklenen_kelimeler": [
+      "11 Nisan"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Erasmus_Ofisi_1598dda2.md"
+  },
+  {
+    "id": 10,
+    "soru": "Diyetisyenlik danışmanlık hizmeti hangi günlerde ve hangi ofiste verilmektedir?",
+    "beklenen_kelimeler": [
+      "Salı",
+      "Çarşamba",
+      "Mimar Sinan Yerleşkesi B Blok Z-21"
+    ],
+    "kaynak": "BESLENME_VE_DİYETETİK_5aba7061.md"
+  }
+]

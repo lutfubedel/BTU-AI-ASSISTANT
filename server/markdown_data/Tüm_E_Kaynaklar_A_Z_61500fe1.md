@@ -208,7 +208,9 @@ Kurumsal mail adresiniz **(...@ btu.edu.tr)** ile talimatlara uygun olarak hesap
 
 Turcademy - E-Kitap Veri Tabanı
 
-**Turcademy Türkçe E-Kitap veri tabanında** yer alan **Mühendislik Bilimleri (560), Doğa Bilimleri (285), Güzel Sanatlar (288)** ve **Üniversite Yayınları (215)** koleksiyonlarına abone olunmuştur. Veri Tabanı içerisinde; Adalet Yayınevi, Anı Yayıncılık, Dora Yayınevi, Ekin Yayınevi, Gazi Kitabevi, Palme Yayıncılık, Pegem Akademi, Seçkin Kitabevi vb. yayıncılara ait **1348 ders kitabı niteliğinde kaynak** bulunmaktadır.
+Turcademy Türkçe E-Kitap veri tabanındayer alanMühendislik Bilimleri, Doğa Bilimleri, Güzel Sanatlar, Hukuk, Sağlık Bilimleri, Kültür Yayınları, Sosyal ve Beşeri Bilimler, Üniversite Yayınları koleksiyonlarının tamamı erişime açılmıştır.
+
+Veri tabanı içerisinde; Adalet Yayınevi, Anı Yayıncılık, Dora Yayınevi, Ekin Yayınevi, Gazi Kitabevi, Palme Yayıncılık, Pegem Akademi, Seçkin Kitabevi vb. yayınevlerine ait **16.900’den fazla ders kitabı niteliğinde elektronik kaynak** bulunmaktadır.
 
 Ayrıntılar için **TIKLAYINIZ.**
 

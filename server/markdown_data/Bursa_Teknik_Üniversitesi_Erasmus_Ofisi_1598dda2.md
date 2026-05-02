@@ -13,8 +13,11 @@ erasmus.btu.edu.tr
 
 Yenilikçi Devlet Üniversitesi
 
-Erasmus+ KA131 Anlaşmaları [ERASMUS+ KA131 2025 SÖZLEŞME “KARMER” KONSORSIYUM ÖĞRENCİ STAJ HAREKETLİLİĞİ İLANI \\
+Erasmus+ KA131 Anlaşmaları [Erasmus+ KA171 2024 Sözleşme Eğitim Alma Hareketliliği İlanı Nihai Değerlendirme Tablosu \\
 \\
+**26 Şubat**](
+
+[ERASMUS+ KA131 2025 SÖZLEŞME “KARMER” KONSORSIYUM ÖĞRENCİ STAJ HAREKETLİLİĞİ İLANI \\
 **25 Şubat**](
 
 [Erasmus+ KA131-2026 Sözleşme Öğrenci Öğrenim ve Staj Hareketliliği İlanı \\
@@ -23,11 +26,8 @@ Erasmus+ KA131 Anlaşmaları [ERASMUS+ KA131 2025 SÖZLEŞME “KARMER” KONSOR
 [Erasmus+ KA171 2023/2024 Sözleşme Eğitim Alma Hareketliliği İlanı Ön Değerlendirme Tablosu \\
 **23 Şubat**](
 
-[Erasmus+ KA171 2024 Sözleşme Eğitim Alma Hareketliliği İlanı Ön Değerlendirme Tablosu \\
-**18 Şubat**](
-
-[Erasmus+ KA171 2024 Sözleşme Eğitim Alma Hareketliliği İlanı Nihai Değerlendirme Tablosu \\
-**26 Şubat**](
+[Erasmus+ KA171 2023/2024 Sözleşme Eğitim Alma Hareketliliği İlanı Nihai Değerlendirme Tablosu \\
+**05 Mart**](
 
 **Bilgi Paketi**
 

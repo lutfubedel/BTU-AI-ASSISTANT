@@ -14,10 +14,10 @@ Orman Fakültesi
 Orman Endüstrisi Mühendisliği Bölümü Orman Endüstrisi Mühendisliği Bölümü
 - Orman Mühendisliği Bölümü
 
-BÖLÜMDEN HABERLER **Orman Endüstri Mühendisliği Bölümü Mühendislik Tasarımı Sergisi Gerçekleştirildi**
+BÖLÜMDEN HABERLER **Orman Endüstri Mühendisliği Bölümünde Açılış Dersi Gerçekleştirildi**
+- **Orman Endüstri Mühendisliği Bölümü Mühendislik Tasarımı Sergisi Gerçekleştirildi**
 - **2025-2026 Orman Endüstri Mühendisliği Bölümü Teknik Gezileri**
 - **Lisansüstü’nde Mezuniyet Gururu**
-- **Orman Endüstri Mühendisliği Bölüm Başkanları Konseyi (OREMKON) Toplantısı**
 
 İngilizce Hazırlık Sınıfı Başarılar TTO - Girişimcilik Eğitimi Laboratuvarlar Yurtdışı Olanaklar ÇAP / Yandal / Yatay Geçiş
 

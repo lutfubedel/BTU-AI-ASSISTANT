@@ -37,34 +37,29 @@ Yenilikçi Devlet Üniversitesi [Milli Teknoloji Uzmanlık Programları başvuru
 
 **Kütüphane**
 
-HABERLER 20.02.2026 **Öğrenciler Atık Nişastadan Ambalaj Film Üretti**
+HABERLER 06.03.2026 **SUSHEAS Projesinin Açılış Toplantısı Gerçekleşti**
+- 20.02.2026 **Öğrenciler Atık Nişastadan Ambalaj Film Üretti**
 - 17.02.2026 **Endüstriyel Arızaları Gerçekleşmeden Bildiren Yapay Zekâ Geliştiriliyor**
 - 16.02.2026 **SESAME ve Araştırma Olanakları Eğitimi**
-- 13.02.2026 **Geleceğin Uçuş Teknolojileri İçin Termal Koruma**
 
 Sayılarla Fakülte Sayılara lisansüstü dahil edilmiştir. 
 
 Sayılarla BTÜ Sayılara lisansüstü dahil edilmiştir. 
 
-**_5402_** Öğrenci
+**_5351_** Öğrenci
 
-**_315_** Akademik Personel
+**_316_** Akademik Personel
 
 **_25_** Program
 
-**_3268_** Mezun
+**_3319_** Mezun
 
 #### Etkinlikler ve Akademik Takvim
 
 Mart2026
 
 #### Yaklaşan Etkinlikler Etkinlik
-- Akademik Takvim _09 Mart_ **Lisans Ders Ekle/Sil**
-- _09 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _10 Mart_ **Lisans Ders Ekle/Sil**
-- _10 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _11 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _19 Mart_ **Ramazan Bayramı**
+- Akademik Takvim _19 Mart_ **Ramazan Bayramı**
 - _20 Mart_ **Ramazan Bayramı**
 - _21 Mart_ **Ramazan Bayramı**
 - _22 Mart_ **Ramazan Bayramı**

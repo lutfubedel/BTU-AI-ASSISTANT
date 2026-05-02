@@ -7,7 +7,9 @@ category: Duyuru/Haber
 
 #     BTU | Duyurular
 
-Duyurular 10.02.2026 **9 Şubat Dünya Sigarayı Bırakma Günü Kapsamında Bilgilendirme ve Danışmanlık Standı Kuruldu**
+Duyurular 09.03.2026 **1–7 Mart Yeşilay Haftası Bağımlılıkla Mücadele Etkinlikleri**
+- 05.03.2026 **1–7 Mart Yeşilay Haftası Kapsamında Tütün Bağımlılığı ve Sigara Bırakma Danışmanlığı Standı**
+- 10.02.2026 **9 Şubat Dünya Sigarayı Bırakma Günü Kapsamında Bilgilendirme ve Danışmanlık Standı Kuruldu**
 - 09.02.2026 **9 Şubat Dünya Sigarayı Bırakma Günü'' Etkinliği**
 - 14.11.2025 **Sigara Bırakma Ekiplerinden Üniversitemizde Bilinçlendirme Standı**
 - 13.10.2025 **Dünya Ruh Sağlığı Günü Programı Gerçekleşti**
@@ -17,5 +19,3 @@ Duyurular 10.02.2026 **9 Şubat Dünya Sigarayı Bırakma Günü Kapsamında Bil
 - 30.09.2025 **Tütün Bağımlılığının Zararları ve Sigara Bırakma Tedavileri Semineri**
 - 24.06.2025 **26 Haziran Uluslararası Uyuşturucu Kullanımı ve Kaçakçılığı İle Mücadele Günü**
 - 30.05.2025 **BTÜ’de Tütünsüz Bir Dünya İçin Farkındalık Standı**
-- 29.05.2025 **31 Mayıs Dünya Tütünsüz Günü**
-- 28.05.2025 **"Dünya Tütünsüz Günü" Etkinliği**

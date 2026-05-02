@@ -35,34 +35,29 @@ Yenilikçi Devlet Üniversitesi [Azami Öğrenim Süresi Sonunda Mezun Olamayan 
 
 **Bologna Bilgi Paketi**
 
-HABERLER 17.02.2026 **Eskişehir Hoca Ahmet Yesevi Anadolu Lisesini Fakültemizde ağırladık**
+HABERLER 09.03.2026 **"Topluma Hizmet Projeleri" Açılış Dersi**
+- 17.02.2026 **Eskişehir Hoca Ahmet Yesevi Anadolu Lisesini Fakültemizde ağırladık**
 - 12.12.2025 **Öfke Kontrolü Semineri**
 - 24.11.2025 **Lisansüstü’nde Mezuniyet Gururu**
-- 07.11.2025 **TÜBİTAK 2209 A/B Projeleri Bilgilendirme Toplantısı**
 
 Sayılarla Fakülte Sayılara lisansüstü dahil edilmiştir. 
 
 Sayılarla BTÜ Sayılara lisansüstü dahil edilmiştir. 
 
-**_2302_** Öğrenci
+**_2283_** Öğrenci
 
 **_85_** Akademik Personel
 
 **_11_** Program
 
-**_1104_** Mezun
+**_1125_** Mezun
 
 #### Etkinlikler ve Akademik Takvim
 
 Mart2026
 
 #### Yaklaşan Etkinlikler Etkinlik
-- Akademik Takvim _09 Mart_ **Lisans Ders Ekle/Sil**
-- _09 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _10 Mart_ **Lisans Ders Ekle/Sil**
-- _10 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _11 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _19 Mart_ **Ramazan Bayramı**
+- Akademik Takvim _19 Mart_ **Ramazan Bayramı**
 - _20 Mart_ **Ramazan Bayramı**
 - _21 Mart_ **Ramazan Bayramı**
 - _22 Mart_ **Ramazan Bayramı**

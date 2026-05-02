@@ -1,0 +1,361 @@
+=================================================
+ BTÜ ON-PREMISE RAG ASİSTANI - GÜNCEL PERFORMANS RAPORU 
+=================================================
+
+Soru 1: Üniversite kütüphanesinde kullanım için toplam kaç adet masaüstü bilgisayar bulunmaktadır?
+Yanıt Süresi: 21.51 saniye
+Cevap: BTÜ kütüphanesinde kullanıcıların hizmetine sunulan 30 adet masaüstü bilgisayar bulunmaktadır. Ayrıca giriş katta öğrenciler için 5 adet, personel için 2 adet katalog tarama bilgisayarı mevcuttur.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 2: Kütüphanede ödünç alınan bir kitabın günü geçerse günlük ne kadar gecikme cezası uygulanır?
+Yanıt Süresi: 27.39 saniye
+Cevap: Kütüphaneye yapılacak olan kitap gecikmelerinden kaynaklı idari para cezaları Strateji Geliştirme Daire Başkanlığının TR190001000060562105605002 IBAN nolu banka hesabına yapılacaktır. İade tarihinden itibaren her geçen gün için kullanıcılardan 0,50 TL para cezası alınır. Oluşan borcun 10 TL’yi geçmesi halinde ilgili kullanıcı borcunu ödeyene kadar kitap ödünç-iade hizmetinden faydalanamayacaktır. Yatırılacak hesabın açıklama kısmına Borçlunun Adı-Soyadı ve Kitap Gecikme Bedeli yazılacaktır.
+
+Kaynak URL: https://kutuphane.btu.edu.tr/tr/sayfa/detay/3818/borc-odeme, https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 3: Öğrenci kimlik kartımı kütüphane dışında hangi işlemler için yanımda bulundurmam zorunludur?
+Yanıt Süresi: 28.23 saniye
+Cevap: Yeni kayıt yaptıran tüm öğrencilere bir kez ücretsiz olarak “Öğrenci Kimlik Kartı” basılmaktadır. Kampüs giriş kapıları, yemek hizmetleri, kütüphaneden ödünç kitap alma, çalışma odası kullanma, sınavlar vb. işlemlerinizde yanınızda mutlaka öğrenci kimlik kartınız bulunması gerekmektedir. Öğrenci kimlik kartlarınızı bağlı olduğunuz Fakültenin Bölüm Sekreterlerinden alabilirsiniz. Bölüm sekreterinizin kim olduğu, hangi kampüs ve blokta olduğu, telefon numarası ve oda numarasına rehber.btu.edu.tr adresinden ulaşabilirsiniz. BTÜ kimlik kartı olmadan ödünç verme işlemleri yapılmamaktadır.
+
+Kaynak URL: https://idari.btu.edu.tr/tr/oidb/sayfa/detay/7791/ders-kaydi-sss, https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 4: Üniversite bünyesinde verilen eğitim bursları hangi kurum veya kuruluşlar tarafından sağlanmaktadır?
+Yanıt Süresi: 21.61 saniye
+Cevap: BTÜ'nün sağladığı herhangi bir eğitim bursu imkanı bulunmamaktadır. Ancak kamu kurum-kuruluşları, sivil toplum kuruluşları, gerçek ve tüzel kişiler ile dernek ve vakıflar tarafından verilen karşılıksız burslar hakkında öğrencilere güncel duyurular yapılmaktadır. Bu burslar için öğrenci seçimi, bursu verenler ile Burs Değerlendirme Komisyonu tarafından yapılmaktadır.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4433/burslar, https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 5: Kısmi zamanlı çalışma programına başvuran öğrenciler ne tür işlerde çalıştırılmaktadır?
+Yanıt Süresi: 25.25 saniye
+Cevap: Kısmi zamanlı çalışma programı kapsamında öğrenciler, ilgi ve yetenekleri doğrultusunda Üniversite bünyesinde geçici işlerde çalıştırılmaktadır. Bu işlerin tam olarak neler olduğu belirtilmemiştir.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4377/gorev-ve-sorumluluk, https://sks.btu.edu.tr/tr/sayfa/detay/4433/burslar
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 6: Öğrenci e-posta adresi için kullanılan varsayılan kullanıcı adı formatı nedir?
+Yanıt Süresi: 23.07 saniye
+Cevap: BTÜ öğrenci e-posta kullanıcı adı formatı "ogrencinumarasi@ogr.btu.edu.tr" şeklindedir. Ayrıca öğrenci e-postaları "ogrenciNumarası@ogrenci.btu.edu.tr" formatında olabilir.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/7791/ders-kaydi-sss, http://depo.btu.edu.tr/dosyalar/uzem/Dosyalar/K%C4%B1s%C4%B1tlama_ekleme_rehberi.pdf
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 7: Ders kaydı yapmayan bir öğrencinin sistemdeki öğrencilik durumu nasıl görünür?
+Yanıt Süresi: 22.19 saniye
+Cevap: Ders kaydınızı yapmadan önce öğrencilik durumunuz “Pasif” olarak gözükecektir. Eğitim öğretim başlayıp ders kaydınızı tamamladığınızda öğrencilik durumunuz otomatik olarak “Aktif” konuma düşecektir.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/7791/ders-kaydi-sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 8: AGNO değeri en az kaç olan öğrenciler üst yarıyıllardan ders alabilirler?
+Yanıt Süresi: 29.30 saniye
+Cevap: AGNO'su 3,00'dan az olan öğrenciler üst yarıyıllardan ders alamazlar. AGNO'su en az 3,00 olan öğrenciler ise öğrencinin talebi ve akademik danışmanın onayı ile üst yarıyıllarda dâhil en fazla 18 AKTS kredilik ders alabilirler.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/7791/ders-kaydi-sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 9: Kayıt dondurma başvurusu en geç ne zamana kadar ilgili bölüm başkanlığına yapılmalıdır?
+Yanıt Süresi: 25.41 saniye
+Cevap: Ders kaydı yapılıp yapılmadığına bakılmaksızın, öğrencinin izinden yararlanabilmesi için durumunu belirten dilekçesi ve belgeleri ile birlikte ilgili bölüm başkanlığına en geç ilgili yarıyılın ders ekleme bırakma süresi bitimine kadar yazılı başvurması gereklidir. Ancak izin gerekçesinin ders ekleme bırakma süresi bitiminden sonra ortaya çıkması durumunda başvuru için süre kısıtlaması yoktur.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/7791/ders-kaydi-sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 10: Bursa Teknik Üniversitesi'nde güncel verilviere göre toplam kaç öğrenci topluluğu bulunmaktadır?
+Yanıt Süresi: 15.17 saniye
+Cevap: Bursa Teknik Üniversitesi'nde 91 öğrenci topluluğu bulunmaktadır.
+
+Kaynak : https://ogrenci.btu.edu.tr/tr
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 11: Kütüphanede öğrenciler bir seferde en fazla kaç kitap ve kaç günlüğüne ödünç alabilir?
+Yanıt Süresi: 18.49 saniye
+Cevap: Öğrencilere 5 kitap 15 gün süreyle ödünç verilebilir. Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3696/odunc
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 12: BTÜ psikolojik danışma ve rehberlik hizmetleri ücretli mi?
+Yanıt Süresi: 27.52 saniye
+Cevap: BTÜ'de psikolojik danışma ve rehberlik hizmetleri ÜCRETSİZDİR.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4394/psi̇koloji̇k-danisma-ve-rehberli̇k, https://sks.btu.edu.tr/tr/sayfa/detay/4377/gorev-ve-sorumluluk, https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 13: PDR biriminde yapılan görüşmeler ne kadar sürmektedir?
+Yanıt Süresi: 19.45 saniye
+Cevap: Psikolojik Danışma ve Rehberlik Hizmetleri kapsamında yapılan görüşmeler 40 – 50 dakika sürmektedir.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 14: Öğrenci yemekhanelerinde öğle yemeği servisi hangi saatler arasında verilmektedir?
+Yanıt Süresi: 23.84 saniye
+Cevap: Mimar Sinan Yerleşkesi öğrenci yemekhanesi öğle yemeği saatleri 11.05-14.00'dir. Yıldırım Bayezid Yerleşkesi öğrenci yemekhanesi öğle yemeği saatleri hakkında bilgi bulunmamaktadır.
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4398/beslenme, https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 15: Üniversite reviri hangi günler ve saatler arasında hizmet vermektedir?
+Yanıt Süresi: 23.40 saniye
+Cevap: BTÜ revirleri, hafta içi her gün saat 08.00-12.00 ve 13.00-17.00 saatleri arasında hizmet vermektedir. İş yeri hekimi ise Salı günü Yıldırım Bayezid Yerleşkesi'nde, Perşembe günü ise Mimar Sinan Yerleşkesi'nde saat 12.00-13.00 saatleri arasında hizmet vermektedir.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 16: Kütüphanede ayırtılan (rezerve edilen) bir kitap kaç gün içinde alınmazsa ayırtma kaydı sona erer?
+Yanıt Süresi: 23.60 saniye
+Cevap: Ayırtma (rezerve) yaptığınız kitabın "Ayırtma" rafında kalma süresi 3 gündür. Alınmadığı takdirde ayırtma kaydı sona erer.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 17: Yıldırım Bayezid Yerleşkesinde spor yapmak isteyen öğrenciler hangi tesislerden yararlanabilir?
+Yanıt Süresi: 14.08 saniye
+Cevap: Yıldırım Bayezid Yerleşkesinde bulunan Kapalı Spor Salonu, Halı Saha ve Boks Salonu öğrencilere hizmet vermektedir. Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 18: Kütüphane kullanıcıları gecikme borçları 10 TL'yi geçerse ne olur?
+Yanıt Süresi: 22.90 saniye
+Cevap: Oluşan borcun 10 TL’yi geçmesi halinde ilgili kullanıcı borcunu ödeyene kadar kitap ödünç-iade hizmetinden faydalanamayacaktır.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3818/borc-odeme, https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 19: Teknofest yarışma finallerine katılmaya hak kazanan öğrencilere üniversite hangi destekleri sağlamaktadır?
+Yanıt Süresi: 26.71 saniye
+Cevap: Teknofest yarışma finallerine katılarak Bursa Teknik Üniversitesini temsil etmeye hak kazanan öğrencilerin yarışma bölgelerine transferinde (gidiş-dönüş) ulaşım desteği ile barınma desteği sağlanmaktadır. Ayrıca, yarışmalara hazırlanan öğrencilere finallere hazırlık süreçlerinde hafta sonu, yaz tatili ve resmi tatil günlerinde öğle ve akşam yemeği bursu desteği verilmektedir.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4377/gorev-ve-sorumluluk, https://sks.btu.edu.tr/tr/sayfa/detay/4377/gorev-ve-sorumluluk
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 20: Öğrenci yurt imkânı var mı, yoksa alternatif ne önerilmektedir?
+Yanıt Süresi: 26.12 saniye
+Cevap: Üniversitemizde şu anda hazırda yurt imkanı bulunmamaktadır. Ancak bir kız ve bir erkek olmak üzere iki adet öğrenci yurdu inşaatı devam etmektedir. Ayrıca, Sivil Toplum Kuruluşları, Gerçek ve Tüzel kişiler ile Dernek ve Vakıflar bünyesinde bulunan yurtlar hakkında öğrencilere bilgilendirme ve danışma desteği verilmektedir. Bursa Merkezdeki Kredi ve Yurtlar Genel Müdürlüğüne Bağlı Yükseköğrenim Öğrenci Yurt Bilgileri için ilgili linke tıklayabilirsiniz.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 21: Akademik personel kütüphaneden bir seferde en fazla kaç kitap ve kaç günlüğüne ödünç alabilir?
+Yanıt Süresi: 20.26 saniye
+Cevap: Akademik personel bir defada en fazla 10 kitap 30 gün süre ile ödünç alabilirler. Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3696/odunc
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 22: Kütüphanede kaç kez geciktirme yapan öğrenci o dönem boyunca ödünç hizmetinden yararlanamaz?
+Yanıt Süresi: 25.47 saniye
+Cevap: Her eğitim-öğretim döneminde, kullanıcı ödünç aldığı materyali en fazla üç defa geciktirmesi durumunda, o dönem için bir daha ödünç hizmetinden yararlandırılmaz.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3696/odunc
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 23: Birinci öğretim programlarında Türkiye Cumhuriyeti uyruklu öğrenciler katkı payı ödemek zorunda mı?
+Yanıt Süresi: 27.38 saniye
+Cevap: Birinci öğretim programlarında TC/KKTC uyruklu ve program süresi içinde olan öğrenciler katkı payından muaftır. Kayıt olma veya kayıt yenileme sırasında ödeme yapılmalıdır. Süresi içinde katkı payını ödemeyenler, o dönem için kayıt yaptıramaz ve öğrencilik haklarından yararlanamaz.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/6152/ogrenim-ucretikatki-payi-bilgilendirme
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 24: BTÜ'de toplam kaç yüksek lisans programı bulunmaktadır?
+Yanıt Süresi: 26.37 saniye
+Cevap: BTÜ'de Lisansüstü Eğitim Enstitüsü bulunmaktadır.
+
+Kaynak : https://ogrenci.btu.edu.tr/tr
+Durum: OLASI HALÜSİNASYON / EKSİK BİLGİ
+--------------------------------------------------
+Soru 25: BTU da oryantasyon programı var mı?
+Yanıt Süresi: 37.40 saniye
+Cevap: Evet, Bursa Teknik Üniversitesi'nde (BTÜ) yeni öğrencilere yönelik oryantasyon programı düzenlenmektedir. Bu programın amacı öğrencilere içinde bulundukları şartları tanıtmak, mevcut duruma uyum sürecini hızlandırmak, öğrenci motivasyonunu arttırmak ve öğrencileri daha sonraki eğitimlere hazırlamaktır. Ayrıca, üniversitenin sunduğu olanaklar, kampüsler, dersler ve bilimsel-kültürel etkinlikler hakkında bilgi verilmektedir.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4561/oryantasyon, https://depo.btu.edu.tr/dosyalar/sks/Dosyalar/2022%20FAAL%C4%B0YET%20RAPORU%20%281%29.pdf
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 26: Kütüphanede ödünç süresi uzatılabilen materyaller için öğrenciler kaç kez uzatma hakkına sahiptir?
+Yanıt Süresi: 25.59 saniye
+Cevap: Öğrenciler ödünç aldıkları kitapların süresini en fazla 3 kez 15 gün süre ile uzatabilirler. Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 27: BTÜ'de lisansüstü öğrenci sayısı toplam öğrenci sayısının yüzde kaçını oluşturmaktadır?
+Yanıt Süresi: 24.62 saniye
+Cevap: BTÜ'deki lisansüstü öğrenci oranı %23'tür. Toplam öğrenci sayısı 12467'dir.
+
+Kaynak : https://ogrenci.btu.edu.tr/tr
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 28: Engelli öğrenciler katkı payı konusunda nasıl bir muafiyetten yararlanmaktadır?
+Yanıt Süresi: 29.62 saniye
+Cevap: Engelli olduğuna dair raporunu ibraz eden birinci öğretim programında kayıtlı olan öğrenciler (yurtdışından kabul kontenjanları ile kayıt olanlar dahil) program süresi ve kayıtlı olunan program sayısı sınırlaması olmaksızın öğrenci katkı payı alınmaz. İkinci öğretim programlarına kayıtlı olan ve program sayısı sınırlaması olmaksızın engelli olduğuna dair raporunu ibraz eden öğrencilere engellilik oranı kadar indirim yapılır.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/6152/ogrenim-ucretikatki-payi-bilgilendirme
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 29: Yabancı uyruklu öğrencilerden not ortalaması 3,50 ve üzeri olanlara öğrenim ücretinde ne kadar indirim uygulanmaktadır?
+Yanıt Süresi: 33.07 saniye
+Cevap: Yurtdışından kabul kontenjanları dahilinde kayıt yaptıracak yabancı uyruklu öğrencilerden ailesi ve kendisi Türkiye’de ikamet izni almış olanlardan; aynı aileye mensup başka yükseköğretim kurumunda eğitimine devam eden öğrenciler için belirlenen öğrenim ücretlerine, % 35 oranında indirim yapılır.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/6152/ogrenim-ucretikatki-payi-bilgilendirme
+Durum: OLASI HALÜSİNASYON / EKSİK BİLGİ
+--------------------------------------------------
+Soru 30: Kütüphanede sözlük, ansiklopedi ve indeks gibi müracaat eserleri ödünç alınabilir mi?
+Yanıt Süresi: 20.80 saniye
+Cevap: Sözlükler, ansiklopediler, indeksler ödünç verilemeyecek materyaller arasındadır.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3696/odunc
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 31: BTÜ web sitesinde hangi işletim sistemleri için Eduroam kurulum ayarları rehberi bulunmaktadır?
+Yanıt Süresi: 29.48 saniye
+Cevap: BTÜ Eduroam kurulum ayarları aşağıdaki işletim sistemleri için mevcuttur:
+
+*   Windows XP/Vista/7/8/10 için Eduroam Ayarları (17 Temmuz)
+*   Ubuntu için Eduroam Ayarları (17 Temmuz)
+*   Mac OS X için Eduroam Ayarları (17 Temmuz)
+*   Iphone için Eduroam Ayarları (12 Temmuz)
+*   Nokia Symbian İçin Eduroam Ayarları (29 Kasım)
+
+Kaynak : https://eduroam.btu.edu.tr/index.php, https://eduroam.btu.edu.tr/tr/duyuru/birim/158
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 32: Üniversitenin Psikolojik Danışma ve Rehberlik Biriminde görev yapan uzman psikolog kimdir?
+Yanıt Süresi: 29.57 saniye
+Cevap: BTÜ Psikolojik Danışma ve Rehberlik Birimi'nde Uzman Psikolog Nesrin TÜRKER bulunmaktadır. İletişim bilgileri:
+
+*   Tel No: 808 11 86
+*   E-Posta: nesrin.turker@btu.edu.tr
+*   Ofis: Z 19 Numaralı Ofis
+
+Kaynak : [https://sks.btu.edu.tr/tr/sayfa/detay/4394/psi̇koloji̇k-danisma-ve-rehberli̇k](https://sks.btu.edu.tr/tr/sayfa/detay/4394/psi̇koloji̇k-danisma-ve-rehberli̇k), [https://sks.btu.edu.tr/tr/sayfa/kadro](https://sks.btu.edu.tr/tr/sayfa/kadro)
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 33: BTÜ bünyesinde hizmet veren uzman diyetisyenin ismi nedir ve kendisiyle hangi dahili numaradan iletişime geçilebilir?
+Yanıt Süresi: 25.07 saniye
+Cevap: BTÜ uzman diyetisyen Meryem YAKUPOĞLU'nun telefon numarası 300 32 57'dir. E-posta adresi ise meryem.yakupoglu@btu.edu.tr'dir.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4398/beslenme
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 34: Bursa Teknik Üniversitesi'nin indirim sözleşmesi yaptığı anlaşmalı sağlık kurumlarından 3 tanesini belirtiniz.
+Yanıt Süresi: 25.64 saniye
+Cevap: Üzgünüm, sağlanan belgelerde bu konu hakkında net bir bilgi bulamadım.
+Kaynak : http://depo.btu.edu.tr/dosyalar/sks/Dosyalar/2018%20B%C4%B0R%C4%B0M%20FAAL%C4%B0YET%20RAPORU.pdf, https://tercih.btu.edu.tr/tr/sayfa/detay/bolum/10074/fizik-bölümü, https://sks.btu.edu.tr
+Durum: OLASI HALÜSİNASYON / EKSİK BİLGİ
+--------------------------------------------------
+Soru 35: Merkezi Araştırma Laboratuvarı'na (MERLAB) test ve analiz başvuruları için hangi e-posta adresi üzerinden ulaşılmaktadır?
+Yanıt Süresi: 19.11 saniye
+Cevap: MERLAB test ve analiz başvuruları için merlab@btu.edu.tr adresinden ulaşabilirsiniz. Kaynak : https://merlab.btu.edu.tr/index.php
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 36: 2026 yılı verilerine göre Bursa Teknik Üniversitesi'nde toplam kaç akademik personel görev yapmaktadır?
+Yanıt Süresi: 15.14 saniye
+Cevap: Bursa Teknik Üniversitesi'nde 593 akademik personel bulunmaktadır.
+Kaynak : https://personel.btu.edu.tr
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 37: Üniversitenin 2026 yılındaki toplam mevcut öğrenci sayısı kaçtır?
+Yanıt Süresi: 17.48 saniye
+Cevap: BTÜ'deki toplam öğrenci sayısı 12467'dir.
+Kaynak : https://ogrenci.btu.edu.tr/tr, https://www.btu.edu.tr/
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 38: Erasmus+ öğrenim ve staj hareketliliği başvuruları hangi web sitesi üzerinden gerçekleştirilmektedir?
+Yanıt Süresi: 19.32 saniye
+Cevap: BTÜ Erasmus+ öğrenim ve staj hareketliliği başvuruları için web sitesi adresi: erasmus.btu.edu.tr.
+
+Kaynak : https://erasmus.btu.edu.tr/index.php
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 39: Değişim programları için yapılacak olan yabancı dil sınavının tarihi nedir?
+Yanıt Süresi: 23.30 saniye
+Cevap: Değişim programı yabancı dil sınavı 11 Nisan 2026 Cumartesi günü saat 10:00’da Bursa Teknik Üniversitesi Yıldırım Bayezid Yerleşkesinde Yabancı Diller Yüksekokulunda gerçekleştirilecektir. Kaynak : https://ydyo.btu.edu.tr/tr/duyuru/detay/53323/11-nisan-2026-tarihli-değişim-programları-yabancı-dil-sınavı
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 40: Diyetisyenlik danışmanlık hizmeti hangi günlerde ve hangi ofiste verilmektedir?
+Yanıt Süresi: 32.54 saniye
+Cevap: Diyetetik hizmetleri Salı ve Çarşamba günleri 13.30 – 17.00 saatleri arasında Mimar Sinan Yerleşkesi B Blok Z-21 no’lu ofiste (revir) verilmektedir. Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4398/beslenme
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 41: Üniversite kantinlerinde hangi ürünlerin fiyatı idare tarafından belirlenmektedir?
+Yanıt Süresi: 26.65 saniye
+Cevap: Üniversite kantinlerinde Çay, Su, Poğaça ve Simit ürünlerinin fiyatları idare tarafından belirlenir. Diğer ürünlerde ise piyasa fiyatlarında satış yapılır ve piyasa fiyatının üzerinde satış yapıldığı tespit edildiğinde İDARE müdahale eder.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4516/kanti̇n-kafeterya
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 42: Turnitin sistemine yüklenecek bir dosya en fazla kaç sayfa olabilir?
+Yanıt Süresi: 30.19 saniye
+Cevap: Turnitin'e yüklenebilecek dosyanın sayfa sınırı maksimum 400 sayfadır. Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3796/benzerlik-tespit-programlari, https://kutuphane.btu.edu.tr/tr/sayfa/detay/3862/tum-veritabanlari-a-z
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 43: iThenticate sisteminde kota hesaplanırken kaç kelime 1 doküman sayılmaktadır?
+Yanıt Süresi: 35.48 saniye
+Cevap: iThenticate veri havuzunda 17 milyardan fazla web sayfası bulunmaktadır. Her 25.000 kelime 1 doküman sayılmaktadır.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3796/benzerlik-tespit-programlari
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 44: Bilgisayar Mühendisliği bölümünün aday öğrenci sayfasındaki güncel kontenjanı kaçtır?
+Yanıt Süresi: 30.64 saniye
+Cevap: Bilgisayar Mühendisliği bölümü kontenjanı 90'dır.
+
+Kaynak : https://tercih.btu.edu.tr/tr/sayfa/detay/bolum/193/bilgisayar-mühendisliği-bölümü
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 45: Proje Destek Ofisi (PDO) verilerine göre sistemde kayıtlı toplam proje sayısı kaçtır?
+Yanıt Süresi: 22.76 saniye
+Cevap: Proje Destek Ofisi'nin (PDO) toplam proje sayısı 786'dır. Bu projelerden 455'i iç kaynaklardan, 112'si ise dış kaynaklardan tamamlanmıştır.
+
+Kaynak : https://pdo.btu.edu.tr
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 46: 12. Rektörlük ve Gençlik Kupası spor turnuvalarında düzenlenen tüm branşlar nelerdir?
+Yanıt Süresi: 42.56 saniye
+Cevap: BTÜ 12. Rektörlük ve Gençlik Kupası Spor Turnuvaları aşağıdaki branşlarda düzenlenecektir:
+
+*   Futbol
+*   Basketbol
+*   Voleybol
+*   Masa Tenisi
+*   Satranç
+*   Bilek Güreşi
+
+Kaynak : [https://ogrenci.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor](https://ogrenci.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor), [https://personel.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor](https://personel.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor), [https://btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor](https://btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor), [https://ogrenci.btu.edu.tr/tr/duyuru/detay/53420/btü-spor-turnuvalarında-başvuru-süresi-uzatıldı-ve-yeni-branş-eklendi](https://ogrenci.btu.edu.tr/tr/duyuru/detay/53420/btü-spor-turnuvalarında-başvuru-süresi-uzatıldı-ve-yeni-branş-eklendi)
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 47: Yabancı Diller Yüksekokulu akademik takvimine göre 4. Çeyrek dönem başlangıç tarihi nedir?
+Yanıt Süresi: 26.44 saniye
+Cevap: Yabancı Diller Yüksekokulu 4. Çeyrek dönem başlangıç tarihi 13 Nisan 2026 Pazartesi'dir.
+
+Kaynak : https://depo.btu.edu.tr/img/sayfa//1750935863_96a88481aec053f922dd.pdf
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 48: Turnitin sistemine kayıt olmak ve şifre talebinde bulunmak için hangi e-posta adresine başvurulmalıdır?
+Yanıt Süresi: 26.09 saniye
+Cevap: Turnitin kaydı ve şifre talebi için ekaynaklar@btu.edu.tr adresine "Ad-Soyad ve kurumsal e-posta" bilgileriyle başvurarak şifre talebinde bulunmanız gerekmektedir. (Dahili: 3265)
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3862/tum-veritabanlari-a-z
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 49: Rektörlük ve Gençlik Kupası spor turnuvalarında voleybol branşı için karma (mix) takım başvurusu yapılabilir mi?
+Yanıt Süresi: 25.80 saniye
+Cevap: Voleybol branşında karma (mix) takım başvurusu yapılabilir. Başvuru için Sağlık Beyanı Formu, Öğrenci/Personel Kartı veya Öğrenci Belgesi gereklidir.
+
+Kaynak : https://ogrenci.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor, https://btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor, https://personel.btu.edu.tr/tr/duyuru/detay/53338/btü-12-rektörlük-ve-gençlik-kupası-spor-turnuvaları-başlıyor
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 50: Bilgisayar Mühendisliği bölümünün taban başarı sıralaması kaçtır?
+Yanıt Süresi: 34.30 saniye
+Cevap: Bilgisayar Mühendisliği için 2023 yılı Taban Puanı 43641, 2024 yılı Taban Puanı 56003 ve 2025 yılı Taban Puanı 62441'dir. Tavan puanları ise sırasıyla 36746, 49885 ve 36746'dır.
+
+Kaynak : https://tercih.btu.edu.tr/tr/sayfa/siralamalar, https://tercih.btu.edu.tr/tr/sayfa/detay/bolum/193/bilgisayar-mühendisliği-bölümü
+Durum: BAŞARILI
+--------------------------------------------------
+
+==================================================
+ 📊 GENEL PERFORMANS METRİKLERİ (GÜNCELLENMİŞ)
+==================================================
+Toplam Test Edilen Soru : 50
+Başarılı API Yanıtı     : 50
+Ortalama Yanıt Süresi   : 25.47 saniye
+Kaynak Gösterme Oranı   : %100.0 (Hedef: > %90)
+Doğruluk Oranı          : %94.0 (Hedef: > %85)
+Olası Halüsinasyon Oranı: %6.0 (Hedef: < %15)
+==================================================

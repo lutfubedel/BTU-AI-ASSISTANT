@@ -29,11 +29,11 @@ Bilgisayar Mühendisliği Bölümü Bilgisayar Mühendisliği Bölümü
 - Veri Bilimi ve Analitiği Bölümü
 - Yapay Zeka ve Makine Öğrenmesi Bölümü
 
-BÖLÜMDEN HABERLER **Endüstriyel Arızaları Gerçekleşmeden Bildiren Yapay Zekâ Geliştiriliyor**
+BÖLÜMDEN HABERLER **Bilgisayar Mühendisliği Bölümü 2025-2026 Bahar Dönemine Açılış Dersiyle Başladı!**
+- **Endüstriyel Arızaları Gerçekleşmeden Bildiren Yapay Zekâ Geliştiriliyor**
 - **TEKNOFEST Yarışmaları için Bilgilendirme Toplantıları Gerçekleştirildi!**
 - **BTÜ'lü Akademisyene Yapay Zekâ Ödülü**
 - **Geleceği Kodlayanlar: Yapay Zeka ve Robotik Kodlama Semineri**
-- **"Katma Değerli Üretim ve Orta Gelir Tuzağı" Semineri Gerçekleştirildi**
 
 İngilizce Hazırlık Sınıfı Başarılar TTO - Girişimcilik Eğitimi Laboratuvarlar Yurtdışı Olanaklar ÇAP / Yandal / Yatay Geçiş
 

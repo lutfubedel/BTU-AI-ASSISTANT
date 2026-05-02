@@ -52,3 +52,4 @@ Yüksek Lisans Programları (Alfabetik Sıra) 1\. Afet Risk Yönetimi (Tezsiz)
 - 43\. Uluslararası İlişkiler
 - 44\. Uluslararası Ticaret ve Lojistik   (Tezsiz)
 - 45\. Uluslararası Ticaret ve Lojistik
+- 46\. Yapay Zeka ve Makine Öğrenmesi

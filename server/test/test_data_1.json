@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "soru": "Üniversite kütüphanesinde kullanım için toplam kaç adet masaüstü bilgisayar bulunmaktadır?",
+    "beklenen_kelimeler": [
+      "30"
+    ],
+    "kaynak": "SSS_f52ffed2.md"
+  },
+  {
+    "id": 2,
+    "soru": "Kütüphanede ödünç alınan bir kitabın günü geçerse günlük ne kadar gecikme cezası uygulanır?",
+    "beklenen_kelimeler": [
+      "0,50"
+    ],
+    "kaynak": "SSS_f52ffed2.md"
+  },
+  {
+    "id": 3,
+    "soru": "Öğrenci kimlik kartımı kütüphane dışında hangi işlemler için yanımda bulundurmam zorunludur?",
+    "beklenen_kelimeler": [
+      "Kampüs giriş kapıları",
+      "yemek hizmetleri",
+      "sınavlar"
+    ],
+    "kaynak": "Ders_Kaydı_SSS_03654cab.md"
+  },
+  {
+    "id": 4,
+    "soru": "Üniversite bünyesinde verilen eğitim bursları hangi kurum veya kuruluşlar tarafından sağlanmaktadır?",
+    "beklenen_kelimeler": [
+      "Kamu kurum-kuruluşları",
+      "Sivil Toplum Kuruluşları",
+      "Gerçek ve Tüzel kişiler",
+      "Dernek ve Vakıflar"
+    ],
+    "kaynak": "BURSLAR_1dcb63da.md"
+  },
+  {
+    "id": 5,
+    "soru": "Kısmi zamanlı çalışma programına başvuran öğrenciler ne tür işlerde çalıştırılmaktadır?",
+    "beklenen_kelimeler": [
+      "geçici işlerde"
+    ],
+    "kaynak": "BURSLAR_1dcb63da.md"
+  },
+  {
+    "id": 6,
+    "soru": "Öğrenci e-posta adresi için kullanılan varsayılan kullanıcı adı formatı nedir?",
+    "beklenen_kelimeler": [
+      "ogrencinumarasi@ogr.btu.edu.tr"
+    ],
+    "kaynak": "Ders_Kaydı_SSS_03654cab.md"
+  },
+  {
+    "id": 7,
+    "soru": "Ders kaydı yapmayan bir öğrencinin sistemdeki öğrencilik durumu nasıl görünür?",
+    "beklenen_kelimeler": [
+      "Pasif"
+    ],
+    "kaynak": "Ders_Kaydı_SSS_03654cab.md"
+  },
+  {
+    "id": 8,
+    "soru": "AGNO değeri en az kaç olan öğrenciler üst yarıyıllardan ders alabilirler?",
+    "beklenen_kelimeler": [
+      "3,00"
+    ],
+    "kaynak": "Ders_Kaydı_SSS_03654cab.md"
+  },
+  {
+    "id": 9,
+    "soru": "Kayıt dondurma başvurusu en geç ne zamana kadar ilgili bölüm başkanlığına yapılmalıdır?",
+    "beklenen_kelimeler": [
+      "ders ekleme bırakma süresi"
+    ],
+    "kaynak": "Ders_Kaydı_SSS_03654cab.md"
+  },
+  {
+    "id": 10,
+    "soru": "Bursa Teknik Üniversitesi'nde güncel verilviere göre toplam kaç öğrenci topluluğu bulunmaktadır?",
+    "beklenen_kelimeler": [
+      "91"
+    ],
+    "kaynak": "Sayılarla_9bc77f99.md"
+  }
+]

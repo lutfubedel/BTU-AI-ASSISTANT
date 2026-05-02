@@ -1,0 +1,87 @@
+=================================================
+ BTÜ ON-PREMISE RAG ASİSTANI - GÜNCEL PERFORMANS RAPORU 
+=================================================
+
+Soru 1: Akademik personel kütüphaneden bir seferde en fazla kaç kitap ve kaç günlüğüne ödünç alabilir?
+Yanıt Süresi: 12.80 saniye
+Cevap: Akademik personel bir defada en fazla 10 kitabı 30 gün süreyle ödünç alabilirler. Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3696/odunc
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 2: Kütüphanede kaç kez geciktirme yapan öğrenci o dönem boyunca ödünç hizmetinden yararlanamaz?
+Yanıt Süresi: 12.13 saniye
+Cevap: Her eğitim-öğretim döneminde, kullanıcı ödünç aldığı materyali en fazla üç defa geciktirmesi durumunda, o dönem için bir daha ödünç hizmetinden yararlanamaz.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3696/odunc
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 3: Birinci öğretim programlarında Türkiye Cumhuriyeti uyruklu öğrenciler katkı payı ödemek zorunda mı?
+Yanıt Süresi: 12.35 saniye
+Cevap: Birinci öğretim programlarında Türkiye Cumhuriyeti (TC) veya KKTC uyruklu ve program süresi içinde olan öğrenciler katkı payından muaftır.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/6152/ogrenim-ucretikatki-payi-bilgilendirme
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 4: BTÜ'de toplam kaç yüksek lisans programı bulunmaktadır?
+Yanıt Süresi: 9.59 saniye
+Cevap: BTÜ'de kaç tane yüksek lisans programı olduğunu gösteren doğrudan bir bilgi bulunmamaktadır.
+
+Kaynak URL: https://btu.edu.tr/tr/sayfa/lisansustu
+Durum: OLASI HALÜSİNASYON / EKSİK BİLGİ
+--------------------------------------------------
+Soru 5: BTU da oryantasyon programı var mı?
+Yanıt Süresi: 25.52 saniye
+Cevap: BTÜ'de oryantasyon programı bulunmaktadır. Birden fazla kaynaktan bu bilgiyi teyit etmek mümkündür:
+
+*   **2018 Faaliyet Raporu:** "Uzun bir maratonun ardından sınavı kazanarak üniversiteye yerleşen yeni öğrencilere yönelik oryantasyon programı düzenlendi." ([http://depo.btu.edu.tr/dosyalar/sks/Dosyalar/2018%20B%C4%B0R%C4%B0M%20FAAL%C4%B0YET%20RAPORU.pdf](http://depo.btu.edu.tr/dosyalar/sks/Dosyalar/2018%20B%C4%B0R%C4%B0M%20FAAL%C4%B0YET%20RAPORU.pdf))
+*   **2021 Faaliyet Raporu:** "Yeni öğrencilere yönelik oryantasyon programı düzenlendi." ([https://depo.btu.edu.tr/dosyalar/sks/Dosyalar/FR.2021%20-%20SKSDB.pdf](https://depo.btu.edu.tr/dosyalar/sks/Dosyalar/FR.2021%20-%20SKSDB.pdf))
+Durum: OLASI HALÜSİNASYON / EKSİK BİLGİ
+--------------------------------------------------
+Soru 6: Kütüphanede ödünç süresi uzatılabilen materyaller için öğrenciler kaç kez uzatma hakkına sahiptir?
+Yanıt Süresi: 10.71 saniye
+Cevap: Öğrenciler, ödünç aldıkları kitapları 3 kez 15 gün süre ile uzatabilirler.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 7: BTÜ'de lisansüstü öğrenci sayısı toplam öğrenci sayısının yüzde kaçını oluşturmaktadır?
+Yanıt Süresi: 10.24 saniye
+Cevap: BTÜ'deki lisansüstü öğrenci oranı %23'tür.
+
+Kaynak URL: https://ogrenci.btu.edu.tr/tr
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 8: Engelli öğrenciler katkı payı konusunda nasıl bir muafiyetten yararlanmaktadır?
+Yanıt Süresi: 20.72 saniye
+Cevap: Engelli öğrencilere yönelik katkı payı muafiyeti ile ilgili bilgiler aşağıdaki gibidir:
+
+*   **Birinci öğretim programında kayıtlı olan** engelli öğrenciler (yurtdışından kabul kontenjanları ile kayıt olanlar dahil), program süresi ve kayıtlı olunan program sayısı sınırlaması olmaksızın öğrenci katkı payı ödemez.
+*   **İkinci öğretim programına kayıtlı olan** ve program sayısı sınırlaması olmaksızın engelli raporu ibraz eden öğrenciler, engellilik oranları kadar katkı payı indirimi alır.
+
+Kaynak: [https://idari.btu.edu.tr/tr/oidb/sayfa/detay/6152/ogrenim-ucretikatki-payi-bilgilendirme](https://idari.btu.edu.tr/tr/oidb/sayfa/detay/6152/ogrenim-ucretikatki-payi-bilgilendirme)
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 9: Yabancı uyruklu öğrencilerden not ortalaması 3,50 ve üzeri olanlara öğrenim ücretinde ne kadar indirim uygulanmaktadır?
+Yanıt Süresi: 20.74 saniye
+Cevap: Genel ağırlıklı not ortalaması 3,50 ve üzeri olan yabancı uyruklu öğrenciler, 2025-2026 Eğitim-Öğretim yılında öğrenim ücretlerinde %50 oranında indirimden yararlanır. Ayrıca, ailesi ve kendisi Türkiye’de ikamet izni almış olan yabancı uyruklu öğrenciler, belirlenen öğrenim ücretlerinde %35 oranında indirimden yararlanabilir. Yabancı dille öğretim yapan yükseköğretim programlarında öğrenim ücreti ve katkı payı bir buçuk katı olarak alınır.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/6152/ogrenim-ucretikatki-payi-bilgilendirme, https://idari.btu.edu.tr/tr/oidb/sayfa/detay/6153/ogrenim-ucretikatki-payi-tutarlari
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 10: Kütüphanede sözlük, ansiklopedi ve indeks gibi müracaat eserleri ödünç alınabilir mi?
+Yanıt Süresi: 12.08 saniye
+Cevap: Kütüphaneden ödünç verilemeyecek materyaller arasında sözlükler, ansiklopediler, indeksler, almanaklar, yıllıklar, atlaslar bulunmaktadır.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3696/odunc
+Durum: BAŞARILI
+--------------------------------------------------
+
+==================================================
+ 📊 GENEL PERFORMANS METRİKLERİ (GÜNCELLENMİŞ)
+==================================================
+Toplam Test Edilen Soru : 10
+Başarılı API Yanıtı     : 10
+Ortalama Yanıt Süresi   : 14.69 saniye
+Kaynak Gösterme Oranı   : %100.0 (Hedef: > %90)
+Doğruluk Oranı          : %80.0 (Hedef: > %85)
+Olası Halüsinasyon Oranı: %20.0 (Hedef: < %15)
+==================================================

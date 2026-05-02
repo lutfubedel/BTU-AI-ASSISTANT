@@ -29,11 +29,11 @@ Metalurji ve Malzeme Mühendisliği Bölümü Bilgisayar Mühendisliği Bölüm�
 - Veri Bilimi ve Analitiği Bölümü
 - Yapay Zeka ve Makine Öğrenmesi Bölümü
 
-BÖLÜMDEN HABERLER **Geleceğin Uçuş Teknolojileri İçin Termal Koruma**
+BÖLÜMDEN HABERLER **SUSHEAS Projesinin Açılış Toplantısı Gerçekleşti**
+- **Geleceğin Uçuş Teknolojileri İçin Termal Koruma**
 - **BTÜ-Kore İş Birliğinde Uzay ile Savunma Sanayine Yüksek Isıya Dayanıklı Malzeme Geliştiriliyor**
 - **Staj Süreçlerini Dijitalleştirecek “EngineerTrack” Projesinin Açılış Toplantısı Yapıldı**
 - **Lisansüstü’nde Mezuniyet Gururu**
-- **BTÜ’den 8 Akademisyen Dünyanın En İyileri Arasında**
 
 İngilizce Hazırlık Sınıfı Başarılar TTO - Girişimcilik Eğitimi Laboratuvarlar Yurtdışı Olanaklar ÇAP / Yandal / Yatay Geçiş
 

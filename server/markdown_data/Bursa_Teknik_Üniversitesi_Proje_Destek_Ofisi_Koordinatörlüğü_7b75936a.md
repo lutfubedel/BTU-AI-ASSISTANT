@@ -7,28 +7,28 @@ category: Genel
 
 # Bursa Teknik Üniversitesi | Proje Destek Ofisi Koordinatörlüğü
 
- [ROB4GREEN Açık Çağrısı (Horizon Europe Cascade Funding) \\
+ [TÜBİTAK BİDEB Yurt İçi Burs Programları 2026 Yılı 1. Dönem Çağrıları açıldı! 📢 \\
 \\
-**17 Şubat**](
+**12 Mart**](
 
-[KOBİ’lerin ihtiyaçlarına yönelik CORNET 41. çağrısı açıldı! 📢 \\
-**11 Şubat**](
+[PRIMA PROGRAMI 2026 YILI ÇAĞRILARI BİLGİ GÜNÜ \\
+**12 Mart**](
 
-[2223-Yurt İçi Bilimsel Etkinlikleri Destekleme Programları 2026 yılı 1. dönem çağrıları açıldı! 📢 \\
-**05 Şubat**](
+[PRIMARY Projesi Açık Çağrısı Yayınlandı! \\
+**11 Mart**](
 
-[2224-Bilimsel Etkinliklere Katılımı Destekleme Programları 2026 yılı 1. dönem çağrıları açıldı! 📢 \\
-**05 Şubat**](
+[1812–Yatırım Tabanlı Girişimcilik Destek Programı 2026-1 Tohum Öncesi Yatırım Çağrısı \\
+**06 Mart**](
 
-[1833-SAYEM Yeşil Dönüşüm 2026 yılı 1. çağrısı \\
-**03 Mart**](
+[TEKNOFEST - Üniversite Öğrencileri Araştırma Proje Yarışmaları \\
+**12 Mart**](
 
-HABERLER 16.02.2026 **İbn Haldun Üniversitesi ile Proje Toplantısı**
-- 28.01.2026 **Hebron Üniversitesi ile toplantı**
-- 22.01.2026 **Denetimli Serbestlik Müdürlüğü ile AB Projeleri Toplantısı**
-- 06.01.2026 **BTÜ Yabancı Dil Öğretiminde Teknoloji Odaklı Projeye Ev Sahipliği Yaptı**
+HABERLER 06.03.2026 **SUSHEAS Projesinin Açılış Toplantısı Gerçekleşti**
+- 06.03.2026 **BTÜ Şehirlerdeki Karbondioksit Gazını Azaltacak**
+- 03.03.2026 **Diş Tedavilerinde Kontrollü İyileşme Sağlayan Yerli Ürün Geliştiriyor**
+- 16.02.2026 **İbn Haldun Üniversitesi ile Proje Toplantısı**
 
-Sayılarla PDO **_785_** Projeler
+Sayılarla PDO **_786_** Projeler
 - **_455_** İç Kaynak Tamamlanan
 - **_112_** Dış Kaynak Tamamlanan
 
@@ -36,9 +36,7 @@ Sayılarla PDO **_785_** Projeler
 
 Mart2026
 
-#### Yaklaşan Etkinlikler _04 Mart_ **EIT HEI Initiative 2025 Yılı Çağrısı Açıldı!** Son başvuru: 4 Mart 2026
-- _06 Mart_ **2547 TÜBİTAK–NASRI (Arnavutluk) İkili İş Birliği Çağrısı Açıldı!** Son Başvuru Tarihi: 6 Mart 2026
-- _19 Mart_ **1709-EUREKA-EUROSTARS 2026/1 Çağrısı Açıldı!** Uluslararası çağrı için son başvuru tarihi 19 Mart 2026
+#### Yaklaşan Etkinlikler _19 Mart_ **1709-EUREKA-EUROSTARS 2026/1 Çağrısı Açıldı!** Uluslararası çağrı için son başvuru tarihi 19 Mart 2026
 - _19 Mart_ **Eurostars Koordinatörlük Desteği Programı 2026/1 Ulusal Çağrısı Başvuruya Açıldı!** Son Tarihi: 19 Mart 2026
 - _23 Mart_ **1007 Programı Kapsamında Askeri Platformlarda Kullanılan Yağların Geliştirilmesi (ASYA) Projesi Çağrısı Açıldı** son başvuru tarihi 23 Mart 2026
 - _30 Mart_ **2549 TÜBİTAK–Polonya Ulusal Araştırma ve Geliştirme Ajansı (NCBR) İkili İş Birliği Programı 7. Çağrısı Açıldı!** Son başvuru tarihi: 30 Mart 2026

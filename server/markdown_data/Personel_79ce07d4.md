@@ -247,7 +247,7 @@ Banka işlemleri
 
 **300 32 56**
 
-(Memur)
+(V.H.K.İ)
 
 **Talha CAN**
 

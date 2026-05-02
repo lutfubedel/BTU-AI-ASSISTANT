@@ -23,10 +23,10 @@ Yenilikçi Devlet Üniversitesi [Bursa Teknik Üniversitesi Mimarlık ve Tasarı
 [BTÜ Lisansüstü Eğitim Enstitüsü Mezuniyet Töreni Gerçekleşti \\
 **25 Kasım**](
 
-HABERLER 25.12.2025 **Kurakçıl Peyzaj ve Su Yönetimi Paneli Gerçekleştirildi**
+HABERLER 13.03.2026 **BTÜ’den Bursa’ya “Dirençli Mahalle” Modeli**
+- 25.12.2025 **Kurakçıl Peyzaj ve Su Yönetimi Paneli Gerçekleştirildi**
 - 25.12.2025 **Fakültemizden Gurur Veren Başarı: Bursa Setbaşı–Yeşil–Emirsultan Kentsel Tasarım Fikir Yarışması**
 - 24.11.2025 **Lisansüstü’nde Mezuniyet Gururu**
-- 21.11.2025 **BTÜ Lisansüstü Eğitim Enstitüsü Mezuniyet Töreni Gerçekleşti**
 
 Sayılarla Fakülte Sayılara lisansüstü dahil edilmiştir. 
 
@@ -45,12 +45,7 @@ Sayılarla BTÜ Sayılara lisansüstü dahil edilmiştir.
 Mart2026
 
 #### Yaklaşan Etkinlikler Etkinlik
-- Akademik Takvim _09 Mart_ **Lisans Ders Ekle/Sil**
-- _09 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _10 Mart_ **Lisans Ders Ekle/Sil**
-- _10 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _11 Mart_ **Lisans Ders Ekle/Sil Danışman Onayı**
-- _19 Mart_ **Ramazan Bayramı**
+- Akademik Takvim _19 Mart_ **Ramazan Bayramı**
 - _20 Mart_ **Ramazan Bayramı**
 - _21 Mart_ **Ramazan Bayramı**
 - _22 Mart_ **Ramazan Bayramı**

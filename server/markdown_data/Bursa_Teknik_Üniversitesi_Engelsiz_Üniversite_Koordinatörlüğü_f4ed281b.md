@@ -9,21 +9,21 @@ category: Genel
 
 - 1
 
-[Engelsiz İletişim Üzerine Farkındalık Semineri (22.10.2025) \\
+["İftar İklimi" Canlı Yayın Programı (4 Mart 2026) \\
 \\
-**02 Kasım**](
+**05 Mart**](
 
-[Erişilebilirlik Çalıştayı (14.10.2025) \\
-**02 Kasım**](
-
-[Farklılıklarla Güçlüyüz: Bursa’da Otizm Panelinde Anlamlı Buluşma (10.04.2025) \\
-**14 Nisan**](
-
-[Yılın En Gönüllüleri Ödül Töreni (25.12.2024) \\
-**12 Ocak**](
+[İftar Programları (27-28 Şubat 2026) \\
+**05 Mart**](
 
 [Dezavantajlı Kesimlere Hizmet Sunan Personele Yönelik Eğitim Semineri (23.10.2025) \\
-**02 Kasım**]( .png)**Yemek Menüsü**
+**02 Kasım**](
+
+[Engelsiz İletişim Üzerine Farkındalık Semineri (22.10.2025) \\
+**02 Kasım**](
+
+[Otizm Alanında Danışmanlara Eğitim Semineri Düzenlendi (5 Mart 2026) \\
+**06 Mart**]( .png)**Yemek Menüsü**
 
 **Personel E-posta İşlemleri**
 

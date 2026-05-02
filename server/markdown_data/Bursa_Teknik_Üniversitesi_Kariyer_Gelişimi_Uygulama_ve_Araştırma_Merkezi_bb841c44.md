@@ -7,6 +7,8 @@ category: Genel
 
 # Bursa Teknik Üniversitesi | Kariyer Gelişimi Uygulama ve Araştırma Merkezi
 
+1\. Otomotiv Seminerleri
+
 28 Kasım 2025 16:00-20:00 Mimar Sinan Yerleşkesi
 
 BTÜ KARİYER MODELİ Mentörlük
@@ -25,10 +27,11 @@ Yenilikçi Devlet Üniversitesi
 
 E-İnsan
 
-İKAF'23
-
-1\. Otomotiv Seminerleri [Ulusal Staj Programı 2026 Yılı Başvuruları Başladı! \\
+İKAF'23 [Yetenek Kapısı platformunun YENİ WEB ADRESİ! \\
 \\
+**20 Ocak**](
+
+[Ulusal Staj Programı 2026 Yılı Başvuruları Başladı! \\
 **09 Ocak**](
 
 [🎓BTÜ MEZUNLARI, BÜYÜK BULUŞMAYA HAZIR MISINIZ? 🎉-28 KASIM 2025- MEZUNLAR BULUŞMASI \\
@@ -37,11 +40,8 @@ E-İnsan
 [Hem Teknik Hem de Sosyal Bilimler Öğrencilerine Yönelik; Savunma Sanayii Eğitim Programlarının Başvuruları Başladı! \\
 **07 Ekim**](
 
-[BTÜ'lü Öğrencilerin Dikkatine! Kariyer Yolculuğunda, Mentörün Yanında! \\
-**07 Ekim**](
-
-[Yetenek Kapısı platformunun YENİ WEB ADRESİ! \\
-**20 Ocak**](
+[ÖNEMLİ: Kariyer ve Yetkinlik Buluşmaları-3 \\
+**04 Mart**](
 
 **E-İnsan**
 
@@ -58,8 +58,8 @@ HABERLER 05.12.2025 **BTÜ Ailesi Olarak Mezunlar Buluşması'nda Bir Aradaydık
 - 20.05.2025 **BTÜ KARİYER MODELİ TESCİLLENDİ!**
 - 05.05.2025 **Marmara Kariyer Fuarı’nı Tamamladık**
 
-Sayılarla Mezunlar Sayılara lisansüstü dahil edilmiştir. **_3268_** Mühendislik ve Doğa Bilimleri Fakültesi
-- **_19_** Denizcilik Fakültesi
-- **_438_** Orman Fakültesi
-- **_1104_** İnsan ve Toplum Bilimleri Fakültesi
+Sayılarla Mezunlar Sayılara lisansüstü dahil edilmiştir. **_3319_** Mühendislik ve Doğa Bilimleri Fakültesi
+- **_24_** Denizcilik Fakültesi
+- **_439_** Orman Fakültesi
+- **_1125_** İnsan ve Toplum Bilimleri Fakültesi
 - **_385_** Mimarlık ve Tasarım Fakültesi

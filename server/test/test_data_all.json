@@ -1,0 +1,428 @@
+[
+  {
+    "id": 1,
+    "soru": "Üniversite kütüphanesinde kullanım için toplam kaç adet masaüstü bilgisayar bulunmaktadır?",
+    "beklenen_kelimeler": [
+      "30"
+    ],
+    "kaynak": "SSS_f52ffed2.md"
+  },
+  {
+    "id": 2,
+    "soru": "Kütüphanede ödünç alınan bir kitabın günü geçerse günlük ne kadar gecikme cezası uygulanır?",
+    "beklenen_kelimeler": [
+      "0,50"
+    ],
+    "kaynak": "SSS_f52ffed2.md"
+  },
+  {
+    "id": 3,
+    "soru": "Öğrenci kimlik kartımı kütüphane dışında hangi işlemler için yanımda bulundurmam zorunludur?",
+    "beklenen_kelimeler": [
+      "Kampüs giriş kapıları",
+      "yemek hizmetleri",
+      "sınavlar"
+    ],
+    "kaynak": "Ders_Kaydı_SSS_03654cab.md"
+  },
+  {
+    "id": 4,
+    "soru": "Üniversite bünyesinde verilen eğitim bursları hangi kurum veya kuruluşlar tarafından sağlanmaktadır?",
+    "beklenen_kelimeler": [
+      "Kamu kurum-kuruluşları",
+      "Sivil Toplum Kuruluşları",
+      "Gerçek ve Tüzel kişiler",
+      "Dernek ve Vakıflar"
+    ],
+    "kaynak": "BURSLAR_1dcb63da.md"
+  },
+  {
+    "id": 5,
+    "soru": "Kısmi zamanlı çalışma programına başvuran öğrenciler ne tür işlerde çalıştırılmaktadır?",
+    "beklenen_kelimeler": [
+      "geçici işlerde"
+    ],
+    "kaynak": "BURSLAR_1dcb63da.md"
+  },
+  {
+    "id": 6,
+    "soru": "Öğrenci e-posta adresi için kullanılan varsayılan kullanıcı adı formatı nedir?",
+    "beklenen_kelimeler": [
+      "ogrencinumarasi@ogr.btu.edu.tr"
+    ],
+    "kaynak": "Ders_Kaydı_SSS_03654cab.md"
+  },
+  {
+    "id": 7,
+    "soru": "Ders kaydı yapmayan bir öğrencinin sistemdeki öğrencilik durumu nasıl görünür?",
+    "beklenen_kelimeler": [
+      "Pasif"
+    ],
+    "kaynak": "Ders_Kaydı_SSS_03654cab.md"
+  },
+  {
+    "id": 8,
+    "soru": "AGNO değeri en az kaç olan öğrenciler üst yarıyıllardan ders alabilirler?",
+    "beklenen_kelimeler": [
+      "3,00"
+    ],
+    "kaynak": "Ders_Kaydı_SSS_03654cab.md"
+  },
+  {
+    "id": 9,
+    "soru": "Kayıt dondurma başvurusu en geç ne zamana kadar ilgili bölüm başkanlığına yapılmalıdır?",
+    "beklenen_kelimeler": [
+      "ders ekleme bırakma süresi"
+    ],
+    "kaynak": "Ders_Kaydı_SSS_03654cab.md"
+  },
+  {
+    "id": 10,
+    "soru": "Bursa Teknik Üniversitesi'nde güncel verilviere göre toplam kaç öğrenci topluluğu bulunmaktadır?",
+    "beklenen_kelimeler": [
+      "91"
+    ],
+    "kaynak": "Sayılarla_9bc77f99.md"
+  },
+    {
+    "id": 11,
+    "soru": "Kütüphanede öğrenciler bir seferde en fazla kaç kitap ve kaç günlüğüne ödünç alabilir?",
+    "beklenen_kelimeler": [
+      "5",
+      "15"
+    ],
+    "kaynak": "Ödünç_f1449080.md"
+  },
+  {
+    "id": 12,
+    "soru": "BTÜ psikolojik danışma ve rehberlik hizmetleri ücretli mi?",
+    "beklenen_kelimeler": [
+      "ücretsizdir"
+    ],
+    "kaynak": "PSİKOLOJİK_DANIŞMA_ve_REHBERLİK_cff379e8.md"
+  },
+  {
+    "id": 13,
+    "soru": "PDR biriminde yapılan görüşmeler ne kadar sürmektedir?",
+    "beklenen_kelimeler": [
+      "40",
+      "50"
+    ],
+    "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+  },
+  {
+    "id": 14,
+    "soru": "Öğrenci yemekhanelerinde öğle yemeği servisi hangi saatler arasında verilmektedir?",
+    "beklenen_kelimeler": [
+      "11.05",
+      "14:00"
+    ],
+    "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+  },
+  {
+    "id": 15,
+    "soru": "Üniversite reviri hangi günler ve saatler arasında hizmet vermektedir?",
+    "beklenen_kelimeler": [
+      "08.00",
+      "17.00"
+    ],
+    "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+  },
+  {
+    "id": 16,
+    "soru": "Kütüphanede ayırtılan (rezerve edilen) bir kitap kaç gün içinde alınmazsa ayırtma kaydı sona erer?",
+    "beklenen_kelimeler": [
+      "3"
+    ],
+    "kaynak": "SSS_f52ffed2.md"
+  },
+  {
+    "id": 17,
+    "soru": "Yıldırım Bayezid Yerleşkesinde spor yapmak isteyen öğrenciler hangi tesislerden yararlanabilir?",
+    "beklenen_kelimeler": [
+      "Kapalı Spor Salonu",
+      "Halı Saha"
+    ],
+    "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+  },
+  {
+    "id": 18,
+    "soru": "Kütüphane kullanıcıları gecikme borçları 10 TL'yi geçerse ne olur?",
+    "beklenen_kelimeler": [
+      "kitap ödünç-iade hizmetinden faydalanamayacaktır"
+    ],
+    "kaynak": "SSS_f52ffed2.md"
+  },
+  {
+    "id": 19,
+    "soru": "Teknofest yarışma finallerine katılmaya hak kazanan öğrencilere üniversite hangi destekleri sağlamaktadır?",
+    "beklenen_kelimeler": [
+      "ulaşım",
+      "barınma"
+    ],
+    "kaynak": "GÖREV_VE_SORUMLULUKLAR_5feec11e.md"
+  },
+  {
+    "id": 20,
+    "soru": "Öğrenci yurt imkânı var mı, yoksa alternatif ne önerilmektedir?",
+    "beklenen_kelimeler": [
+      "bulunmamaktadır",
+      "inşaatı devam etmektedir"
+    ],
+    "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+  },  
+  {
+    "id": 21,
+    "soru": "Akademik personel kütüphaneden bir seferde en fazla kaç kitap ve kaç günlüğüne ödünç alabilir?",
+    "beklenen_kelimeler": [
+      "10"
+    ],
+    "kaynak": "Ödünç_f1449080.md"
+  },
+  {
+    "id": 22,
+    "soru": "Kütüphanede kaç kez geciktirme yapan öğrenci o dönem boyunca ödünç hizmetinden yararlanamaz?",
+    "beklenen_kelimeler": [
+      "dönem"
+    ],
+    "kaynak": "Ödünç_f1449080.md"
+  },
+  {
+    "id": 23,
+    "soru": "Birinci öğretim programlarında Türkiye Cumhuriyeti uyruklu öğrenciler katkı payı ödemek zorunda mı?",
+    "beklenen_kelimeler": [
+      "muaftır"
+    ],
+    "kaynak": "Öğrenim_ÜcretiKatkı_Payı_Bilgilendirme_d4237d01.md"
+  },
+  {
+    "id": 24,
+    "soru": "BTÜ'de toplam kaç yüksek lisans programı bulunmaktadır?",
+    "beklenen_kelimeler": [
+      "46"
+    ],
+    "kaynak": "Yüksek_Lisans_Programları_9506698f.md"
+  },
+  {
+    "id": 25,
+    "soru": "BTU da oryantasyon programı var mı?",
+    "beklenen_kelimeler": [
+      "oryantasyon programı düzenlenmektedir"
+    ],
+    "kaynak": "ORYANTASYON_b73a4b29.md"
+  },
+  {
+    "id": 26,
+    "soru": "Kütüphanede ödünç süresi uzatılabilen materyaller için öğrenciler kaç kez uzatma hakkına sahiptir?",
+    "beklenen_kelimeler": [
+      "3"
+    ],
+    "kaynak": "Ödünç_f1449080.md"
+  },
+  {
+    "id": 27,
+    "soru": "BTÜ'de lisansüstü öğrenci sayısı toplam öğrenci sayısının yüzde kaçını oluşturmaktadır?",
+    "beklenen_kelimeler": [
+      "23"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Lisansüstü_Eğitim_Enstitüsü_5f11dc71.md"
+  },
+  {
+    "id": 28,
+    "soru": "Engelli öğrenciler katkı payı konusunda nasıl bir muafiyetten yararlanmaktadır?",
+    "beklenen_kelimeler": [
+      "katkı payı alınmaz|muaftır|muafdır|ödemez|ücretsizdir"
+    ],
+    "kaynak": "Öğrenim_ÜcretiKatkı_Payı_Bilgilendirme_d4237d01.md"
+  },
+  {
+    "id": 29,
+    "soru": "Yabancı uyruklu öğrencilerden not ortalaması 3,50 ve üzeri olanlara öğrenim ücretinde ne kadar indirim uygulanmaktadır?",
+    "beklenen_kelimeler": [
+      "%50"
+    ],
+    "kaynak": "Öğrenim_ÜcretiKatkı_Payı_Bilgilendirme_d4237d01.md"
+  },
+  {
+    "id": 30,
+    "soru": "Kütüphanede sözlük, ansiklopedi ve indeks gibi müracaat eserleri ödünç alınabilir mi?",
+    "beklenen_kelimeler": [
+      "Ödünç Verilemeyecek | ödünç verilemez"
+    ],
+    "kaynak": "Ödünç_f1449080.md"
+  },
+  {
+    "id": 31,
+    "soru": "BTÜ web sitesinde hangi işletim sistemleri için Eduroam kurulum ayarları rehberi bulunmaktadır?",
+    "beklenen_kelimeler": [
+      "Windows",
+      "Ubuntu",
+      "Mac OS X",
+      "Iphone",
+      "Nokia Symbian"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Eduroam_03f1bd5d.md"
+  },
+  {
+    "id": 32,
+    "soru": "Üniversitenin Psikolojik Danışma ve Rehberlik Biriminde görev yapan uzman psikolog kimdir?",
+    "beklenen_kelimeler": [
+      "Nesrin TÜRKER"
+    ],
+    "kaynak": "PSİKOLOJİK_DANIŞMA_ve_REHBERLİK_cff379e8.md"
+  },
+  {
+    "id": 33,
+    "soru": "BTÜ bünyesinde hizmet veren uzman diyetisyenin ismi nedir ve kendisiyle hangi dahili numaradan iletişime geçilebilir?",
+    "beklenen_kelimeler": [
+      "Meryem YAKUPOĞLU",
+      "300 32 57"
+    ],
+    "kaynak": "BESLENME_VE_DİYETETİK_5aba7061.md"
+  },
+  {
+    "id": 34,
+    "soru": "Bursa Teknik Üniversitesi'nin indirim sözleşmesi yaptığı anlaşmalı sağlık kurumlarından 3 tanesini belirtiniz.",
+    "beklenen_kelimeler": [
+      "Doruk Sağlık Grubu | Özel Hayat Hastanesi | ÖZLÜCE JİMER TIP MERKEZİ | ÖZEL MEDİCABİL HASTANESİ | CEYLAN HOSPİTAL | ÖZEL MEDİCANA | MEHMET ÖNAL DİŞ KLİNİĞİ | ÖZEL EYRİCEDİŞ AĞIZ VE DİŞ SAĞLIĞI MERKEZİ | TEMELDENT Ağız ve Diş Sağlığı Polikliniği | HOSPİTADENT Sağlık Grubu | ÖZEL MEDİCABİL YILDIRIM HASTANESİ | BURSA ROMATEM FİZİK TEDAVİ VE REHABİLİTASYON HASTANESİ | KLİNİK 23 NİSAN AĞIZ VE DİŞ SAĞLIĞI POLİKLİNİĞİ"
+    ],
+    "kaynak": "ANLAŞMALI_SAĞLIK_KURUMLARI_c37ee51d.md"
+  },
+  {
+    "id": 35,
+    "soru": "Merkezi Araştırma Laboratuvarı'na (MERLAB) test ve analiz başvuruları için hangi e-posta adresi üzerinden ulaşılmaktadır?",
+    "beklenen_kelimeler": [
+      "merlab@btu.edu.tr"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Merkezi_Araştırma_Laboratuvarı_Müdürlüğü_270eafc8.md"
+  },
+  {
+    "id": 36,
+    "soru": "2026 yılı verilerine göre Bursa Teknik Üniversitesi'nde toplam kaç akademik personel görev yapmaktadır?",
+    "beklenen_kelimeler": [
+      "593"
+    ],
+    "kaynak": "Sayılarla_9bc77f99.md"
+  },
+  {
+    "id": 37,
+    "soru": "Üniversitenin 2026 yılındaki toplam mevcut öğrenci sayısı kaçtır?",
+    "beklenen_kelimeler": [
+      "12467"
+    ],
+    "kaynak": "Sayılarla_9bc77f99.md"
+  },
+  {
+    "id": 38,
+    "soru": "Erasmus+ öğrenim ve staj hareketliliği başvuruları hangi web sitesi üzerinden gerçekleştirilmektedir?",
+    "beklenen_kelimeler": [
+      "erasmus.btu.edu.tr"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Erasmus_Ofisi_1598dda2.md"
+  },
+  {
+    "id": 39,
+    "soru": "Değişim programları için yapılacak olan yabancı dil sınavının tarihi nedir?",
+    "beklenen_kelimeler": [
+      "11 Nisan"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Erasmus_Ofisi_1598dda2.md"
+  },
+  {
+    "id": 40,
+    "soru": "Diyetisyenlik danışmanlık hizmeti hangi günlerde ve hangi ofiste verilmektedir?",
+    "beklenen_kelimeler": [
+      "Salı",
+      "Çarşamba",
+      "Mimar Sinan Yerleşkesi B Blok Z-21"
+    ],
+    "kaynak": "BESLENME_VE_DİYETETİK_5aba7061.md"
+  },
+   {
+    "id": 41,
+    "soru": "Üniversite kantinlerinde hangi ürünlerin fiyatı idare tarafından belirlenmektedir?",
+    "beklenen_kelimeler": [
+      "Çay",
+      "Su",
+      "Poğaça",
+      "Simit"
+    ],
+    "kaynak": "KANTİN_KAFETERYA_beca9cec.md"
+  },
+  {
+    "id": 42,
+    "soru": "Turnitin sistemine yüklenecek bir dosya en fazla kaç sayfa olabilir?",
+    "beklenen_kelimeler": [
+      "400"
+    ],
+    "kaynak": "Benzerlik_Tespit_Programları_ed792acf.md"
+  },
+  {
+    "id": 43,
+    "soru": "iThenticate sisteminde kota hesaplanırken kaç kelime 1 doküman sayılmaktadır?",
+    "beklenen_kelimeler": [
+      "25.000"
+    ],
+    "kaynak": "Benzerlik_Tespit_Programları_ed792acf.md"
+  },
+  {
+    "id": 44,
+    "soru": "Bilgisayar Mühendisliği bölümünün aday öğrenci sayfasındaki güncel kontenjanı kaçtır?",
+    "beklenen_kelimeler": [
+      "90"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Aday_Öğrenci_Bilgisayar_Mühendisliği_Bölümü_10bdc406.md"
+  },
+  {
+    "id": 45,
+    "soru": "Proje Destek Ofisi (PDO) verilerine göre sistemde kayıtlı toplam proje sayısı kaçtır?",
+    "beklenen_kelimeler": [
+      "786"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Proje_Destek_Ofisi_Koordinatörlüğü_7b75936a.md"
+  },
+  {
+    "id": 46,
+    "soru": "12. Rektörlük ve Gençlik Kupası spor turnuvalarında düzenlenen tüm branşlar nelerdir?",
+    "beklenen_kelimeler": [
+      "Futbol",
+      "Basketbol",
+      "Voleybol",
+      "Masa Tenisi",
+      "Satranç"
+    ],
+    "kaynak": "BTÜ_12_Rektörlük_ve_Gençlik_Kupası_Spor_Turnuvaları_Başlıyor_3e74ad4a.md"
+  },
+  {
+    "id": 47,
+    "soru": "Yabancı Diller Yüksekokulu akademik takvimine göre 4. Çeyrek dönem başlangıç tarihi nedir?",
+    "beklenen_kelimeler": [
+      "13 Nisan"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Yabancı_Diller_Yüksekokulu_d4d6338b.md"
+  },
+  {
+    "id": 48,
+    "soru": "Turnitin sistemine kayıt olmak ve şifre talebinde bulunmak için hangi e-posta adresine başvurulmalıdır?",
+    "beklenen_kelimeler": [
+      "ekaynaklar@btu.edu.tr"
+    ],
+    "kaynak": "Benzerlik_Tespit_Programları_ed792acf.md"
+  },
+  {
+    "id": 49,
+    "soru": "Rektörlük ve Gençlik Kupası spor turnuvalarında voleybol branşı için karma (mix) takım başvurusu yapılabilir mi?",
+    "beklenen_kelimeler": [
+      "yapılabilir"
+    ],
+    "kaynak": "BTÜ_12_Rektörlük_ve_Gençlik_Kupası_Spor_Turnuvaları_Başlıyor_3e74ad4a.md"
+  },
+  {
+    "id": 50,
+    "soru": "Bilgisayar Mühendisliği bölümünün taban başarı sıralaması kaçtır?",
+    "beklenen_kelimeler": [
+      "62441"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Aday_Öğrenci_Bilgisayar_Mühendisliği_Bölümü_10bdc406.md"
+  }
+]

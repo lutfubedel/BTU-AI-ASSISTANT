@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "soru": "Kütüphanede öğrenciler bir seferde en fazla kaç kitap ve kaç günlüğüne ödünç alabilir?",
+    "beklenen_kelimeler": [
+      "5",
+      "15"
+    ],
+    "kaynak": "Ödünç_f1449080.md"
+  },
+  {
+    "id": 2,
+    "soru": "BTÜ psikolojik danışma ve rehberlik hizmetleri ücretli mi?",
+    "beklenen_kelimeler": [
+      "ücretsiz"
+    ],
+    "kaynak": "PSİKOLOJİK_DANIŞMA_ve_REHBERLİK_cff379e8.md"
+  },
+  {
+    "id": 3,
+    "soru": "PDR biriminde yapılan görüşmeler ne kadar sürmektedir?",
+    "beklenen_kelimeler": [
+      "40",
+      "50"
+    ],
+    "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+  },
+  {
+    "id": 4,
+    "soru": "Öğrenci yemekhanelerinde öğle yemeği servisi hangi saatler arasında verilmektedir?",
+    "beklenen_kelimeler": [
+      "11.05",
+      "14:00"
+    ],
+    "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+  },
+  {
+    "id": 5,
+    "soru": "Üniversite reviri hangi günler ve saatler arasında hizmet vermektedir?",
+    "beklenen_kelimeler": [
+      "08.00",
+      "17.00"
+    ],
+    "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+  },
+  {
+    "id": 6,
+    "soru": "Kütüphanede ayırtılan (rezerve edilen) bir kitap kaç gün içinde alınmazsa ayırtma kaydı sona erer?",
+    "beklenen_kelimeler": [
+      "3"
+    ],
+    "kaynak": "SSS_f52ffed2.md"
+  },
+  {
+    "id": 7,
+    "soru": "Yıldırım Bayezid Yerleşkesinde spor yapmak isteyen öğrenciler hangi tesislerden yararlanabilir?",
+    "beklenen_kelimeler": [
+      "Kapalı Spor Salonu",
+      "Halı Saha"
+    ],
+    "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+  },
+  {
+    "id": 8,
+    "soru": "Kütüphane kullanıcıları gecikme borçları 10 TL'yi geçerse ne olur?",
+    "beklenen_kelimeler": [
+      "kitap ödünç-iade hizmetinden faydalanamayacaktır"
+    ],
+    "kaynak": "SSS_f52ffed2.md"
+  },
+  {
+    "id": 9,
+    "soru": "Teknofest yarışma finallerine katılmaya hak kazanan öğrencilere üniversite hangi destekleri sağlamaktadır?",
+    "beklenen_kelimeler": [
+      "ulaşım",
+      "barınma"
+    ],
+    "kaynak": "GÖREV_VE_SORUMLULUKLAR_5feec11e.md"
+  },
+  {
+    "id": 10,
+    "soru": "Öğrenci yurt imkânı var mı, yoksa alternatif ne önerilmektedir?",
+    "beklenen_kelimeler": [
+      "bulunmamaktadır",
+      "inşaatı devam etmektedir"
+    ],
+    "kaynak": "Sıkça_Sorulan_Sorular_bd0154cd.md"
+  }
+]

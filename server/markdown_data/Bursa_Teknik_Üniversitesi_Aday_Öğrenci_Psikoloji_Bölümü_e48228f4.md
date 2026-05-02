@@ -21,8 +21,8 @@ Psikoloji Bölümü İngilizce Mütercim ve Tercümanlık Bölümü
 BÖLÜMDEN HABERLER **Lisansüstü’nde Mezuniyet Gururu**
 - **BTÜ’den 8 Akademisyen Dünyanın En İyileri Arasında**
 - **BTÜ Tercih Günleri Başlıyor**
+- **İnsan ve Toplum Bilimleri Fakültesi'nde “Mezunlar Buluşması”nın İlki Gerçekleştirildi.**
 - **Bursa Teknik Üniversitesine YÖKAK’tan 5 Yıllık Tam Akreditasyon**
-- **Mezuniyet Sevinci ve 15. Yıl Gururu Bir Arada**
 
 İngilizce Hazırlık Sınıfı Başarılar TTO - Girişimcilik Eğitimi Laboratuvarlar Yurtdışı Olanaklar ÇAP / Yandal / Yatay Geçiş
 

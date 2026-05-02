@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "soru": "Üniversite kantinlerinde hangi ürünlerin fiyatı idare tarafından belirlenmektedir?",
+    "beklenen_kelimeler": [
+      "Çay",
+      "Su",
+      "Poğaça",
+      "Simit"
+    ],
+    "kaynak": "KANTİN_KAFETERYA_beca9cec.md"
+  },
+  {
+    "id": 2,
+    "soru": "Turnitin sistemine yüklenecek bir dosya en fazla kaç sayfa olabilir?",
+    "beklenen_kelimeler": [
+      "400"
+    ],
+    "kaynak": "Benzerlik_Tespit_Programları_ed792acf.md"
+  },
+  {
+    "id": 3,
+    "soru": "iThenticate sisteminde kota hesaplanırken kaç kelime 1 doküman sayılmaktadır?",
+    "beklenen_kelimeler": [
+      "25.000"
+    ],
+    "kaynak": "Benzerlik_Tespit_Programları_ed792acf.md"
+  },
+  {
+    "id": 4,
+    "soru": "Bilgisayar Mühendisliği bölümünün aday öğrenci sayfasındaki güncel kontenjanı kaçtır?",
+    "beklenen_kelimeler": [
+      "90"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Aday_Öğrenci_Bilgisayar_Mühendisliği_Bölümü_10bdc406.md"
+  },
+  {
+    "id": 5,
+    "soru": "Proje Destek Ofisi (PDO) verilerine göre sistemde kayıtlı toplam proje sayısı kaçtır?",
+    "beklenen_kelimeler": [
+      "786"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Proje_Destek_Ofisi_Koordinatörlüğü_7b75936a.md"
+  },
+  {
+    "id": 6,
+    "soru": "12. Rektörlük ve Gençlik Kupası spor turnuvalarında düzenlenen tüm branşlar nelerdir?",
+    "beklenen_kelimeler": [
+      "Futbol",
+      "Basketbol",
+      "Voleybol",
+      "Masa Tenisi",
+      "Satranç"
+    ],
+    "kaynak": "BTÜ_12_Rektörlük_ve_Gençlik_Kupası_Spor_Turnuvaları_Başlıyor_3e74ad4a.md"
+  },
+  {
+    "id": 7,
+    "soru": "Yabancı Diller Yüksekokulu akademik takvimine göre 4. Çeyrek dönem başlangıç tarihi nedir?",
+    "beklenen_kelimeler": [
+      "13 Nisan"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Yabancı_Diller_Yüksekokulu_d4d6338b.md"
+  },
+  {
+    "id": 8,
+    "soru": "Turnitin sistemine kayıt olmak ve şifre talebinde bulunmak için hangi e-posta adresine başvurulmalıdır?",
+    "beklenen_kelimeler": [
+      "ekaynaklar@btu.edu.tr"
+    ],
+    "kaynak": "Benzerlik_Tespit_Programları_ed792acf.md"
+  },
+  {
+    "id": 9,
+    "soru": "Rektörlük ve Gençlik Kupası spor turnuvalarında voleybol branşı için karma (mix) takım başvurusu yapılabilir mi?",
+    "beklenen_kelimeler": [
+      "yapılabilir"
+    ],
+    "kaynak": "BTÜ_12_Rektörlük_ve_Gençlik_Kupası_Spor_Turnuvaları_Başlıyor_3e74ad4a.md"
+  },
+  {
+    "id": 10,
+    "soru": "Bilgisayar Mühendisliği bölümünün taban başarı sıralaması kaçtır?",
+    "beklenen_kelimeler": [
+      "62441"
+    ],
+    "kaynak": "Bursa_Teknik_Üniversitesi_Aday_Öğrenci_Bilgisayar_Mühendisliği_Bölümü_10bdc406.md"
+  }
+]

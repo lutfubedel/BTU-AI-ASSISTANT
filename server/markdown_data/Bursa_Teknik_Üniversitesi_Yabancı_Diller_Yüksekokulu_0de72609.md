@@ -56,9 +56,3 @@ Mart2026
 - _24 Haziran_ **Bahar Yarıyılı Sonu Yabancı Dil Sınavı (BTÜYDS) – II. Oturum ve III. Oturum**
 - _13 Temmuz_ **Bütünleme Yabancı Dil Sınavı (BTÜYDS) – I. Oturum (Lisansüstü Başvuruda Kullanılabilir)**
 - _14 Temmuz_ **Bütünleme Yabancı Dil Sınavı (BTÜYDS) – II. Oturum ve III. Oturum**
-
-## Pecha Kucha Etkinliğine Davetlisiniz!
-
-×
-
-OKNoCancel

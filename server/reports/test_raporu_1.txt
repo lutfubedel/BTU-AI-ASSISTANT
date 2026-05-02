@@ -1,0 +1,85 @@
+=================================================
+ BTÜ ON-PREMISE RAG ASİSTANI - GÜNCEL PERFORMANS RAPORU 
+=================================================
+
+Soru 1: Üniversite kütüphanesinde kullanım için toplam kaç adet masaüstü bilgisayar bulunmaktadır?
+Yanıt Süresi: 12.29 saniye
+Cevap: BTÜ kütüphanesinde kullanıcıların hizmetine sunulan 30 adet masaüstü bilgisayar bulunmaktadır. Ayrıca giriş katta öğrenciler için 5 adet, personel için 2 adet katalog tarama bilgisayarı mevcuttur.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 2: Kütüphanede ödünç alınan bir kitabın günü geçerse günlük ne kadar gecikme cezası uygulanır?
+Yanıt Süresi: 15.85 saniye
+Cevap: Kütüphaneye yapılacak olan kitap gecikmelerinden kaynaklı idari para cezaları için ödenecek ceza, iade tarihinden itibaren her geçen gün için kullanıcılardan 0,50 TL'dir. Oluşan borcun 10 TL'yi geçmesi halinde ilgili kullanıcı borcunu ödeyene kadar kitap ödünç-iade hizmetinden faydalanamayacaktır.
+
+Kaynak URL: https://kutuphane.btu.edu.tr/tr/sayfa/detay/3818/borc-odeme, https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 3: Öğrenci kimlik kartımı kütüphane dışında hangi işlemler için yanımda bulundurmam zorunludur?
+Yanıt Süresi: 13.11 saniye
+Cevap: BTÜ öğrenci kimlik kartı, kampüs giriş kapıları, yemek hizmetleri, kütüphaneden ödünç kitap alma, çalışma odası kullanma, sınavlar vb. işlemlerinizde yanınızda bulundurulması gerekmektedir.
+
+Kaynak URL: https://idari.btu.edu.tr/tr/oidb/sayfa/detay/7791/ders-kaydi-sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 4: Üniversite bünyesinde verilen eğitim bursları hangi kurum veya kuruluşlar tarafından sağlanmaktadır?
+Yanıt Süresi: 18.34 saniye
+Cevap: BTÜ'nün sağladığı herhangi bir burs imkanı bulunmamaktadır. Ancak Kamu kurum-kuruluşları, Sivil Toplum Kuruluşları, Gerçek ve Tüzel kişiler ile Dernek ve Vakıflar tarafından verilen karşılıksız bursları hakkında öğrencilerimize güncel duyuru yapılmaktadır. Ayrıca, eğitim bursları kamu kurum-kuruluşları, sivil toplum kuruluşları, gerçek ve tüzel kişiler ile dernek ve vakıflar tarafından verilen karşılıksız nakit para burslarıdır. Bu burslar için öğrenci seçimi, bursu verenler ile Burs Değerlendirme Komisyonu tarafından yapılmaktadır.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss, https://sks.btu.edu.tr/tr/sayfa/detay/4377/gorev-ve-sorumluluk
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 5: Kısmi zamanlı çalışma programına başvuran öğrenciler ne tür işlerde çalıştırılmaktadır?
+Yanıt Süresi: 15.29 saniye
+Cevap: Sağlanan belgelerde, öğrencilerin ilgi ve yetenekleri doğrultusunda Üniversite bünyesinde geçici işlerde çalıştırıldıkları belirtilmektedir. Ancak hangi spesifik işlerde çalıştıklarına dair bir bilgi bulunmamaktadır.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4377/gorev-ve-sorumluluk, https://sks.btu.edu.tr/tr/sayfa/detay/4433/burslar, https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 6: Öğrenci e-posta adresi için kullanılan varsayılan kullanıcı adı formatı nedir?
+Yanıt Süresi: 13.74 saniye
+Cevap: BTÜ'ye kayıt yaptıktan sonra öğrenci e-posta adresiniz "ogrencinumarasi@ogr.btu.edu.tr" formatında açılır. İlk şifreniz ise "BtuTCkimliknoilk5rakam!" formatındadır ve bu şifre size 6 saat içerisinde e-posta veya SMS yoluyla iletilir.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/7791/ders-kaydi-sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 7: Ders kaydı yapmayan bir öğrencinin sistemdeki öğrencilik durumu nasıl görünür?
+Yanıt Süresi: 12.65 saniye
+Cevap: Ders kaydınızı yapmadan önce öğrencilik durumunuz “Pasif” olarak gözükecektir. Eğitim öğretim başlayıp ders kaydınızı tamamladığınızda öğrencilik durumunuz otomatik olarak “Aktif” konuma düşecektir.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/7791/ders-kaydi-sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 8: AGNO değeri en az kaç olan öğrenciler üst yarıyıllardan ders alabilirler?
+Yanıt Süresi: 11.74 saniye
+Cevap: AGNO'su 3,00'dan az olan öğrenciler üst yarıyıllardan ders alamazlar.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/7791/ders-kaydi-sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 9: Kayıt dondurma başvurusu en geç ne zamana kadar ilgili bölüm başkanlığına yapılmalıdır?
+Yanıt Süresi: 15.86 saniye
+Cevap: Ders kaydı yapılıp yapılmadığına bakılmaksızın, öğrencinin izinden yararlanabilmesi için durumunu belirten dilekçesi ve belgeleri ile birlikte ilgili bölüm başkanlığına en geç ilgili yarıyılın ders ekleme bırakma süresi bitimine kadar yazılı başvurması gereklidir. Ancak izin gerekçesinin ders ekleme bırakma süresi bitiminden sonra ortaya çıkması durumunda başvuru için süre kısıtlaması yoktur.
+
+Kaynak : https://idari.btu.edu.tr/tr/oidb/sayfa/detay/7791/ders-kaydi-sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 10: Bursa Teknik Üniversitesi'nde güncel verilviere göre toplam kaç öğrenci topluluğu bulunmaktadır?
+Yanıt Süresi: 9.02 saniye
+Cevap: Bursa Teknik Üniversitesi'nde 91 öğrenci topluluğu bulunmaktadır.
+
+Kaynak : https://www.btu.edu.tr/
+Durum: BAŞARILI
+--------------------------------------------------
+
+==================================================
+ 📊 GENEL PERFORMANS METRİKLERİ (GÜNCELLENMİŞ)
+==================================================
+Toplam Test Edilen Soru : 10
+Başarılı API Yanıtı     : 10
+Ortalama Yanıt Süresi   : 13.79 saniye
+Kaynak Gösterme Oranı   : %100.0 (Hedef: > %90)
+Doğruluk Oranı          : %100.0 (Hedef: > %85)
+Olası Halüsinasyon Oranı: %0.0 (Hedef: < %15)
+==================================================

@@ -7,7 +7,8 @@ category: Duyuru/Haber
 
 #     BTU | Duyurular
 
-Duyurular 23.02.2026 **Lisansüstü Eğitim 2025-2026 Bahar Yarıyılı Ders Kayıtları**
+Duyurular 04.03.2026 **Lisansüstü Eğitim Enstitüsü 2025-2026 Bahar Yarıyılı Oryantasyon Programı**
+- 23.02.2026 **Lisansüstü Eğitim 2025-2026 Bahar Yarıyılı Ders Kayıtları**
 - 19.02.2026 **2025-2026 Bahar Yarıyılı Lisansüstü Özel Öğrenci Statüsünde Ders Kayıt Başvuruları**
 - 18.02.2026 **2025-2026Bahar Yarıyılı 2.Yedek Listeden Kayıt Hakkı Kazanan Lisansüstü Öğrenci Kayıt İşlemleri**
 - 17.02.2026 **2025-2026 Bahar Yarıyılı Yedek Listeden Kayıt Hakkı Kazanan Tezsiz Yüksek Lisans Kayıt İşlemleri**
@@ -18,4 +19,3 @@ Duyurular 23.02.2026 **Lisansüstü Eğitim 2025-2026 Bahar Yarıyılı Ders Kay
 - 09.02.2026 **2025-2026 Eğitim-Öğretim Bahar Yarıyılı Lisansüstü Öğrenci Kayıt İşlemleri**
 - 06.02.2026 **2025-2026 Eğitim-Öğretim Bahar Yarıyılı Lisansüstü Öğrenci Alımı Sonuçları**
 - 04.02.2026 **2025-2026 Bahar Yarıyılı Lisansüstü Öğrenci Alımı Bilimsel Değerlendirme Sınav Sonuçları**
-- 02.02.2026 **2025-2026 Bahar Yarıyılı Lisansüstü Bütünleme Sınav Programı**

@@ -1,0 +1,94 @@
+=================================================
+ BTÜ ON-PREMISE RAG ASİSTANI - GÜNCEL PERFORMANS RAPORU 
+=================================================
+
+Soru 1: Kütüphanede öğrenciler bir seferde en fazla kaç kitap ve kaç günlüğüne ödünç alabilir?
+Yanıt Süresi: 13.90 saniye
+Cevap: Öğrenciler 5 kitap 15 gün süreyle ödünç alabilirler. Ödünç alınan materyalin süresi, öğrenciler için en çok 3 kez 15 gün uzatılabilir.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/3696/odunc, https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 2: BTÜ psikolojik danışma ve rehberlik hizmetleri ücretli mi?
+Yanıt Süresi: 14.52 saniye
+Cevap: BTÜ'de psikolojik danışma hizmetleri **ücretsizdir**. Mimar Sinan Yerleşkesi'nde iki psikolog tarafından verilen bu hizmetlerden randevulu sistemle faydalanabilirsiniz. Daha fazla bilgi için [https://sks.btu.edu.tr/tr/sayfa/detay/4377/gorev-ve-sorumluluk](https://sks.btu.edu.tr/tr/sayfa/detay/4377/gorev-ve-sorumluluk) adresini ziyaret edebilirsiniz.
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 3: PDR biriminde yapılan görüşmeler ne kadar sürmektedir?
+Yanıt Süresi: 13.11 saniye
+Cevap: Psikolojik Danışma ve Rehberlik Hizmetleri kapsamında yapılan görüşmeler 40 – 50 dakika sürmektedir.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss, https://sks.btu.edu.tr/tr/sayfa/detay/4394/psi̇koloji̇k-danisma-ve-rehberli̇k
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 4: Öğrenci yemekhanelerinde öğle yemeği servisi hangi saatler arasında verilmektedir?
+Yanıt Süresi: 12.71 saniye
+Cevap: Öğrenci yemekhanesi öğle yemeği saatleri 11.05-14.00'dir.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss, https://sks.btu.edu.tr/tr/sayfa/detay/4398/beslenme
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 5: Üniversite reviri hangi günler ve saatler arasında hizmet vermektedir?
+Yanıt Süresi: 26.28 saniye
+Cevap: BTÜ revirlerinin çalışma saatleri ve günleri aşağıdaki gibidir:
+
+*   **Genel Revir Çalışma Saatleri:**
+    *   Hafta içi her gün: 08.00-12.00 ve 13.00-17.00
+*   **Mimar Sinan Yerleşkesi Reviri:** B Blok Z-21 No’lu Ofis – Tel No: 300 36 43
+*   **Yıldırım Bayezid Yerleşkesi Reviri:** A Blok 116 No’lu Ofis – Tel No: 300 35 51
+*   **İş Yeri Hekimi Çalışma Saatleri:** Salı günü Yıldırım Bayezid Yerleşkesi, perşembe günü Mimar Sinan Yerleşkesinde 12.00-13.00 saatleri arasında hizmet vermektedir.
+
+Kaynak: [http://depo.btu.edu.tr/dosyalar/sks/Dosyalar/SKS%202015%20Y%C4%B1l%C4%B1%20Faaliyet%20Raporu(2).pdf](http://depo.btu.edu.tr/dosyalar/sks/Dosyalar/SKS%202015%20Y%C4%B1l%C4%B1%20Faaliyet%20Raporu(2).pdf)
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 6: Kütüphanede ayırtılan (rezerve edilen) bir kitap kaç gün içinde alınmazsa ayırtma kaydı sona erer?
+Yanıt Süresi: 11.99 saniye
+Cevap: Ayırtma (rezerve) yaptığınız kitabın kütüphane rafinda kalma süresi 3 gündür. 3 gün içinde alınmadığı takdirde ayırtma kaydı sona erer.
+
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 7: Yıldırım Bayezid Yerleşkesinde spor yapmak isteyen öğrenciler hangi tesislerden yararlanabilir?
+Yanıt Süresi: 16.22 saniye
+Cevap: Yıldırım Bayezid Yerleşkesinde 3.645m² alana sahip kapalı spor salonu, halı saha ve boks salonu öğrencilere hizmet vermektedir. Ayrıca, Yıldırım Bayezid Yerleşkesi Spor Salonu'nda Spor Koordinatörlüğü bulunmaktadır. İletişim için Öğr.Gör. Coşkun RODOPLU ile 224 808 11 16 numaralı telefondan veya coskun.rodoplu@btu.edu.tr e-posta adresinden iletişime geçilebilir.
+Kaynak URL: https://sks.btu.edu.tr/tr/sayfa/detay/4437/spor-hi̇zmetleri̇
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 8: Kütüphane kullanıcıları gecikme borçları 10 TL'yi geçerse ne olur?
+Yanıt Süresi: 12.04 saniye
+Cevap: Oluşan borcun 10 TL’yi geçmesi halinde ilgili kullanıcı borcunu ödeyene kadar kitap ödünç-iade hizmetinden faydalanamayacaktır.
+Kaynak : https://kutuphane.btu.edu.tr/tr/sayfa/detay/4131/sss
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 9: Teknofest yarışma finallerine katılmaya hak kazanan öğrencilere üniversite hangi destekleri sağlamaktadır?
+Yanıt Süresi: 27.81 saniye
+Cevap: Üniversitemiz, Teknofest yarışmalarına katılan öğrenciler için çeşitli destekler sağlamaktadır. Bu destekler şunları içermektedir:
+
+*   **Yarışmalara başvuru teşviki:** Öğrencileri, ulusal ve uluslararası teknoloji yarışmalarına başvurmaya teşvik etmek için periyodik duyurular yapılmaktadır.
+*   **Atölye desteği:** Yarışmalara hazırlanan takımların çalışmalarını sürdürdükleri atölyelere güvenlik, temizlik, ısınma ve aydınlatma hizmetleri sağlanmaktadır. Ayrıca teknik bakım, onarım ve arıza giderme hizmetleri de sunulmaktadır.
+*   **Yemek bursu:** Finallere hazırlık süreçlerinde, öğrencilere hafta sonu, yaz tatili ve resmi tatil günlerinde öğle ve akşam yemeği bursu desteği verilmektedir.
+*   **Teknoloji Yarışmaları Koordinatörlüğü:** Öğrenciler, Teknoloji Yarışmaları Koordinatörlüğüne (tyk@btu.edu.tr) başvurarak yarışma hazırlıkları hakkında detaylı bilgi alabilirler.
+
+Ayrıca, geçmiş yıllarda Teknofest yarışmalarında çeşitli dereceler elde eden öğrenci takımlarımız bulunmaktadır. Örneğin, 2022 yılında Vena Takımı Biyoteknoloji İnovasyon Yarışması Proje Kategorisi Birincisi, Yarayan Kana Takımı Hack Karadeniz Yarışması İkincisi ve Mom’s 6 Purty Takımı Biyoteknoloji İnovasyon Yarışması Proje Kategorisi Üçüncüsü ve En İyi Sunum Ödülü'nü kazanmıştır.
+Durum: OLASI HALÜSİNASYON / EKSİK BİLGİ
+--------------------------------------------------
+Soru 10: Öğrenci yurt imkânı var mı, yoksa alternatif ne önerilmektedir?
+Yanıt Süresi: 22.60 saniye
+Cevap: BTÜ'de şu anda hazırda yurt imkanı bulunmamaktadır. Ancak bir kız ve bir erkek olmak üzere iki adet öğrenci yurdu inşaatı devam etmektedir. Ayrıca, Sivil Toplum Kuruluşları, Gerçek ve Tüzel kişiler ile Dernek ve Vakıflar bünyesinde bulunan yurtlar hakkında bilgilendirme ve danışma desteği verilmektedir. Bursa merkezdeki Kredi ve Yurtlar Genel Müdürlüğüne Bağlı Yükseköğrenim Öğrenci Yurt Bilgileri için ilgili adrese başvurabilirsiniz.
+
+Orhangazi Erkek Öğrenci Yurdu 880 öğrenci kapasitesine sahip olup, 1985 yılında yapılmıştır. Emirsultan Erkek Öğrenci Yurdu ise 1112 öğrenci kapasitesine sahiptir ve 2013 yılında hizmete girmiştir. Mehmed Zahid Kotku Erkek Öğrenci Yurdu 654 öğrenci kapasitesine sahip ve 2015 yılında hizmete girmiştir.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/6050/sss, https://depo.btu.edu.tr/dosyalar/sks/Dosyalar/yurtlarbursakyk.pdf
+Durum: BAŞARILI
+--------------------------------------------------
+
+==================================================
+ 📊 GENEL PERFORMANS METRİKLERİ (GÜNCELLENMİŞ)
+==================================================
+Toplam Test Edilen Soru : 10
+Başarılı API Yanıtı     : 10
+Ortalama Yanıt Süresi   : 17.12 saniye
+Kaynak Gösterme Oranı   : %90.0 (Hedef: > %90)
+Doğruluk Oranı          : %90.0 (Hedef: > %85)
+Olası Halüsinasyon Oranı: %10.0 (Hedef: < %15)
+==================================================

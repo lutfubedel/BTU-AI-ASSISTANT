@@ -1,0 +1,87 @@
+=================================================
+ BTÜ ON-PREMISE RAG ASİSTANI - GÜNCEL PERFORMANS RAPORU 
+=================================================
+
+Soru 1: BTÜ web sitesinde hangi işletim sistemleri için Eduroam kurulum ayarları rehberi bulunmaktadır?
+Yanıt Süresi: 37.57 saniye
+Cevap: BTÜ Eduroam kurulum ayarları aşağıdaki işletim sistemleri için mevcuttur:
+
+*   Windows XP/Vista/7/8/10 için Eduroam Ayarları (17 Temmuz)
+*   Ubuntu için Eduroam Ayarları (17 Temmuz)
+*   Mac OS X için Eduroam Ayarları (17 Temmuz)
+*   Iphone için Eduroam Ayarları (12 Temmuz)
+*   Nokia Symbian İçin Eduroam Ayarları (29 Kasım)
+
+Kaynak : https://eduroam.btu.edu.tr/index.php, https://eduroam.btu.edu.tr/tr/duyuru/birim/158
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 2: Üniversitenin Psikolojik Danışma ve Rehberlik Biriminde görev yapan uzman psikolog kimdir?
+Yanıt Süresi: 32.48 saniye
+Cevap: BTÜ Psikolojik Danışma ve Rehberlik Birimi'nde Uzman Psikolog Nesrin TÜRKER bulunmaktadır. İletişim bilgileri:
+
+*   Tel No: 808 11 86
+*   E-Posta: nesrin.turker@btu.edu.tr
+*   Ofis: Z 19 Numaralı Ofis
+
+Kaynak : [https://sks.btu.edu.tr/tr/sayfa/detay/4394/psi̇koloji̇k-danisma-ve-rehberli̇k](https://sks.btu.edu.tr/tr/sayfa/detay/4394/psi̇koloji̇k-danisma-ve-rehberli̇k), [https://sks.btu.edu.tr/tr/sayfa/kadro](https://sks.btu.edu.tr/tr/sayfa/kadro)
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 3: BTÜ bünyesinde hizmet veren uzman diyetisyenin ismi nedir ve kendisiyle hangi dahili numaradan iletişime geçilebilir?
+Yanıt Süresi: 27.20 saniye
+Cevap: BTÜ uzman diyetisyen Meryem YAKUPOĞLU'nun telefon numarası 300 32 57'dir. E-posta adresi ise meryem.yakupoglu@btu.edu.tr'dir.
+
+Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4398/beslenme
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 4: Bursa Teknik Üniversitesi'nin indirim sözleşmesi yaptığı anlaşmalı sağlık kurumlarından 3 tanesini belirtiniz.
+Yanıt Süresi: 28.08 saniye
+Cevap: Üzgünüm, sağlanan belgelerde bu konu hakkında net bir bilgi bulamadım.
+Kaynak : http://depo.btu.edu.tr/dosyalar/sks/Dosyalar/2018%20B%C4%B0R%C4%B0M%20FAAL%C4%B0YET%20RAPORU.pdf, https://tercih.btu.edu.tr/tr/sayfa/detay/bolum/10074/fizik-bölümü, https://sks.btu.edu.tr
+Durum: OLASI HALÜSİNASYON / EKSİK BİLGİ
+--------------------------------------------------
+Soru 5: Merkezi Araştırma Laboratuvarı'na (MERLAB) test ve analiz başvuruları için hangi e-posta adresi üzerinden ulaşılmaktadır?
+Yanıt Süresi: 20.36 saniye
+Cevap: MERLAB test ve analiz başvuruları için merlab@btu.edu.tr adresinden ulaşabilirsiniz. Kaynak : https://merlab.btu.edu.tr/index.php
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 6: 2026 yılı verilerine göre Bursa Teknik Üniversitesi'nde toplam kaç akademik personel görev yapmaktadır?
+Yanıt Süresi: 16.48 saniye
+Cevap: Bursa Teknik Üniversitesi'nde 593 akademik personel bulunmaktadır.
+
+Kaynak : https://personel.btu.edu.tr
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 7: Üniversitenin 2026 yılındaki toplam mevcut öğrenci sayısı kaçtır?
+Yanıt Süresi: 17.44 saniye
+Cevap: BTÜ'deki toplam öğrenci sayısı 12467'dir.
+Kaynak : https://ogrenci.btu.edu.tr/tr, https://www.btu.edu.tr/
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 8: Erasmus+ öğrenim ve staj hareketliliği başvuruları hangi web sitesi üzerinden gerçekleştirilmektedir?
+Yanıt Süresi: 20.43 saniye
+Cevap: BTÜ Erasmus+ öğrenim ve staj hareketliliği başvuruları için web sitesi adresi: erasmus.btu.edu.tr.
+
+Kaynak : https://erasmus.btu.edu.tr/index.php
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 9: Değişim programları için yapılacak olan yabancı dil sınavının tarihi nedir?
+Yanıt Süresi: 23.03 saniye
+Cevap: Değişim programı yabancı dil sınavı 11 Nisan 2026 Cumartesi günü saat 10:00’da Bursa Teknik Üniversitesi Yıldırım Bayezid Yerleşkesinde Yabancı Diller Yüksekokulunda gerçekleştirilecektir. Kaynak : https://ydyo.btu.edu.tr/tr/duyuru/detay/53323/11-nisan-2026-tarihli-değişim-programları-yabancı-dil-sınavı
+Durum: BAŞARILI
+--------------------------------------------------
+Soru 10: Diyetisyenlik danışmanlık hizmeti hangi günlerde ve hangi ofiste verilmektedir?
+Yanıt Süresi: 26.87 saniye
+Cevap: Diyetetik hizmetleri Salı ve Çarşamba günleri 13.30 – 17.00 saatleri arasında Mimar Sinan Yerleşkesi B Blok Z-21 no’lu ofiste (revir) verilmektedir. Kaynak : https://sks.btu.edu.tr/tr/sayfa/detay/4398/beslenme
+Durum: BAŞARILI
+--------------------------------------------------
+
+==================================================
+ 📊 GENEL PERFORMANS METRİKLERİ (GÜNCELLENMİŞ)
+==================================================
+Toplam Test Edilen Soru : 10
+Başarılı API Yanıtı     : 10
+Ortalama Yanıt Süresi   : 24.99 saniye
+Kaynak Gösterme Oranı   : %100.0 (Hedef: > %90)
+Doğruluk Oranı          : %90.0 (Hedef: > %85)
+Olası Halüsinasyon Oranı: %10.0 (Hedef: < %15)
+==================================================

@@ -12,65 +12,25 @@ Arama Kutusu Tüm Kaynaklar
 - E-Dergi
 - E-Kitap
 - Tezler
+- Ayrıca Taranan Kaynaklar
 
-Tüm kaynaklarda arama
-yapın.
+Kütüphanenizin tüm kaynaklarında arama yapın.
 
-Basılı kitap, dergi, tez vb.
-kaynaklarda arama yapın.
+Basılı kitap, dergi, tez vb. kaynaklarda arama yapın.
 
 Başlık
 KonuISSN
 Yayıncı
 
-A-Z Dergi Listesi : 0-9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-
-\-\- Bir konu başlığı seçiniz Askeri Bilim
-
-Bibliyografya, Kütüphane Bilimi,
-Bilgi Kaynakları
-Bilim
-Coğrafya, Antropoloji, Eğlence
-
-Deniz Bilim
-
-Dil ve Edebiyat
-
-Eğitim
-
-Felsefe, Psikoloji, Din
-
-Genel çalışmalar
-
-Güzel Sanatlar
-Hukuk
-Müzik ve müzik kitapları
-
-Politik Bilimler
-Tarım
-Tarih: Amerika
-
-Tarih ve Avrupa tarihi
-
-Tarihe yardımcı bilimler
-
-Teknoloji
-Tıp
-Sosyal Bilimler
-
 KonuISBN
 
-A-Z Kitap Listesi : 0-9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+EBSCO OpenDissertations Proquest Dissertations YÖK Tez Merkezi
 
-EBSCO OpenDissertations
+Lexiqamus Müteferrika Portal SOBIAD Yapay Zeka Araçları TSE Standartları 08::00
 
-Proquest Dissertations & Thesis
-
-YÖK Tez Merkezi 08::00
-
-Duyurular 03.03.2026 **LexiQamus Veri Tabanı Erişimi**
-- 03.03.2026 **Türk Standartları Enstitüsü (TSE) Erişimi**
-- 02.03.2026 **Muteferriqa Veri Tabanı Erişime Açılmıştır.**
+Duyurular 13.03.2026 **Oxford University Press (OUP) “Oku ve Yayımla” Anlaşması**
+- 10.03.2026 **Turcademy Türkçe E-Kitap Veri Tabanı Erişimi**
+- 04.03.2026 **IOP “Oku & Yayımla” Anlaşması**
 
 **Katalog Tarama**
 
@@ -84,9 +44,9 @@ Duyurular 03.03.2026 **LexiQamus Veri Tabanı Erişimi**
 
 **S. S. S.**
 
-.png)**Oda Rezervasyon-Öğrenci**
+.png)**Rezervasyon-Öğrenci**
 
-**Oda Rezervasyon-Personel**
+**Rezervasyon-Personel**
 
 **Akademik Arşiv**
 

@@ -17,8 +17,11 @@ Tez Savunma Sınav Duyuruları için tıklayınız ...
 
 Yeterlik Sınavı Duyuruları
 
-Yeterlik Sınav Duyuruları için tıklayınız ... [2025-2026 Bahar Yarıyılı Lisansüstü Özel Öğrenci Statüsünde Ders Kayıt Başvuruları \\
+Yeterlik Sınav Duyuruları için tıklayınız ... [Lisansüstü Eğitim 2025-2026 Bahar Yarıyılı Ders Kayıtları \\
 \\
+**23 Şubat**](
+
+[2025-2026 Bahar Yarıyılı Lisansüstü Özel Öğrenci Statüsünde Ders Kayıt Başvuruları \\
 **19 Şubat**](
 
 [2025-2026Bahar Yarıyılı 2.Yedek Listeden Kayıt Hakkı Kazanan Lisansüstü Öğrenci Kayıt İşlemleri \\
@@ -27,11 +30,8 @@ Yeterlik Sınav Duyuruları için tıklayınız ... [2025-2026 Bahar Yarıyılı
 [2025-2026 Bahar Yarıyılı Yedek Listeden Kayıt Hakkı Kazanan Tezsiz Yüksek Lisans Kayıt İşlemleri \\
 **17 Şubat**](
 
-[2025-2026 Bahar Yarıyılı Lisansüstü Haftalık Ders Programları \\
-**13 Şubat**](
-
-[Lisansüstü Eğitim 2025-2026 Bahar Yarıyılı Ders Kayıtları \\
-**23 Şubat**](
+[Lisansüstü Eğitim Enstitüsü 2025-2026 Bahar Yarıyılı Oryantasyon Programı \\
+**04 Mart**](
 
 .png)**Ana Bilim Dalları**
 
@@ -56,9 +56,9 @@ Sayılarla Enstitü
 
 Sayılarla BTÜ 
 
-**_2934_** Lisansüstü Öğrenci
+**_2919_** Lisansüstü Öğrenci
 
-**_2276_** Mezun
+**_2289_** Mezun
 
 **% _23_** Lisansüstü Öğrenci
 
